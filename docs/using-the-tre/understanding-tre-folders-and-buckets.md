@@ -190,3 +190,5 @@ This allows the prior version to be restored, in the event of accidental erasure
 To say this another way: imagine you accidentally alter or delete a file in the /genesandhealth/library-red folder. Then the version of the file prior to its removal can be restored, for up to 30 days after the change. In the sandbox-specific /genesandhealth/red folder, two prior versions of the file will be kept, each for 30 days after the change leading to its creation.
 
 Restoring a prior version of an accidentally removed or modified file requires utilities only available to administrators: if you need this, contact us by writing to <hgi@sanger.ac.uk>, including the word "Urgent" in the subject header.
+
+
