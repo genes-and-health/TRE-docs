@@ -31,5 +31,5 @@ jobs:
       # - run: mkdocs gh-deploy --force
       - name: Deploy MkDocs site to GitHub Pages
         run: mkdocs gh-deploy --force
-        working-directory: ../test-docs
+        working-directory: ../TRE-docs
 
