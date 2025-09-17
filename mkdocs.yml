@@ -1,7 +1,7 @@
 site_name: Genes & Health TRE Documentation
 site_url: https://genes-and-health.github.io/TRE-docs
 repo_url: https://github.com/genes-and-health/TRE-docs
-edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/?target=new
 theme:
   name: material
   logo: images/branding/genes-and-health-logo-green.svg
