@@ -65,7 +65,7 @@ Git is available from the Linux command line for single user use, and has some _
 
 ### File browser shortcuts
 
-The file browser for Xfce is called 'Thunar'. Settings and defaults should persist between sessions but ~~do not always~~ don't.
+The file browser for Xfce is called 'Thunar'. Settings and defaults should persist between sessions but don't.
 
 Detailed view: <kbd>ctrl</kbd> \+ <kbd>2</kbd> 
 New tab: <kbd>ctrl</kbd> \+ <kbd>T</kbd> (only works if the TRE is in fullscreen mode \- Chrome will create a new tab otherwise)
