@@ -103,6 +103,7 @@ The `red` bucket is a read-write bucket for TRE users to store scripts and data 
     * See all other sandbox users' files (and all other sandbox users can see your files)
     * Move/rename/delete **any** sandbox users' files 
     <p>
+    
     **Exercise caution when moving or deleting files in the `red` bucket.**
 
 #### The `consortiumpriorityperiod-library-red` bucket
