@@ -193,8 +193,8 @@ If you're missing access, contact a maintainer or administrator.
 
 ---
 
-## 🧵 Need Help?
+<!--## 🧵 Need Help?
 
-Open a ticket, check the `README.md`, or reach out in the internal documentation channel.
+Open a ticket, check the `README.md`, or reach out in the internal documentation channel.-->
 
 Happy writing!
