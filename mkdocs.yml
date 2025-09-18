@@ -62,6 +62,7 @@ nav:
       - Sandboxes and what each sandbox can access: sandboxes-and-what-each-sandbox-can-access.md
       - Starting the TRE: getting-started-as-a-new-user/starting-the-tre.md
       - Choosing your required virtual machine configuration: getting-started-as-a-new-user/choosing-your-virtual-machine.md
+      - How to increase your disk size: getting-started-as-a-new-user/how-to-increase-your-disk-size.md
   - Using the TRE:
       - Understanding TRE folders and buckets: using-the-tre/understanding-tre-folders-and-buckets.md
       - Handling files and folders: using-the-tre/handling-files-and-folders.md
@@ -71,28 +72,9 @@ nav:
       - Requesting data out of the TRE: getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md
   - Latest TRE data updates and changes: latest-tre-data-updates-and-changes.md
   - What genetic and health data is where: what-genetic-and-health-data-is-where.md
-#  - TRE folders and what is in them: tre-folders-and-what-is-in-them.md
   - Software, modules, requesting installs: software,-modules,-requesting-installs.md
-#  - Software Available: software-available.md
-#  - Linux command line software: linux-command-line-software.md
-#  - Programming languages: programming-languages.md
-#  - Python: python.md
-#  - R: r.md
-#  - Instructions for specific software: instructions-for-specific-software.md
-#  - Integrated Genome Viewer (IGV): integrated-genome-viewer-\(igv\.md)
-#  - LibreOffice: libreoffice.md
-#  - Git: git.md
-#  - File browser shortcuts: file-browser-shortcuts.md
-#  - How to get new software installed: how-to-get-new-software-installed.md
-#  - Software request: software-request.md
-#  - Developer requests: developer-requests.md
   - How to use docker: how-to-use-docker.md
   - How to write hash symbols: how-to-write-hash-symbols.md
-  # - Copying text in: copying-text-in.md
-  # - Getting user data into the TRE: getting-user-data-into-the-tre.md
-  - How to increase disk size​: how-to-increase-disk-size.md
-  # - Getting your results out: getting-your-results-out.md
-  # - What is allowed out?: what-is-allowed-out?.md
   # - Existing data: existing-data.md
   # - Requesting data: requesting-data.md
   # - Accessing TRE data from external systems/internet: accessing-tre-data-from-external-systems/internet.md
