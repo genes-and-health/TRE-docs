@@ -27,4 +27,4 @@ There is a file linking OrageneIDs/assay IDs (for genetics & questionnaire data)
 ```
 
 !!! info
-    Within the TRE community, this file is simply referred to as the MegaLinkage file or even sometime Megalinkage™ 
+    Within the TRE community, this file is simply referred to as the MegaLinkage file or even sometime MegaLinkage™ 
