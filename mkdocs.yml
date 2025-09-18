@@ -58,7 +58,7 @@ markdown_extensions:
 nav:
   - Latest TRE data updates and changes: latest-tre-data-updates-and-changes.md
   - Getting started as a new user:
-      - What is a TRE ?: getting-started-as-a-new-user/what-is-a-tre.md
+      - What is a TRE?: getting-started-as-a-new-user/what-is-a-tre.md
       - Getting access and setting up a profile: getting-started-as-a-new-user/steps-to-get-access.md
       - Sandboxes and what each sandbox can access: sandboxes-and-what-each-sandbox-can-access.md
       - Starting the TRE: getting-started-as-a-new-user/starting-the-tre.md
