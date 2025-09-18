@@ -170,7 +170,7 @@ gs://genesandhealth\_publicdatasets/
 
 Data in selected folders is protected from accidental deletion or alteration by the Google Object Versioning service. Specifically, for data in these folders \-
 
-### Backups: Shared folders
+### Shared folders
 
 /genesandhealth/library-red , 1 version, 30 days
 
@@ -178,7 +178,7 @@ Data in selected folders is protected from accidental deletion or alteration by 
 
 /genesandhealth/nhsdigital-sublicence-red, 1 version, 30 days
 
-### Backups: Sandbox-specific folders
+### Sandbox-specific folders
 
 /genesandhealth/red, 2 versions, 30 days
 
