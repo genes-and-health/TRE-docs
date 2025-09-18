@@ -3,7 +3,7 @@
 The philosophy of the Genes & Health project is to provide researchers with the tools to generate their own phenotypes as well as providing a curated set of phenotypes.  However, the Genes & Health Data Team provides two "pre-computed" phenotypic datasets identified by the name of the python-scripted pipeline used to generate them: `BI_PY` (binary traits) and `QUANT_PY` (quantitative traits).
 
 !!! tip "Learning more about `BI_PY` and `QUANT_PY`"
-    Although `BI_PY` and `QUANT_PY` are briefly described below, users wanting further details on these are encourage to visit the public GitHub pages for each pipeline:
+    Although `BI_PY` and `QUANT_PY` are briefly described below, users wanting further details on these are encouraged to visit the public GitHub pages for each pipeline:
     
     * [BI_PY — a python pipeline for binary trait attribution in Genes & Health](https://github.com/genes-and-health/BI_PY/)
     * [QUANT_PY — a python pipeline for quantitative data extraction in Genes & Health](https://github.com/genes-and-health/QUANT_PY/)
