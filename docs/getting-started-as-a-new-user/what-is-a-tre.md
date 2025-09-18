@@ -27,9 +27,9 @@ In our case, many NHS Providers will not supply clinical data (including sensiti
 
 The Genes & Health TRE is ISO/IEC 27001:2022 certified and NHS Data Security and Protection Toolkit registered (version 7; 30/06/2025)
 
-![TRE screenshot](images/tre/tre_screenshot.png){ width="100%" }
+![TRE screenshot](../images/tre/tre_screenshot.png){ width="100%" }
 
-![ISO/IEC 27001:2022 badge](images/tre/British_Assessment_Bureau_ISO_27001_RGB_White_badge.png){ width="250" } ![DSPT registration](images/tre/NHS-Digital-SDPToolkit-Standards-Met.png){ width="200" } 
+![ISO/IEC 27001:2022 badge](../images/tre/British_Assessment_Bureau_ISO_27001_RGB_White_badge.png){ width="250" } ![DSPT registration](../images/tre/NHS-Digital-SDPToolkit-Standards-Met.png){ width="200" } 
 
 
 
