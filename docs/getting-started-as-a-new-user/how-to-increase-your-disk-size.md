@@ -4,7 +4,7 @@ By default, your `/home/ivm` directory's disk size is 100G. If you need to incre
 
 1. Shutdown your VM if it is running.  
 2. While creating a new VM from the **Virtual Machines** page, click on the **Resize home disk** section to expand it.
-   ![](images/getting-started-as-a-new-user/resize-home-disk.png)
+![](/docs/images/getting-started-as-a-new-user/resize-home-disk.png)
 3. Use the slider to adjust the disk size according to your needs.  
 4. Start the new VM with your preferred machine type.
 
