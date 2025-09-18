@@ -66,6 +66,7 @@ nav:
   - Using the TRE:
       - Understanding TRE folders and buckets: using-the-tre/understanding-tre-folders-and-buckets.md
       - Handling files and folders: using-the-tre/handling-files-and-folders.md
+      - Software, modules, requesting installs: using-the-tre/software,-modules,-requesting-installs.md
       - Running a GWAS: using-the-tre/running-a-gwas.md
   - Getting data in and out of the TRE: 
       - How to get your data in: getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md
