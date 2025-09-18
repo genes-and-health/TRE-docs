@@ -4,6 +4,7 @@ This page provides an overview of the "raw" health data available to Genes and H
 
 !!! info
     File paths described below assume you are starting from **`/genesandhealth/library-red/genesandhealth/phenotypes_rawdata/`**.
+    <p>
     ![phenotypes_rawdata folder](../images/what-genetic-and-health-data-are-where/phenotypes_rawdata-folder.png)
 
 All folders contain detailed `README.txt` files, which describe the contents of each data file in more detail (number of rows, number of G&H volunteers present in the file, version info, changes, etc).
@@ -14,7 +15,7 @@ Primary care datasets and linkage are provided by agreement with GP practices, m
 
 ### London
 
-All files are located in **`/DSA_Discovery_7CCGs`**. Subfolders are created for each data refresh. Folder names are the date of the refresh.
+All files are located in **`DSA_Discovery_7CCGs`**. Subfolders are created for each data refresh. Folder names are the date of the refresh.
 
 For refreshes before 2023_01 data are further split by Clinical Commissioning Group (CCG):
 
@@ -63,7 +64,7 @@ At present, secondary care data are split by location. As of 2025-09-18 secondar
 
 ### **London**
 
-All files are located in `DSA_BartsHealth_NHS_Trust`. Subfolders are created for each data refresh. Folder names are the date of the refresh. Data are retrieved from the Barts Health Trust Data Warehouse and contain information on visits made by Genes & Health volunteers to hospitals in that Trust only.
+Data provided by the Barts NHS Trust.  All files are located in **`DSA_BartsHealth_NHS_Trust`**. Subfolders are created for each data refresh. Folder names are the date of the refresh. Data are retrieved from the Barts Health Trust Data Warehouse and contain information on visits made by Genes & Health volunteers to hospitals in that Trust only.
 
 The Barts NHS Trust provides multiple datasets that are unique/specific to the trust, including pathology lab data (useful for generating quantitative traits, prescribing data, and radiology department reports. Some datasets are only available by special request (e.g. maternity bookings, chemotherapy prescribing). Please see the `README.txt` in the `DSA_BartsHealth_NHS_Trust folder` for further details.
 
@@ -71,7 +72,7 @@ The Barts NHS Trust provides multiple datasets that are unique/specific to the t
 
 ### **Bradford**
 
-Data provided by Bradford Teaching Hospitals NHS foundation trust
+Data provided by the Bradford Teaching Hospitals NHS foundation trust. All files are located in **`DSA_BradfordTeachingHospitals_NHSFoundation_Trust`**. Subfolders are created for each data refresh. Folder names are the date of the refresh.
 
 ### **Manchester**
 
