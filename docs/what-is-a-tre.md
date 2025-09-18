@@ -6,7 +6,7 @@ A TRE is a Trusted Research Environment.  Many large genetics and health data st
 
 Probably! Many think of Trusted Research Environments and Secure Data Environments (SDEs) as synonymous, some don't (although the differences are subtle).  NHS England's secure data and research analysis platform was rebranded from "NHS Digital’s Trusted Research Environment (TRE) service for England" to the NHS Secure Data Environment (SDE) (itself a part of an interoperable NHS Research Secure Data Environment network). 
 
-At present, the Genes & Health  secure data and research analysis platform remains identified as a TRE 
+At present, the Genes & Health  secure data and research analysis platform remains identified as a TRE.
 
 !!! tip
     It's probably not worth worrying about such things anyway.
