@@ -70,6 +70,7 @@ nav:
       - Running a GWAS: using-the-tre/running-a-gwas.md
   - What genetic and health data are where?:
       - TRE identifiers: what-genetic-and-health-data-are-where/tre-identifiers.md
+      - Sources of "raw" health data: what-genetic-and-health-data-are-where/sources-of-raw-health-data.md
   - Getting data in and out of the TRE: 
       - How to get your data in: getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md
       - Requesting data out of the TRE: getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md
