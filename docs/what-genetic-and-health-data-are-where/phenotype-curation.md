@@ -4,11 +4,12 @@ The philosophy of the Genes & Health project is to provide researchers with the 
 
 !!! tip "Learning more about `BI_PY` and `QUANT_PY`"
     Although `BI_PY` and `QUANT_PY` are briefly described below, users wanting further details on these are encourage to visit the public GitHub pages for each pipeline:
+    
     * [BI_PY — a python pipeline for binary trait attribution in Genes & Health](https://github.com/genes-and-health/BI_PY/)
     * [QUANT_PY — a python pipeline for quantitative data extraction in Genes & Health](https://github.com/genes-and-health/QUANT_PY/)
 
 !!! info "A note regarding the use of `tre-tools`"
-    The [`tre-tools`](https://github.com/genes-and-health/tre-tools) were used until the creation of version 10 of the Genes & Health curated phenotype resources.  Although v10 does use some `tre-tools`, changes in the structure and impementation of the phenotype pipielines mean that `tre-tools` usage is now limited.  The `tre-tools` package is not longer being maintained or updated and is likely to be deprecated in subsequent curated phenotype releases. 
+    The [`tre-tools`](https://github.com/genes-and-health/tre-tools) were used until the creation of version 10 of the Genes & Health curated phenotype resources.  Although v10 does use some `tre-tools`, changes in the structure and impementation of the phenotype pipielines mean that `tre-tools` usage is now limited.  The `tre-tools` package is no longer being maintained or updated and is likely to be deprecated in subsequent curated phenotype releases. 
 
 ## BI_PY: Binary traits
 
