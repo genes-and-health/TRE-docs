@@ -2,6 +2,9 @@
 
 (newest shown first)
 
+## 2025-SEP-18 by SR  
+>  Release of the new G&H TRE documenation website: [https://genes-and-health.github.io/TRE-docs/](https://genes-and-health.github.io/TRE-docs/)
+
 ## 2025-MAY-20 by DVH  
 >  Begun release of 55k exome ExWAS to Consortium1 partners. Quant traits initially, to be followed by binary traits.
 >  ```
