@@ -18,6 +18,7 @@ Primary care datasets and linkage are provided by agreement with GP practices, m
 All files are located in **`/DSA_Discovery_7CCGs`**. Subfolders are created for each data refresh. Folder names are the date of the refresh.
 
 For refreshes before 2023_01 data are further split by Clinical Commissioning Group (CCG):
+
     1. **GNH\_thwfnech** are for volunteers registered at practices in Tower Hamlets, Waltham Forest, Newham, City & Hackney CCGs  
     2. **GNH\_bhr** are for volunteers registered at practices in Barking, Havering, Redbridge and outer east London CCGs
 
