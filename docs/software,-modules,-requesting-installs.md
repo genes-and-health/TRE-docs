@@ -15,7 +15,9 @@ There are a number of different languages available on the TRE including Python 
 #### Python
 
 !!! info
-    It is worth noting that Python does not have the normal virtual environment setup that you might be used to. It is not possible to install packages using `pip install` as you would on your local machine as the TRE does not have internet access, and therefore cannot connect to the Python Package Index (PyPI), or a specific GitHub repository. Packages are installed by the Sanger Institute and are available to all users.
+    Python does not have the normal virtual environment setup that you might be used to. It is not possible to install packages using `pip install` as you would on your local machine as the TRE does not have internet access, and therefore cannot connect to the Python Package Index (PyPI), or a specific GitHub repository.
+    
+    Packages are installed by the Sanger Institute and are available to all users.
 
 ##### Jupyter notebooks
 
