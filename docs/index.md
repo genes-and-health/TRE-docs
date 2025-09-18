@@ -6,7 +6,7 @@ If you are **new** to the Genes & Health TRE, we recommend reading the following
 
 1. [Getting started as a new user](getting-started-as-a-new-user/what-is-a-tre.md)
 2. [Using the TRE](using-the-tre/understanding-tre-folders-and-buckets.md)
-3. [Getting daya in and out of the TRE](getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md)
+3. [Getting data in and out of the TRE](getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md)
 
 Please click the ">" chevrons on the left-hand side navigation panel to view and access section content. 
 
