@@ -1,6 +1,9 @@
-# Phenotype Curation (UNDER CONSTRUCTION)
+# Phenotype Curation
 
-This page provides a few examples of how the raw health data in the TRE have been curated to produce useful output for a range of analyses. The files used in the examples below are all located in genesandhealth/library-red, please see the [page describing TRE file structures](folder-and-bucket-structure.md/#library-red) for further information. An overview of the different datafiles are available in the [raw phenotype data page](#what-do-the-raw-data-look-like)
+This page provides a few examples of how the raw health data in the TRE have been curated to produce useful output for a range of analyses.
+
+!!! info
+    * The files used in the examples below are all located in `library-red`, please see the [page describing the TRE file system](using-the-tre/understanding-tre-folders-and-buckets#whats-in-the-bucket) for further information. An overview of the different datafiles are available in the [raw phenotype data page](what-genetic-and-health-data-are-where/sources-of-raw-health-data/)
 
 ### Tools
 
