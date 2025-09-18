@@ -166,9 +166,11 @@ gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/old_name.txt gs:/
 \[Remember `old_name.txt` will be copied to `new_name.txt` and then `old_name.txt` will be deleted; if `old_name.txt` is very large, this may incur data charges.\]
 
 
-## Alternative to `gcloud storage`: 1. the “Upload to red bucket” option in the File Manager
+## Alternatives to `gcloud storage`: 
 
-### Uploading a file to `red`
+### The “Upload to red bucket” option in the File Manager
+
+#### Uploading a file to `red`
 To upload a file to `red` from another location (here my home folder on ivm), right click on the file and select “Upload to red bucket”.
 
 ![Image3](../images/using-the-tre/gcloud-storage-alternatives/image3.png)
@@ -179,7 +181,7 @@ A new window should pop-up documenting the outcome, for example:
 
 However, this will upload to file to the top directory in `red`.  This is not recommended.  Rather you should upload your files into your personal or project `red` directory.
 
-### Creating a new directory in `red`
+#### Creating a new directory in `red`
     
 If you want to create a new directory in `red`, you must upload one into it.  Remember that a GCS simulated directory can only exists if it is accounted for by a file.  If you try to upload an empty directory from a different location to `red`, you will get the following error:
     
@@ -225,7 +227,7 @@ The `red` bucket now contains a (virtual) directory called `JoeBloggs` with the 
 
 > ⚠️ BE CAREFUL, if you delete all files in a `red` bucket directory, you will also delete the virtual directory.  In this case, if you delete `JB_dummy_file.txt`, the `JoeBloggs` directory will disappear.
 
-### Creating a sub-directory in the `red` bucket
+#### Creating a sub-directory in the `red` bucket
 
 To create a sub-directory in the `red` bucket, you need to create an identical directory tree in `/home/ivm/` (or another drive allowing this) and upload this to `red`.
 For example, suppose we wanted to create a JoeBloggs sub-directory called ‘JB_data_dir’ we would do the following:
@@ -242,18 +244,18 @@ You now have the (virtual) directory structure `/red/JoeBloggs/JB_data_dir/` in 
     * this will upload any new file or directory in the /home/ivm/JoeBloggs/ directory, for example, if you added “v_large_temp_file_that_should_definitely_not_be_moved.gz” in the /home/ivm/JoeBloggs/ directory, this will be uploaded to `red`
     * the “Upload to red bucket” option will not replicate your /home/ivm/JoeBloggs/ directory to `red`, it will only upload new files or directories (as long as they contain at least one file) to the `red` bucket. For instance, if you delete `/home/ivm /JoeBloggs/JB_data_dir/` and then select “Upload to red bucket” for `/home/ivm /JoeBloggs/`, there will still be a `/red/JoeBloggs/JB_data_dir/` directory.
 
-### Moving or renaming data in the `red` bucket
+#### Moving or renaming data in the `red` bucket
 
 This is only possible using `gcloud storage`.
 
-## Alternative to `gcloud storage`: 2. Mounting the `red` bucket onto your VM
+### Mounting the `red` bucket onto your VM
 
 The `red` directory is currently available to the G&H virtual machines as read-only and lacks some user permissions. The ability to upload files to a specific sub-directory, moving/editing files directly inside the `red` bucket, and creating a new directory inside `red` by using a terminal requires the use of the “tricks” described in Option 1 or the use of `gcloud storage` commands.  
 
 Currently, there is no other GCS space available as read/write. There are on-going discussions with the developers of TRE to make the use of buckets easier for collaboration and sharing and this will hopefully be improved in the future.  
 As an alternative, you can mount a specific directory from `red` in your `home` directory.  
 
-### What is mounting?
+#### What is mounting?
 
 Mounting is a process by which a computer's (or in our case, a virtual machine’s) operating system makes files and directories on a storage device (such as hard drive, CD-ROM, or network shared drive) available for users to access via the computer's file system.  
 When you mount a GCS bucket directory onto virtual machine, you are essentially creating a mirror of the GCS bucket. However, you can handle this locally created mirror (i.e. the mounted directory) as a “normal” linux directory.  
@@ -262,7 +264,7 @@ When you mount a GCS bucket directory onto virtual machine, you are essentially 
     * Any change you make to the locally mounted directory will be replicated (mirrored) in the GCS bucket.
     * Likewise, if you were to make changes directly in the GCS bucket, these would be replicated (mirrored) in the locally mounted directory.  
 
-### How to mount a `red` directory to your VM?
+#### How to mount a `red` directory to your VM?
 
 Create a directory in your home directory with:  
 
