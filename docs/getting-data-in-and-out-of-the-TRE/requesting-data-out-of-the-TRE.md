@@ -26,7 +26,7 @@ or
 This sends an automated email to the Genes & Health team. If you have not received a response within 48h please feel free to chase us up. The team will copy the data to either `green` (for users of your sandbox only, to be able to download) or to `library-green` (for all users to be able to download). For small files, your data may be directly emailed (to the email address used to make the request).
 
 !!! info
-  Please note that you can make one data out request per week.
+    Please note that you can make one data out request per week.
 
 !!! tip
     If you are trying to download multiple files, please do not make a per-file download request.  Rather, create a tar archive containing the requested files.  If the files are large, you may wish to compress the tar file.
@@ -39,7 +39,7 @@ This sends an automated email to the Genes & Health team. If you have not receiv
     
     This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  Please only use the compress option is your archive is large.
 
-    See the ("How to Tar a File in Linux: Commands, Examples & Best Practices")[https://www.strongdm.com/blog/how-to-tar-a-file-in-linux] guide for more details (external unverified link) 
+    See the "(How to Tar a File in Linux: Commands, Examples & Best Practices)[https://www.strongdm.com/blog/how-to-tar-a-file-in-linux]" guide for more details (external unverified link) 
 
 ### Existing data {#existing-data}
 
