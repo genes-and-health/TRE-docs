@@ -1,11 +1,15 @@
-New Genes & Health TRE documentation, live from Sept 2025.
+# G&H TRE-docs
 
-TRE accessed here: https://new-production.genesandhealth.qmul.ac.uk/
+This is GitHub home for the latest version of the TRE documentation (equivalent to TRE-docs-v3.0) which supercedes the docusaurus and Google docs versions of the documentation.
 
-This TRE docs accessed here: [in beta; TBC]
+The documentation website uses [GitHub.io](https://github.io) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).  It went live on 2025-09-18.
 
-Authors
+Changes to documentation files in this repository are reflected in the [G&H TRE documentation](https://genes-and-health.github.io/TRE-docs/) website.
+
+G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  Please contact [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
+
+## Authors
 * Stuart Rison
-* Mike Samuals
+* Mike Samuels
 * David van Heel
 * Muhammad Ahmad
