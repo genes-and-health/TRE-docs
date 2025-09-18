@@ -5,7 +5,7 @@ This page provides an overview of the "raw" health data available to Genes and H
 !!! info
     File paths described below assume you are starting from **`/genesandhealth/library-red/genesandhealth/phenotypes_rawdata/`**.
 
-    ![phenotypes_rawdata folder](images/what-genetic-and-health-data-are-where/phenotypes_rawdata-folder.png)
+    ![phenotypes_rawdata folder](/docs/images/what-genetic-and-health-data-are-where/phenotypes_rawdata-folder.png)
 
 All folders contain detailed `README.txt` files, which describe the contents of each data file in more detail (number of rows, number of G&H volunteers present in the file, version info, changes, etc).
 
