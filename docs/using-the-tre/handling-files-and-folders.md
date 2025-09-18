@@ -12,7 +12,7 @@ All operations mentioned in items 1, 2 and 3 above can be completed using `gclou
 !!! tip "Reminders"
     * Google Cloud Services (GCS) buckets are explained in the ["Understanding TRE folders and buckets"](./folder-and-bucket-structure.md) section.
     * `library-red` is a read-only bucket for TRE users, you cannot add to it or make any changes to it.
-    * Your `home` directory "belongs" to the virtual machine.  It behaves like a standar unix/linux files system. Its actual path is **`/home/ivm/`**. 
+    * Your `home` directory "belongs" to the virtual machine.  It behaves like a standard unix/linux files system. Its actual path is **`/home/ivm/`**. 
 
 ## Google Cloud Services’ `gcloud storage`
 
