@@ -81,19 +81,6 @@ nav:
       - How to update this documentation: how-tos/how-to-update-this-documentation.md
       - How to use docker: how-tos/how-to-use-docker.md
       - How to write hash symbols: how-tos/how-to-write-hash-symbols.md
-  #- Explainers:
-  #  - How is data linked: explainers/how-is-data-linked.md
-#  - Phenotype Curation (UNDER CONSTRUCTION): phenotype-curation-\(under-construction\.md)
-#  - Tools: tools.md
-#  - Codelists: codelists.md
-#  - Example code: example-code.md
-#  - Binary Traits: binary-traits.md
-#  - Example workflow: example-workflow.md
-#  - Example code: example-code-1.md
-#  - Quantitative traits: quantitative-traits.md
-#  - Codelists: codelists-1.md
-#  - Example workflow: example-workflow-1.md
-#  - Example code: example-code-2.md
 #  - Module Manager User Guide: module-manager-guide.md
 #  - How to get Help: how-to-get-help.md
 #  - MkDocs Hosting Options: mkdocs-hosting-options.md
