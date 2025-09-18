@@ -70,27 +70,18 @@ nav:
       - Running a GWAS: using-the-tre/running-a-gwas.md
   - What genetic and health data are where?:
       - TRE identifiers: what-genetic-and-health-data-are-where/tre-identifiers.md
+      - How are data linked?: what-genetic-and-health-data-are-where/how-are-data-linked.md
       - Sources of "raw" health data: what-genetic-and-health-data-are-where/sources-of-raw-health-data.md
+      - Phenotype curation: what-genetic-and-health-data-are-where/phenotype-curation.md
   - Getting data in and out of the TRE: 
       - How to get your data in: getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md
       - Requesting data out of the TRE: getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md
   - Latest TRE data updates and changes: latest-tre-data-updates-and-changes.md
-  - How to use docker: how-to-use-docker.md
-  - How to write hash symbols: how-to-write-hash-symbols.md
-  - Explainers:
-    - How is data linked: explainers/how-is-data-linked.md
-#  - Where are the data from: where-are-the-data-from.md
-#  - Raw health data overview (UNDER CONSTRUCTION): raw-health-data-overview-\(under-construction\.md)
-#  - Summary: summary.md
-#  - Primary care data: primary-care-data.md
-#  - London: london.md
-#  - Bradford: bradford.md
-#  - Manchester: manchester.md
-#  - Secondary care data: secondary-care-data.md
-#  - London: london-1.md
-#  - Bradford: bradford-1.md
-#  - Manchester: manchester-1.md
-#  - What do the raw data look like: what-do-the-raw-data-look-like.md
+  - How tos:
+      - How to use docker: how-tos/how-to-use-docker.md
+      - How to write hash symbols: how-tos/how-to-write-hash-symbols.md
+  #- Explainers:
+  #  - How is data linked: explainers/how-is-data-linked.md
 #  - Phenotype Curation (UNDER CONSTRUCTION): phenotype-curation-\(under-construction\.md)
 #  - Tools: tools.md
 #  - Codelists: codelists.md
