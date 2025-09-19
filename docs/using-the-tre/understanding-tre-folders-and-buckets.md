@@ -3,16 +3,18 @@
 To undertand how Genes & Health data are stored and how to use the data resources, we need to understand **Google Cloud Storage (GCS) buckets**.  GCS buckets are used for all data storage in the TRE with the exception of user data in the `home` directory.
 
 !!! note "`home` directory"
-    The `home` directory is associated with the Gene & Health virtual machines rather than GCS --so it is (and behaves as) a standard unix directory.  Files and directories in `home` are created, manipulated and deleted as in Unix/Linux.  Strictly speaking, your `home` directory is a sub-directory of `home`: **`/home/ivm`** --you have read/write access to `/home/ivm` but read only to `/home`
+    The `home` directory is associated with the Gene & Health virtual machines rather than GCS --so it is (and behaves as) a standard unix directory.  Files and directories in `home` are created, manipulated and deleted as in Unix/Linux.
+    !!! info "`home` directory location`
+    Strictly speaking, your `home` directory is a sub-directory of `home`: **`/home/ivm/`** --you have read/write access to **`/home/ivm/`** but read-only access to `/home/`
     !!! success "`home` directory persistence"
-    The `home` directory is **persistent**. When you close a virtual machine, the `home` direcotry will not be deleted and will present the same way next time you spin a new virtual machine --regardless of the configuration of the new VM.
+    The `home` directory is **persistent**. When you close a virtual machine, the `home` directory will not be deleted and will present the same way next time you spin a new virtual machine --regardless of the configuration of the new VM.
     <p>Although the `home` directory is persistent, its use is recommended only for development purposes; we advise ensuring critical code and data are regularly copied to the `red` folder.
 
 ## Understanding Google Cloud Storage (GCS) buckets
 
 Genes & Health TRE data are stored in Google Cloud Storage (GCS) buckets (on a server located in London, UK). Buckets are the basic data container for GCS and everything stored in GCS must be contained in a bucket.
 
-Each of the G&H TRE top level storage domains are separate GCS buckets, for example, `library-red`, `red`, `green` and `exomes-library-red`. Files in a G&H TRE bucket are just that. The bucket contains a collection of files.
+Each of the G&H TRE top level storage domains are separate GCS buckets, for example, `library-red`, `red`, `green` and `exomes-library-red`. Files in a G&H TRE bucket are just that. The bucket contains a collection of files (or "objects" in GCS-speak).
 
 ### GCS buckets and directories
 
@@ -77,7 +79,7 @@ This folder should not be treated as a permanent/long-term storage so anything y
 
 This works as a standard Unix/Linux directory and is **not** a google GCS bucket. 
 
-### `(-)red` buckets 
+### The TRE's `(-)red` buckets 
 
 #### The `library-red` bucket \[read-only for users\]
 
@@ -117,7 +119,7 @@ This bucket is only available to the core Genes & Health team, and to companies 
 
 Same storage type as `/genesandhealth/library-red`, see above.
 
-### `(-)green` buckets
+### The TRE's `(-)green` buckets
 
 #### The `green` bucket \[read-only for users\]
 
