@@ -33,6 +33,8 @@ theme:
       name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/edit-link-newtab.js
 markdown_extensions:
   - admonition
   - def_list
