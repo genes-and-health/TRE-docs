@@ -4,7 +4,10 @@ When volunteers take part in stage 1 of Genes & Health, their questionnaire and 
 
 Genes & Health uses the Questionnaire data to look up a volunteer’s NHS number (if not already provided). NHS numbers are validated by the check digit (modulus 10 algorithm, which identifies common types of human data entrey error). Invalid NHS numbers are rechecked, and discarded if cannot be corrected. NHS numbers are not provided in the TRE as they are identifiable Personal Data. The NHS number is one-way pseudonymised (always in the same way using the same encryption key) and the **pseudoNHS number** (style: `0EDFCE604D373660DDF34CA5CBDB754E3BAA17835530591C0161E459A82C7821`) is the identifier for all types of health record data. A volunteer should only have one single NHS number in NHS systems (we have found a few exceptions to this rule that we have reported to NHS Digital for consideration of merging).
 
-A file is provided linking OrageneID to pseudoNHSnumber (see [What genetic and health data is where?](what-genetic-and-health-data-is-where.md)). Note that this linkage sometimes changes slightly, e.g. if we find a missing NHS number, for new samples, or if we identify an error in previous NHS number lookup, or if a volunteer withdraws consent.
+A file is provided linking OrageneID to pseudoNHSnumber (see [What genetic and health data is where?](./tre-identifiers.md#linking-genetic-assays-and-health-data)).
+
+!!! warning
+    Note that this linkage sometimes changes slightly, e.g. if we find a missing NHS number, for new samples, if we identify an error in previous NHS number lookup, or if a volunteer withdraws consent.
 
 Recall studies (stage 2) get their own stage 2 ID. We will provide files linking these to **pseudoNHS numbers**. The primary identifier used for volunteer recall is the NHS number.
 
