@@ -25,7 +25,8 @@
 
 
 .md-header {
-  background-color: (--gh-cobalt-blue / var(--tw-bg-opacity, 1));
+  /*background-color: --gh-cobalt-blue / var(--tw-bg-opacity, 1));*/
+  background-color: --gh-cobalt-blue;
 }
 
 label.md-nav__title  {
