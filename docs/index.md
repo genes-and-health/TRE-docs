@@ -1,6 +1,6 @@
 ![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg)
 
-## TRE Documentation
+# TRE Documentation
 
 If you are **new** to the Genes & Health TRE, we recommend reading the following TRE doc sections:
 
