@@ -28,7 +28,7 @@
   background-color: --gh-cobalt-blue / var(--tw-bg-opacity, 1));
 }
 
-.md-nav__title {
+label.md-nav__title a {
   var(--gh-emerald-green);
 }
 
