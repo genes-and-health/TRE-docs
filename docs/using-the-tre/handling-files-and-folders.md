@@ -3,11 +3,11 @@
 There are four main scenarios to consider when using files and folders in the G&H TRE:
 
 1. Moving files or folders from a GCS bucket to your `home` directory
-2. Moving files or folder from you `home` directory to the `red` GCS bucket
+2. Moving files or folder from your `home` directory to the `red` GCS bucket
 3. Creating/renaming/moving/deleting files and folders in the `red` GCS bucket
 4. Creating/renaming/moving/deleting files and folders your `home` directory
 
-All operations mentioned in items 1, 2 and 3 above can be completed using `gcloud storage` commands.  All operations in item 4 can be performed using standard unix/linux shell commands (e.g. `cp`, `mv`, `rm`, `mkdir`) or the File Manager GUI.
+All operations mentioned in items 1, 2 and 3 above can be completed using `gcloud storage` commands.  All operations in item 4 can be performed using standard unix/linux shell commands (e.g. `cp`, `mv`, `rm`, `mkdir`) or the File Manager GUI.  Some operations involving the `red` GCS bucket can also be performed using the “Upload to red bucket” option in the File Manager.  All operations can also be perfomed by "mounting" a `red` directory to your `home` directory.  All these options are described below with the latter two detailed in the "Alternatives to `gcloud storage`" section.
 
 !!! tip "Reminders"
     * Google Cloud Services (GCS) buckets are explained in the ["Understanding TRE folders and buckets"](./understanding-tre-folders-and-buckets.md) section.
@@ -18,11 +18,11 @@ All operations mentioned in items 1, 2 and 3 above can be completed using `gclou
 
 ### What is `gcloud`?
 
-`gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple GROUPS which handle a specific aspect of the Google Cloud.  For example, `gcloud sql` handles the creation and management of Google Cloud SQL databases and `gcloud source` handles cloud git repository commands.
+`gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple "groups" which handle a specific aspect of the Google Cloud.  For example, `gcloud **sql**` handles the creation and management of Google Cloud SQL databases and `gcloud **source**` handles Google Cloud git repository commands.
 
-The only gcloud GROUP of relevance to the G&H TRE is the `storage` group.  `gcloud storage` handles the creation and management of Cloud Storage buckets and objects (files).
+The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `gcloud **storage**` handles the creation and management of Cloud Storage buckets and objects (files).
 
-`gcloud storage` documentation can be found on [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
+`gcloud storage` documentation can be found at the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
 
 !!! danger "What if I’m using `gutils`?"
     !!! tip "TL:DR"
@@ -46,15 +46,15 @@ The only gcloud GROUP of relevance to the G&H TRE is the `storage` group.  `gclo
     `gcloud storage` can replicate common linux file and directory handling commands.
     
     * These commands are powerful, you could easily accidentally delete entire directories or rewrite files.
-    * Do read the [`gcloud storage` documentation](https://cloud.google.com/sdk/gcloud/reference/storage).
-    * Consider backing up data before uploading or downloading it to/from a google bucket
-    * Favour copying over moving (at least one copy of your files should remain)
-    * Understand that the gcloud storage copy and move operations are **non-atomic**.  This means it is not an all or nothing (completes or doesn’t complete) command; rather, it performs a copy from source to destination followed by, for move operations, deleting the each source object.  If the command does not complete, you may end up with some files copied/moved/renamed and others not.
-    * A consequence of this is that, in addition to normal network and operation charges, if you move a Nearline Storage, Coldline Storage, or Archive Storage object, deletion and data retrieval charges apply.
+    * Read the [`gcloud storage` documentation](https://cloud.google.com/sdk/gcloud/reference/storage).
+    * Consider backing up data before uploading or downloading it to/from a google bucket.
+    * Consider copying over moving (at least one copy of your files should remain).
+    * Understand that the `gcloud storage` copy (`cp`) and move (`mv`) operations are **non-atomic**.  This means it is not an all or nothing (completes or doesn’t complete) command; rather, it performs a copy from source to destination followed by, for move operations, deleting the each source object.  If the command does not complete, you may end up with some files copied/moved/renamed and others not.
+    * In addition to normal network and operation charges, if you move a Nearline Storage, Coldline Storage, or Archive Storage object, deletion and data retrieval charges may apply.
 
 #### Creating a new directory (in `red`)
 
-If you want to create a new directory in `red`, you must upload one into it. Remember that the concept of a directory does not rightly exist in Google cloud buckets.  Google bucket store files.  This means that you cannot just upload an empty directory into the `red` bucket.  If you try to do so, you will get the following error:
+If you want to create a new directory in `red`, you must upload one into it. Remember that the concept of a directory does not rightly exist in Google Cloud buckets; buckets store files not direcotry trees.  This means that you cannot just upload an empty directory into the `red` bucket.  If you try to do so, you will get the following error:
 
 ![15](../images/using-the-tre/using-gcloud-storage/15.png)
 
@@ -103,6 +103,12 @@ gcloud storage ls gs://qmul-production-sandbox-1-red/JoeBloggs/Data/GWAS_Data/Ja
 
 This will list all `.csv` files in any directory in `GWAS_Data` which starts with `Jan` (e.g. `Jan2022`, `Jan2023`, `Jan2024`).
 
+!!! tip "Using standard bash commands"
+    Remember that GCS buckets on the TRE [can also be identified using a standard unix-type path](./understanding-tre-folders-and-buckets.md#identifying-gh-gcs-buckets).  For certain operations, such as `ls` this may be both easier and more efficient, so instead of the above command, you could use:
+    ```bash
+    ls /genesandhealth/red/JoeBloggs/Data/GWAS_Data/Jan*/*.csv
+    ```
+
 ---
 
 #### Uploading, downloading, and copying
@@ -149,7 +155,8 @@ gcloud storage mv [SOURCE …] DESTINATION
 gcloud storage mv ./dir gs://qmul-production-sandbox-1-red/JoeBloggs/
 ```
 
-Note: All files will be moved from `./dir` to `/JoeBloggs/` (so will no longer be in `./dir`) but the `./dir` and any subdirectories in it will remain in the local directory.
+!!! info
+    All files will be moved from `./dir` to `/JoeBloggs/` (so will no longer be in local `./dir`) but the `./dir` and any subdirectories in it will remain in the local directory.
 
 ##### Moving all objects from a bucket to a local directory
 
@@ -163,10 +170,11 @@ gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/* dir
 gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/old_name.txt gs://qmul-production-sandbox-1-red/JoeBloggs/new_name.txt
 ```
 
-\[Remember `old_name.txt` will be copied to `new_name.txt` and then `old_name.txt` will be deleted; if `old_name.txt` is very large, this may incur data charges.\]
+!!! warning "Remember"
+    `old_name.txt` will be copied to `new_name.txt` and then `old_name.txt` will be deleted; if `old_name.txt` is very large, this may incur data charges.\]
 
 
-## Alternatives to `gcloud storage`: 
+## Alternatives to `gcloud storage`
 
 ### The “Upload to red bucket” option in the File Manager
 
@@ -250,10 +258,13 @@ This is only possible using `gcloud storage`.
 
 ### Mounting the `red` bucket onto your VM
 
-The `red` directory is currently available to the G&H virtual machines as read-only and lacks some user permissions. The ability to upload files to a specific sub-directory, moving/editing files directly inside the `red` bucket, and creating a new directory inside `red` by using a terminal requires the use of the “tricks” described in Option 1 or the use of `gcloud storage` commands.  
+The `red` directory is currently available to the G&H virtual machines as read-only and lacks some user permissions. The ability to upload files to a specific sub-directory, moving/editing files directly inside the `red` bucket, and creating a new directory inside `red` by using a terminal requires the use of the File Manager “tricks” or the use of `gcloud storage` commands as described above.  
 
 Currently, there is no other GCS space available as read/write. There are on-going discussions with the developers of TRE to make the use of buckets easier for collaboration and sharing and this will hopefully be improved in the future.  
 As an alternative, you can mount a specific directory from `red` in your `home` directory.  
+
+!!! warning
+    This is an advanced option, you could really mess up your (and other users'!) directories in `red`.  We advise only using this options once you are an intermediate or advanced TRE user who has gained experience of TRE file manipulation using the alternative methods described above.
 
 #### What is mounting?
 
