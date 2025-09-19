@@ -29,7 +29,7 @@ Your virtual machine will keep running for 24 hours if you are doing nothing. Yo
 ### The 'Off' button in the TRE tools side tab
 
 !!! tip
-   You may need to click on the ">" chevron tab on the left of the TRE window to see this.
+    You may need to click on the ">" chevron tab on the left of the TRE window to see this.
 
 ![The 'Off' button in the TRE tools side tab.  You may need to click on the ">" chevron tab on the left of the TRE window to see this](../images/getting-started-as-a-new-user/the-off-button.png)
 
