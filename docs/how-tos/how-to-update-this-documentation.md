@@ -6,6 +6,8 @@ The documentation is built using [Material for MkDocs](https://squidfunk.github.
 
 !!! tip
     You should expect that when editing the documentation, the MkDocs server is already running in the background, so any changes you make will be reflected live as you save the files.
+    !!! warning
+        It can take a few minutes for your changes to percolate to the live website and you may need to refresh your browser window to see the changes (e.g. <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>R</kbd> on a PC).  
 
 ---
 
