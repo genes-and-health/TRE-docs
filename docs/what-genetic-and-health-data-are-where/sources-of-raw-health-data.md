@@ -1,6 +1,6 @@
 # Sources of "raw" health data
 
-This page provides an overview of the "raw" health data available to Genes and Health TRE users. All files described below are located in genesandhealth/library-red, please see the "[Understanding TRE folders and buckets](using-the-tre/understanding-tre-folders-and-buckets/)" section describing the TRE file system for further information.
+This page provides an overview of the "raw" health data available to Genes and Health TRE users. All files described below (with the exception of NHS Digital data) are located in `library-red`, please see the "[Understanding TRE folders and buckets](../using-the-tre/understanding-tre-folders-and-buckets.md)" section describing the TRE file system for further information.
 
 !!! info
     File paths described below assume you are starting from **`/genesandhealth/library-red/genesandhealth/phenotypes_rawdata/`**.
@@ -85,9 +85,9 @@ These are datasets provided by the NHS England's former NHS Digital service.
 These principally represent [Hospital Episode Statistics (HES)](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/hospital-episode-statistics) and [Emergency Care Data Set (ECDS)](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds) data.  For some years, addtional datasets are available such as IAPT, NDA or MHS data.
 
 !!! warning "Availability of NHS Digital raw data"
-    NHS Digital data are obtained by Genes & Health under specific NHS Digital led sublicense agreements.  Each data using cohort (think each sandbox) needs to obtain its own NHS Digital sublicense in order to access the raw NHS Digital data.
+    NHS Digital data are obtained by Genes & Health under specific NHS Digital-led sublicense agreements.  Each data using university/project/industry partner (think each sandbox) needs to obtain its own NHS Digital sublicense in order to access the raw NHS Digital data.
     <p>
-    For this reason, NHS Digital raw data are stored in a separate GCS bucket: `/genesandhealth/nhsdigital-sublicense-red`.  If your sandbox does not have this GCS bucket or access to the bucket is denied, this is because there is not an appropriate sublicense agreement in place.  If you think this is incorrect, please contact us.
+    For this reason, NHS Digital raw data are stored in a separate GCS bucket: `/genesandhealth/nhsdigital-sublicense-red`.  If your sandbox does not have this GCS bucket, or access to the bucket is denied, this is because there is not an appropriate sublicense agreement in place.  If you think this is incorrect, please contact us at [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk).
 
     !!! info
         Although only G&H TRE users with an appropriate NHS Digital sublicense can access the NHS Digital raw data, output derived from the NHS Digital data are not subject to such restrictions.  For example, NHS Digital data are used in our binary trait and quantitative trait generating pipelines and the output of these pipelines are accessible to all users.
