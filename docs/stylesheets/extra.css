@@ -28,6 +28,10 @@
   background-color: --gh-cobalt-blue / var(--tw-bg-opacity, 1));
 }
 
+.md-nav__title {
+  var(--gh-emerald-green);
+}
+
 
 /* Apply shimmering animated background to MkDocs Material header */
 /*
