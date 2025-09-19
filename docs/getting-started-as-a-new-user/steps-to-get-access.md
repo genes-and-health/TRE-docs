@@ -3,7 +3,7 @@
 ## Steps to get access 
 
 * All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/TRE_User_Code_of_Conduct_5.0.pdf).  
-* All users must complete the [NHS Data Security Awareness Level 1](https://www.e-lfh.org.uk/programmes/data-security-awareness/) training before they're granted access to Genes and Health data.
+* All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127) training before they're granted access to Genes and Health data.
 
 Users with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034).  
 !!! note "Wellcome Sanger Institute employees"  
