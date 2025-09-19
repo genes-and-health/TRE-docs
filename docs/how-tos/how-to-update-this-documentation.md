@@ -15,7 +15,7 @@ The documentation is built using [Material for MkDocs](https://squidfunk.github.
 
 Before you get started:
 
-- You must have **write access** to the [test-docs](https://github.com/genes-and-health/test-docs) repository on GitHub.
+- You must have **write access** to the [TRE-docs](https://github.com/genes-and-health/TRE-docs) repository on GitHub.
 - **You do _not_ need to branch or fork**. This documentation encourages **low-friction updates** — just edit the files directly if you have access.
 - If multiple people are working on documentation simultaneously, consider coordinating to avoid merge conflicts.
 
@@ -27,9 +27,9 @@ All content lives in Markdown (`.md`) files within the `docs/` directory.
 
 ### Steps:
 
-1. In [test-docs](https://genes-and-health.github.io/test-docs), navigate to the documentation page you want to update.
+1. In [TRE-docs](https://genes-and-health.github.io/TRE-docs), navigate to the documentation page you want to update.
 2. Click the :material-file-edit-outline:{.md-typeset} icon in the top right of the page.
-3. If prompted, sign in as a user with write access to the `test-docs` GitHub repo.
+3. If prompted, sign in as a user with write access to the `TRE-docs` GitHub repo.
 4. You are now in edit mode (editing the .md file for that documentation page).
 5. Commit changes… when you are happy with the edits you have made.
 
@@ -49,11 +49,11 @@ All content lives in Markdown (`.md`) files within the `docs/` directory.
 
 ## 🖼️ Adding Images
 
-All image assets should live under the `docs/images/` folder of the `test-docs` repo. If an image for use exists elsewhere on the internet then (provided you have permission) make a copy and place it in `docs/images/`. This protects against referring in the docs to an image which has subsequently been moved or deleted externally. 
+All image assets should live under the `docs/images/` folder of the `TRE-docs` repo. If an image for use exists elsewhere on the internet then (provided you have permission) make a copy and place it in `docs/images/`. This protects against referring in the docs to an image which has subsequently been moved or deleted externally. 
 
 ### How to include images:
 
-1. Upload your image file (e.g., `cool-manhattan-plot.png`) to `docs/images/` in the `test-docs` repo. Or a subfolder therein (e.g. `docs/images/regenie/`)
+1. Upload your image file (e.g., `cool-manhattan-plot.png`) to `docs/images/` in the `TRE-docs` repo. Or a subfolder therein (e.g. `docs/images/regenie/`)
 2. refer to the image in your `.md` file like so:
 
    ```markdown
