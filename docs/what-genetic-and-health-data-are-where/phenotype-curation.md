@@ -68,7 +68,7 @@ In `GenesAndHealth_custombinary_codelist_v010_2025_05v4.csv` there are **285 bin
 * **Bespoke researcher/research group**: 42 traits; e.g. MGH_MitralValveProlapse \[ICD-10 and/or SNOMED-CT and/or OPCS\]
 * **NEW! NHS Primary Care Domain refsets**: 25 traits; e.g. QOF_CKD_COD \[SNOMED-CT only\]
 
-Click [`GenesAndHealth_custombinary_codelist_v010_2025_05v4.csv`](https://docs.google.com/spreadsheets/d/1ipwdF2j_owfr_QbkDYk1rk0TW3KtdfQYVQn-Vf-o38s/edit?usp=sharing) to access a Google document detailing the binary trait codelists (tab `v010_2025_05_BinaryTraits_Custom_Codelists`)
+The [`GenesAndHealth_custombinary_codelist_v010_2025_05v4.csv`](https://docs.google.com/spreadsheets/d/1ipwdF2j_owfr_QbkDYk1rk0TW3KtdfQYVQn-Vf-o38s/edit?usp=sharing) Google document details the binary trait codelists (tab `v010_2025_05_BinaryTraits_Custom_Codelists`) and give an count of individuals associated with a specific custom or ICD-10 derived codelist. 
 
 ### Output files
 
@@ -150,7 +150,7 @@ Units/Day,units/week,7.0
 
 ### Hospital admission data
 
-`QUANT_PY` uses NHS England Digital Hospital Episode Statistics (HES) Admitted Patient Care (APC) data to identify periods of hospitalisation --as certain hospital day treatments are logged as APC events (e.g. immunotherapy infusions), **only APC episodes >2 calendar days are considered as hospitalisation**.  At present, `QUANT_PY` does not exclude data obtained during a A&E episode (HES AE + ECDS) unless this leads to a hospital admission (in which case it is "subsumed" by an APC episode).  However, the script is written such that it could accommodate these if needed/desired.
+`QUANT_PY` uses NHS England Digital Hospital Episode Statistics (HES) Admitted Patient Care (APC) data to identify periods of hospitalisation.  As certain hospitals log day treatments as APC events (e.g. immunotherapy infusions), **only APC episodes >2 calendar days are considered as hospitalisation**.  At present, `QUANT_PY` does not exclude data obtained during a A&E episode (HES AE + ECDS) unless this leads to a hospital admission (in which case it is "subsumed" by an APC episode).  However, the script is written such that it could accommodate these if needed/desired.
 
 `QUANT_PY` **extends the hospitalisation episode by a 2-week buffer on either side of the APC event** on the basis that individuals admitted to hospital are typically unwell in the days leading to hospitalisation and may be discharged recovering, but prior to a return to their baseline status.
 
