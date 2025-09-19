@@ -94,7 +94,15 @@ The pipeline identifies all primary and secondary care quantitative trait readin
 
 It creates files and covariate files suitable for `regenie` \[G/Ex\]WAS analysis as well as generic files for each quantitative trait at a _per individual_ level (one row per individual summarising the individual's values for the trait) and a _per result_ level (one line per individual-result).  The pipeline processes HES data to identify admitted patient care (APC) episodes.  From this, three versions of the created files are generated: 1) All data, 2) Out of hospital data (without APC + a buffer), 3) In hospital data (within APC + a  buffer).
 
-### Input data
+### Phenotype data
+The pipeline imports G&H phenotype data in `/library-red/phenotypes_rawdata/`.  These data are from the following sources:
+
+1. **DSA__BartHealth_NHS_Trust**: Secondary care data from the Barts Health NHS Trust \[North East London: ~40,000 individuals with data\]
+2. **DSA__BradfordTeachingHospitals_NHSFoundation_Trust**: Secondary care data from the Bradford Teaching Hospitals NHS Trust \[Bradford and environs: ~1,700 individuals with data\]
+3. **DSA__Discovery_7CCGs**: Primary care data from the North East London ICS \[North East London: ~45,000 individuals with data\]
+4. **DSA_NHSDigital**: Data from the National Diabetes Audit (NDA) \[England-wide: ~13,000 individuals with data]
+
+### Input files
 
 The pipeline requires 3 **trait input** files: 1. `trait_features.csv`, 2. `trait_aliases_long.csv`, 3. `unit_conversions.csv`.
 
@@ -148,19 +156,11 @@ nmol/L,nanomol/L,1.0
 Units/Day,units/week,7.0
 ```
 
-### Hospital admission data
+#### Hospital admission data
 
 `QUANT_PY` uses NHS England Digital Hospital Episode Statistics (HES) Admitted Patient Care (APC) data to identify periods of hospitalisation.  As certain hospitals log day treatments as APC events (e.g. immunotherapy infusions), **only APC episodes >2 calendar days are considered as hospitalisation**.  At present, `QUANT_PY` does not exclude data obtained during a A&E episode (HES AE + ECDS) unless this leads to a hospital admission (in which case it is "subsumed" by an APC episode).  However, the script is written such that it could accommodate these if needed/desired.
 
 `QUANT_PY` **extends the hospitalisation episode by a 2-week buffer on either side of the APC event** on the basis that individuals admitted to hospital are typically unwell in the days leading to hospitalisation and may be discharged recovering, but prior to a return to their baseline status.
-
-### Phenotype data
-The pipeline imports G&H phenotype data in `/library-red/phenotypes_rawdata/`.  These data are from the following sources:
-
-1. **DSA__BartHealth_NHS_Trust**: Secondary care data from the Barts Health NHS Trust \[North East London: ~40,000 individuals with data\]
-2. **DSA__BradfordTeachingHospitals_NHSFoundation_Trust**: Secondary care data from the Bradford Teaching Hospitals NHS Trust \[Bradford and environs: ~1,700 individuals with data\]
-3. **DSA__Discovery_7CCGs**: Primary care data from the North East London ICS \[North East London: ~45,000 individuals with data\]
-4. **DSA_NHSDigital**: Data from the National Diabetes Audit (NDA) \[England-wide: ~13,000 individuals with data]
 
 ### Output files
 
