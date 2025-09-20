@@ -70,7 +70,7 @@ nav:
       - Understanding TRE folders and buckets: using-the-tre/understanding-tre-folders-and-buckets.md
       - Handling files and folders: using-the-tre/handling-files-and-folders.md
       - Software, modules, requesting installs: using-the-tre/software,-modules,-requesting-installs.md
-      - Module Manager User Guide: using-the-tre/module-manager-guide.md
+     # - Module Manager User Guide: using-the-tre/module-manager-guide.md
       - Running a GWAS: using-the-tre/running-a-gwas.md
   - What genetic and health data are where?:
       - TRE identifiers: what-genetic-and-health-data-are-where/tre-identifiers.md
