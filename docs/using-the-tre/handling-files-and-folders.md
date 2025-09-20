@@ -18,11 +18,11 @@ All operations mentioned in items 1, 2 and 3 above can be completed using `gclou
 
 ### What is `gcloud`?
 
-`gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple "groups" which handle a specific aspect of the Google Cloud.  For example, `gcloud **sql**` handles the creation and management of Google Cloud SQL databases and `gcloud **source**` handles Google Cloud git repository commands.
+`gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple "groups" which handle a specific aspect of the Google Cloud.  For example, `gcloud`**`sql`** handles the creation and management of Google Cloud SQL databases and `gcloud`**`source`** handles Google Cloud git repository commands.
 
-The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `gcloud **storage**` handles the creation and management of Cloud Storage buckets and objects (files).
+The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Cloud Storage buckets and objects (files).
 
-`gcloud storage` documentation can be found at the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
+`gcloud storage` documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
 
 !!! danger "What if I’m using `gutils`?"
     !!! tip "TL:DR"
@@ -30,11 +30,9 @@ The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `g
         
     Some of you may have been using `gutils` to manage Cloud Storage buckets and objects.  The `gutils` commands are now **deprecated**.
     <p>
-    ⚠️ BE CAREFUL:
-    
     * Google states: "Important: `gsutil` is not the recommended CLI for Cloud Storage. Use `gcloud storage` commands in the Google Cloud CLI instead."
-    * We advise you against using of `gutils`.  The `gsutil` tool does not support working with newer Google Cloud Storage’s features such as soft delete.  This means that `gsutil` removes all versions of a file, whereas `gcloud storage` only removes the latest version.
-    * We have bucket versioning switched on in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
+    * The `gsutil` tool does not support working with newer Google Cloud Storage’s features such as soft-delete.  This means that `gsutil` removes all versions of a file, whereas `gcloud storage` only removes the latest version.
+    * Bucket versioning switched on in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
     
         
 ### Fundamental `gcloud storage` operations
@@ -43,13 +41,13 @@ The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `g
     You need to identify GCS buckets using their Uniform Resource Locator (URL), for example, the URL for the `red` bucket on sandbox-1 is: `gs://qmul-production-sandbox-1-red/`.  URLs for G&H TRE buckets are given in the ["What's in the bucket?"](./understanding-tre-folders-and-buckets.md#whats-in-the-bucket) section.
 
 !!! warning "Warning"
-    `gcloud storage` can replicate common linux file and directory handling commands.
+    `gcloud storage` replicates common linux file and directory handling commands.
     
     * These commands are powerful, you could easily accidentally delete entire directories or rewrite files.
     * Read the [`gcloud storage` documentation](https://cloud.google.com/sdk/gcloud/reference/storage).
     * Consider backing up data before uploading or downloading it to/from a google bucket.
     * Consider copying over moving (at least one copy of your files should remain).
-    * Understand that the `gcloud storage` copy (`cp`) and move (`mv`) operations are **non-atomic**.  This means it is not an all or nothing (completes or doesn’t complete) command; rather, it performs a copy from source to destination followed by, for move operations, deleting the each source object.  If the command does not complete, you may end up with some files copied/moved/renamed and others not.
+    * The `gcloud storage` copy (`cp`) and move (`mv`) operations are **non-atomic**.  This means it is not an all or nothing (completes or doesn’t complete) command; rather, it performs a copy from source to destination followed by, for move operations, deleting the each source object.  If the command does not complete, you may end up with some files copied/moved/renamed and others not.
     * In addition to normal network and operation charges, if you move a Nearline Storage, Coldline Storage, or Archive Storage object, deletion and data retrieval charges may apply.
 
 #### Creating a new directory (in `red`)
