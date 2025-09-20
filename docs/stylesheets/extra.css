@@ -8,7 +8,7 @@
   --tw-bg-opacity: 1;
   --gh-cobalt-blue: rgb(50 68 155 / var(--tw-bg-opacity, 1));
   --gh-emerald-green: rgb(69 191 135/var(--tw-text-opacity,1)); 
-  --gh-grape-purple: rgb(30 26 48)/var(--tw-text-opacity,1)); 
+  --gh-indigo-purple: rgb(30 26 48)/var(--tw-text-opacity,1)); 
 }
 
 .bg-blue {
@@ -33,7 +33,7 @@
 
 label.md-nav__title  {
   /* color: var(--gh-emerald-green); */
-  color: var(--gh-grape-purple); */
+  color: var(--gh-indigo-purple); */
 }
 
 
