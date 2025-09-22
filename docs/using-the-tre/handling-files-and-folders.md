@@ -347,7 +347,7 @@ And
 
 But they also appear in the `red` GCS bucket!  
 
-![31](../images/using-the-tre/gcloud-storage-alternatives/30.png)
+![31](../images/using-the-tre/gcloud-storage-alternatives/31.png)
 
 And
 
