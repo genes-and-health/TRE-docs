@@ -7,7 +7,13 @@ There are four main scenarios to consider when using files and folders in the G&
 3. Creating/renaming/moving/deleting files and folders in the `red` GCS bucket
 4. Creating/renaming/moving/deleting files and folders your `home` directory
 
-All operations mentioned in items 1, 2 and 3 above can be completed using `gcloud storage` commands.  All operations in item 4 can be performed using standard unix/linux shell commands (e.g. `cp`, `mv`, `rm`, `mkdir`) or the File Manager GUI.  Some operations involving the `red` GCS bucket can also be performed using the “Upload to red bucket” option in the File Manager.  All operations can also be perfomed by "mounting" a `red` directory to your `home` directory.  All these options are described below with the latter two detailed in the "Alternatives to `gcloud storage`" section.
+All operations mentioned in items 1, 2 and 3 above can be completed using `gcloud storage` commands.  All operations in item 4 can be performed using standard unix/linux shell commands (e.g. `cp`, `mv`, `rm`, `mkdir`) or the File Manager GUI.
+
+Some operations involving the `red` GCS bucket can also be performed using the “Upload to red bucket” option in the File Manager.
+
+All operations can also be perfomed by "mounting" a `red` directory to your `home` directory.
+
+All these options are described below with the latter two detailed in the "Alternatives to `gcloud storage`" section.
 
 !!! tip "Reminders"
     * Google Cloud Services (GCS) buckets are explained in the ["Understanding TRE folders and buckets"](./understanding-tre-folders-and-buckets.md) section.
