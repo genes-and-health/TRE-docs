@@ -175,7 +175,7 @@ gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/old_name.txt gs:/
 ```
 
 !!! warning "Remember"
-    `old_name.txt` will be copied to `new_name.txt` and then `old_name.txt` will be deleted; if `old_name.txt` is very large, this may incur data charges.\]
+    `old_name.txt` will be copied to `new_name.txt` and then `old_name.txt` will be deleted; if `old_name.txt` is very large, this may incur data charges.
 
 
 ## Alternatives to `gcloud storage`
