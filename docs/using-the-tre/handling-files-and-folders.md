@@ -26,7 +26,7 @@ All these options are described below with the latter two detailed in the "Alter
 
 `gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple "groups" which handle a specific aspect of the Google Cloud.  For example, `gcloud`**`sql`** handles the creation and management of Google Cloud SQL databases and `gcloud`**`source`** handles Google Cloud git repository commands.
 
-The only `gcloud` group of relevance to G&H TRE useres is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Google Cloud Storage buckets and objects (files).
+The only `gcloud` group of relevance to G&H TRE users is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Google Cloud Storage buckets and objects (files).
 
 `gcloud`**`storage`** documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
 
