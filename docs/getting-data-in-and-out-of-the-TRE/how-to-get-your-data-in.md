@@ -2,7 +2,7 @@ Sometimes it is necessary to get data or code into the TRE. As the TRE is shut o
 
 ## Copying text in {#copying-text-in}
 
-A small amount of text can be pasted in from external systems using the Clipboard tool. This does not allow copy/paste out. This might be useful should you need to copy in a difficult to write function for example.
+A small amount of text can be pasted in from external systems using the Clipboard tool. This does not allow copy/paste out. This might, for example, be useful should you need to copy in a difficult to write function.
 
 First select the horizontal chevron on the left-hand-side of the TRE:
 
