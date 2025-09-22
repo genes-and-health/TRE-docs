@@ -4,10 +4,12 @@ Welcome! This page is part of the documentation itself — and serves as your gu
 
 The documentation is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), a powerful and customisable static site generator for project documentation. Whether you’re fixing typos, updating content, or adding entirely new sections, this guide will walk you through how to do it cleanly and effectively.
 
+<!--
 !!! tip
     You should expect that when editing the documentation, the MkDocs server is already running in the background, so any changes you make will be reflected live as you save the files.
-    !!! warning
-        It can take a few minutes for your changes to percolate to the live website and you may need to refresh your browser window to see the changes (e.g. <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>R</kbd> on a PC).  
+-->
+!!! tip "Viewing documentation changes"
+    It can take a few minutes for your changes to percolate to the live website and you may need to refresh your browser window to see the changes (e.g. <kbd>Ctrl</kbd>-<kbd>Shift</kbd>-<kbd>R</kbd> on a PC).  
 
 ---
 
