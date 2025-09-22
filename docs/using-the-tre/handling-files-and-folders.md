@@ -26,16 +26,16 @@ All these options are described below with the latter two detailed in the "Alter
 
 `gcloud` is the Google Cloud Services' Command Line Interface (CLI): a set of tools to create and manage Google Cloud resources.  `gcloud` has multiple "groups" which handle a specific aspect of the Google Cloud.  For example, `gcloud`**`sql`** handles the creation and management of Google Cloud SQL databases and `gcloud`**`source`** handles Google Cloud git repository commands.
 
-The only gcloud group of relevance to G&H TRE useres is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Cloud Storage buckets and objects (files).
+The only `gcloud` group of relevance to G&H TRE useres is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Google Cloud Storage buckets and objects (files).
 
-`gcloud storage` documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
+`gcloud`**`storage`** documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
 
 !!! danger "What if I’m using `gutils`?"
     !!! tip "TL:DR"
         **Don't use `gutils`**
         
     Some of you may have been using `gutils` to manage Cloud Storage buckets and objects.  The `gutils` commands are now **deprecated**.
-    <p>
+    
     * Google states: "Important: `gsutil` is not the recommended CLI for Cloud Storage. Use `gcloud storage` commands in the Google Cloud CLI instead."
     * The `gsutil` tool does not support working with newer Google Cloud Storage’s features such as soft-delete.  This means that `gsutil` removes all versions of a file, whereas `gcloud storage` only removes the latest version.
     * Bucket versioning switched on in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
