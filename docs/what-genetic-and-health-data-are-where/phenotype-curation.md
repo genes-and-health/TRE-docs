@@ -9,7 +9,7 @@ The philosophy of the Genes & Health project is to provide researchers with the 
     * [QUANT_PY — a python pipeline for quantitative data extraction in Genes & Health](https://github.com/genes-and-health/QUANT_PY/)
 
 !!! info "A note regarding the use of `tre-tools`"
-    The [`tre-tools`](https://github.com/genes-and-health/tre-tools) were used until the creation of version 10 of the Genes & Health curated phenotype resources.  Although v10 does use some `tre-tools`, changes in the structure and impementation of the phenotype pipielines mean that `tre-tools` usage is now limited.  The `tre-tools` package is no longer being maintained or updated and is likely to be deprecated in subsequent curated phenotype releases.
+    The [`tre-tools`](https://github.com/genes-and-health/tre-tools) were used until the creation of version 10 of the Genes & Health curated phenotype resources.  Although v10 does use some [`tre-tools`](https://github.com/genes-and-health/tre-tools), changes in the structure and impementation of the phenotype pipielines mean that [`tre-tools`](https://github.com/genes-and-health/tre-tools) usage is now limited.  The [`tre-tools`](https://github.com/genes-and-health/tre-tools) package is no longer being maintained or updated and is likely to be deprecated in subsequent curated phenotype releases.
     <p>
     We are very grateful to [Caroline Morton](https://www.carolinemorton.co.uk/about/), [Saeed Bidi](https://uk.linkedin.com/in/saeed-bidi) and current and former members of the G&H Data Team for their help in developing the TRE pipeline infrastructure. 
 
