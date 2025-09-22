@@ -76,7 +76,7 @@ Data provided by the Bradford Teaching Hospitals NHS foundation trust. All files
 
 ### **Manchester**
 
-No raw primary care data as of 2023-04-14
+No raw secondary care data as of 2025-09-02.
 
 ## National level data (aka NHS Digital data)
 
