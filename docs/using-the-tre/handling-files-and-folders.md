@@ -265,14 +265,16 @@ This is only possible using `gcloud storage`.
 The `red` directory is currently available to the G&H virtual machines as read-only and lacks some user permissions. The ability to upload files to a specific sub-directory, moving/editing files directly inside the `red` bucket, and creating a new directory inside `red` by using a terminal requires the use of the File Manager “tricks” or the use of `gcloud storage` commands as described above.  
 
 Currently, there is no other GCS space available as read/write. There are on-going discussions with the developers of TRE to make the use of buckets easier for collaboration and sharing and this will hopefully be improved in the future.  
-As an alternative, you can mount a specific directory from `red` in your `home` directory.  
+
+**As an alternative, you can mount a specific directory from `red` in your `home` directory.**
 
 !!! warning
     This is an advanced option, you could really mess up your (and other users'!) directories in `red`.  We advise only using this options once you are an intermediate or advanced TRE user who has gained experience of TRE file manipulation using the alternative methods described above.
 
 #### What is mounting?
 
-Mounting is a process by which a computer's (or in our case, a virtual machine’s) operating system makes files and directories on a storage device (such as hard drive, CD-ROM, or network shared drive) available for users to access via the computer's file system.  
+Mounting is a process by which a computer's (or in our case, a virtual machine’s) operating system makes files and directories on a storage device (such as hard drive, CD-ROM, network shared drive or cloud storage) available for users to access via the computer's file system.
+
 When you mount a GCS bucket directory onto virtual machine, you are essentially creating a mirror of the GCS bucket. However, you can handle this locally created mirror (i.e. the mounted directory) as a “normal” linux directory.  
 
 !!! warning "Be careful..."  
