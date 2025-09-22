@@ -49,10 +49,11 @@ When you log into your sandbox, your VM will have a number of buckets available 
 
 ### Identifying G&H GCS buckets
 
-G&H buckets can be identified into two way within the TRE --depending on the file operation you may need to use one or the other method of identifying the bucket:
+G&H buckets can be identified into two way within the TRE --depending on the file operation you may need to use one or the other method of identifying the bucket.
 
-1. As a path on the virtual machine (e.g. (`/genesandhealth/red/`)
-2. As a Google Cloud Storage bucket identified by a Uniform Resource Locator (URL), for example `gs://qmul-production-sandbox-1-red/` identifies the `red` bucket on sanddox-1.
+!!! info "How to identify G&H GCS buckets"
+    1. As a path on the virtual machine, for example `/genesandhealth/red/`.
+    2. As a GCS bucket identified by a Uniform Resource Locator (URL), for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
 
 The bucket's URL will depend on the sandbox you use.  
 
