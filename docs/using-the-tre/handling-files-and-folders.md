@@ -200,7 +200,7 @@ After selecting the destination directory, you can click on **OK** button to con
 
 #### Creating a new directory in `red`
 
-If you want to create a new directory in `red`, you can click the **Create New Folder** button from the same **Upload to red bucket** window. This will bring up a new dialog box where you can *Enter Folder Name**:
+If you want to create a new directory in `red`, you can click the **Create New Folder** button from the same **Upload to red bucket** window. This will bring up a new dialog box where you can **Enter Folder Name**:
 
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/new-dir.png)
 
