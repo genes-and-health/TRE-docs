@@ -183,61 +183,27 @@ gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/old_name.txt gs:/
 ### The “Upload to red bucket” option in the File Manager
 
 #### Uploading a file to `red`
-To upload a file to `red` from another location (here my home folder on ivm), right click on the file and select “Upload to red bucket”.
+To upload a file to `red` from another location (here my home folder on ivm), right click on the file and select **Upload to red bucket**.
 
 ![Image3](../images/using-the-tre/gcloud-storage-alternatives/image3.png)
 
-A new window should pop-up documenting the outcome, for example:
+You can click on the **Browse** button to select a destination directory in red bucket, for example:
     
 ![Image4](../images/using-the-tre/gcloud-storage-alternatives/image4.png)
 
-However, this will upload to file to the top directory in `red`.  This is not recommended.  Rather you should upload your files into your personal or project `red` directory.
+After selecting the destination directory, you can click on **OK** button to confirm and the file will be uploaded. A confirmation window will appear:
+
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/image5.png)
+    
 
 #### Creating a new directory in `red`
-    
-If you want to create a new directory in `red`, you must upload one into it.  Remember that a GCS simulated directory can only exists if it is accounted for by a file.  If you try to upload an empty directory from a different location to `red`, you will get the following error:
-    
-![Image5](../images/using-the-tre/gcloud-storage-alternatives/image5.png)
 
-Your directory must contain at least one file to be uploaded to the `red` bucket.
+If you want to create a new directory in `red`, you can click the **Create New Folder** button from the same **Upload to red bucket** window. This will bring up a new dialog box where you can *Enter Folder Name**:
 
-To create a new directory in `red`, first create an identically named directory in /home/ivm/ using one of the two methods below:
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/new-dir.png)
 
-**Method 1:** Creating a new directory and file in File Manager
-
-To create a directory and file to upload to `red` in File Manager, right-click in empty space and select “Create New Folder”, then enter your folder name and click ‘OK’.
-
-![Image6](../images/using-the-tre/gcloud-storage-alternatives/image6.png)
-
-Now enter the new folder, right-click in empty space and select “Create Document / Empty File”
-
-![Image7](../images/using-the-tre/gcloud-storage-alternatives/image7.png)
-
-Give the file whatever name you want and click “Create”
-
-![Image8](../images/using-the-tre/gcloud-storage-alternatives/image8.png)
-
-You now have a folder called `JoeBloggs` which contains an (empty) file called `JB_dummy_file.txt`.
-
-**Method 2:** Creating a new directory and file in Terminal
-
-To create a new directory using the Terminal, first create a directory using the `mkdir` command, enter the directory with the `cd` command and create an empty file in this directory with the `touch` command as illustrated below.
-
-![Image9](../images/using-the-tre/gcloud-storage-alternatives/image9.png)
-
-Using either of the methods above, you should end up with the following directory on /home/ivm/:
-
-![Image10](../images/using-the-tre/gcloud-storage-alternatives/image10.png)
-
-Now navigate back to the `JoeBloggs` directory, right-click on the directory icon and select “Upload to red bucket”.
-
-![Image11](../images/using-the-tre/gcloud-storage-alternatives/image11.png)
-
-The `red` bucket now contains a (virtual) directory called `JoeBloggs` with the (empty) file `JB_dummy_file.txt`:
-
-![Image12](../images/using-the-tre/gcloud-storage-alternatives/image12.png)
-
-> ⚠️ BE CAREFUL, if you delete all files in a `red` bucket directory, you will also delete the virtual directory.  In this case, if you delete `JB_dummy_file.txt`, the `JoeBloggs` directory will disappear.
+After entering the new directory name and clicking **OK** button, the new directory will be created.
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/new-dir-confirm.png)
 
 #### Creating a sub-directory in the `red` bucket
 
