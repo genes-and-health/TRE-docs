@@ -216,7 +216,7 @@ To create a sub-directory in the `red` bucket, you can folow a similar process t
 
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/image7.png)
 
-After selecting the directory and clocking **OK**, you can click on **Create New Folder** button to create a subdirectory inside /red/testing:
+After selecting the directory and clicking **OK**, you can click on **Create New Folder** button to create a subdirectory inside /red/testing:
 
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/image8.png)
 
