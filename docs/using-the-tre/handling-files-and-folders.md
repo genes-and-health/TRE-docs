@@ -185,6 +185,8 @@ gcloud storage mv gs://qmul-production-sandbox-1-red/JoeBloggs/old_name.txt gs:/
 #### Uploading a file to `red`
 To upload a file to `red` from another location (here my home folder on ivm), right click on the file and select **Upload to red bucket**.
 
+![Image3](../images/using-the-tre/gcloud-storage-alternatives/image6.png)
+
 ![Image3](../images/using-the-tre/gcloud-storage-alternatives/image3.png)
 
 You can click on the **Browse** button to select a destination directory in red bucket, for example:
