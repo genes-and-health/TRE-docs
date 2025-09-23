@@ -4,7 +4,7 @@
 
 ### Linux command line software
 
-A very comprehensive set of genomics and genetics software is available for running from the Linux Terminal command line.
+A comprehensive set of genomics and genetics software is available for running from the Linux Terminal command line.
 
 Some software has very good multithreading e.g. `plink2` or `regenie`. If you run these on the 64 core VM (please test on the cheap 2-core machine first) you can get performance quite close to high performance compute (HPC) for some medium sized applications, and you do not have to learn WDL scripts. Alternatively, true cloud HPC is available using WDL Pipelines (see below).
 
