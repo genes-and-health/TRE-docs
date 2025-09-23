@@ -196,7 +196,9 @@ You can click on the **Browse** button to select a destination directory in red 
 After selecting the destination directory, you can click on **OK** button to confirm and the file will be uploaded. A confirmation window will appear:
 
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/image5.png)
-    
+
+!!! info
+In addition to uploading a single file, you can also upload a complete directory that contains files and subdirectories.
 
 #### Creating a new directory in `red`
 
@@ -209,20 +211,17 @@ After entering the new directory name and clicking **OK** button, the new direct
 
 #### Creating a sub-directory in the `red` bucket
 
-To create a sub-directory in the `red` bucket, you need to create an identical directory tree in `/home/ivm/` (or another drive allowing this) and upload this to `red`.
-For example, suppose we wanted to create a JoeBloggs sub-directory called ‘JB_data_dir’ we would do the following:
+To create a sub-directory in the `red` bucket, you can folow a similar process to above. First, you will click on **Browse** button to select the parent directory inside which you will create subdirectory. In this example, I clicked **Browse** and selected /red/testing floder:
 
-![13](../images/using-the-tre/gcloud-storage-alternatives/13.png)
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/image7.png)
 
-And then navigate to the JoeBloggs directory in `/home/ivm/` and right-click “Upload to red bucket”:
+After selecting the directory and clocking **OK**, you can click on **Create New Folder** button to create a subdirectory inside /red/testing:
 
-![14](../images/using-the-tre/gcloud-storage-alternatives/14.png)
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/image8.png)
 
-You now have the (virtual) directory structure `/red/JoeBloggs/JB_data_dir/` in `red` with the file `JB_data_dir_dummy.txt` in the directory.
+A new subdirectory /red/testing/subdir will be created after confirming with **OK** button:
 
-!!! info
-    * this will upload any new file or directory in the /home/ivm/JoeBloggs/ directory, for example, if you added “v_large_temp_file_that_should_definitely_not_be_moved.gz” in the /home/ivm/JoeBloggs/ directory, this will be uploaded to `red`
-    * the “Upload to red bucket” option will not replicate your /home/ivm/JoeBloggs/ directory to `red`, it will only upload new files or directories (as long as they contain at least one file) to the `red` bucket. For instance, if you delete `/home/ivm /JoeBloggs/JB_data_dir/` and then select “Upload to red bucket” for `/home/ivm /JoeBloggs/`, there will still be a `/red/JoeBloggs/JB_data_dir/` directory.
+![Image5](../images/using-the-tre/gcloud-storage-alternatives/image9.png)
 
 #### Moving or renaming data in the `red` bucket
 
