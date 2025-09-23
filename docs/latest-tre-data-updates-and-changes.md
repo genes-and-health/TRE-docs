@@ -5,7 +5,7 @@
 ## 2025-SEP-23 by MA  
 > Upgraded the VM base OS from debian 11 to debian 12.
 
-> Introduced the new modular software management tool called 'Module Manager': [Module Manager User Guide]([https://genes-and-health.github.io/TRE-docs/](https://genes-and-health.github.io/TRE-docs/using-the-tre/module-manager-guide/))
+> Introduced the new modular software management tool called 'Module Manager': [[Module Manager User Guide](https://genes-and-health.github.io/TRE-docs/](https://genes-and-health.github.io/TRE-docs/using-the-tre/module-manager-guide/]([https://genes-and-health.github.io/TRE-docs/](https://genes-and-health.github.io/TRE-docs/using-the-tre/module-manager-guide/))
 
 ## 2025-SEP-18 by SR  
 >  Release of the new G&H TRE documenation website: [https://genes-and-health.github.io/TRE-docs/](https://genes-and-health.github.io/TRE-docs/)
