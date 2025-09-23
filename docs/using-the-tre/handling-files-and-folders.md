@@ -207,6 +207,7 @@ If you want to create a new directory in `red`, you can click the **Create New F
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/new-dir.png)
 
 After entering the new directory name and clicking **OK** button, the new directory will be created.
+
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/new-dir-confirm.png)
 
 #### Creating a sub-directory in the `red` bucket
