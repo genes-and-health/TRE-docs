@@ -198,7 +198,7 @@ After selecting the destination directory, you can click on **OK** button to con
 ![Image5](../images/using-the-tre/gcloud-storage-alternatives/image5.png)
 
 !!! info
-In addition to uploading a single file, you can also upload a complete directory that contains files and subdirectories.
+    In addition to uploading a single file, you can also upload a complete directory that contains files and subdirectories.
 
 #### Creating a new directory in `red`
 
