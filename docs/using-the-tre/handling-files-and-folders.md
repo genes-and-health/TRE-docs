@@ -58,7 +58,7 @@ The only `gcloud` group of relevance to G&H TRE users is the `storage` group.  `
 
 #### Creating a new directory (in `red`)
 
-If you want to create a new directory in `red`, you must upload one into it. Remember that the concept of a directory does not rightly exist in Google Cloud buckets; buckets store files not direcotry trees.  This means that you cannot just upload an empty directory into the `red` bucket.  If you try to do so, you will get the following error:
+If you want to create a new directory in `red`, you must upload one into it. Remember that the concept of a directory does not rightly exist in Google Cloud buckets; buckets store files not directory trees.  This means that you cannot just upload an empty directory into the `red` bucket.  If you try to do so, you will get the following error:
 
 ![15](../images/using-the-tre/using-gcloud-storage/15.png)
 
