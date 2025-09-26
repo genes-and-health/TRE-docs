@@ -14,7 +14,7 @@ Genetic assays, such as exome sequencing or GSA chip analysis, are assigned assa
 
 For GSA chip analysis, the assay ID consists of the OrageneID concatenated with the Illumina chip ID and row position, e.g. **12345678901234_201234567890_R00C00**.
 
-Exome sequencing assay IDs follow the format **GNH-12345678901234 or GNH-12345678901234_2**, where the suffix accommodating multiple assays of a single Oragene ID. Multiple or repeated assays may be conducted on the same Oragene ID.
+Exome sequencing assay IDs follow the format **GNH-12345678901234 or GNH-12345678901234_2**, with the suffix recording the assay number --reflecting the fact that multiple or repeated assays may be conducted on the same Oragene ID.
 
 In data releases, we select one (the highest quality based on call rate or read depth, if there are several) assay per unique individual. 
 
