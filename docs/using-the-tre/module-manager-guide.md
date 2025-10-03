@@ -153,6 +153,7 @@ Please make sure to select the correct kernel for your usecase. This would be in
 **&lt;module-name&gt; (&lt;kernel-type&gt;)**
 
 For example, if you want to use R packages from **r-tre-all-1** module, you will load the **r-tre-all-1 (R)** kernel in jupyter.
+
 ![Loaded Modules](../images/module-manager/correct-kernel.png)
 
 Similarly, to use python packages from **tre-python** module, you will load **tre-python (python)** kernel
