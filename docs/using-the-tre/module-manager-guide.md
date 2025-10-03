@@ -149,7 +149,7 @@ Each module will expose its own kernels for jupyter. For example, r-tre-all-1 wi
 
 Please make sure to select the correct kernel for your usecase. This would be in the following format:
 
-> <module-name> (<kernel-type>)
+> &gt; &lt;module-name&gt; (&lt;kernel-type&gt;)
 
 For example, if you want to use R packages from **r-tre-all-1** module, you will load the **r-tre-all-1 (R)** kernel in jupyter.
 ![Loaded Modules](../images/module-manager/correct-kernel.png)
