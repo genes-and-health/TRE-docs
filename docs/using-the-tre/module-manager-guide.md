@@ -139,6 +139,23 @@ $ module-manager unload-all
 
 Removes all active modules and their command wrappers.
 
+## Selecting the Correct Kernel in Jupyter Notebook
+Each module will expose its own kernels for jupyter. For example, r-tre-all-1 will have the following kernels listed in jupyter notebook's kernel selection list.
+    - r-tre-all-1 (R)
+    - r-tre-all-1 (python)
+    - r-tre-all-1 (bash)
+
+![Loaded Modules](../images/module-manager/kernels-list.png)
+
+Please make sure to select the correct kernel for your usecase. This would be in the following format:
+
+> <module-name> (<kernel-type>)
+
+For example, if you want to use R packages from **r-tre-all-1** module, you will load the **r-tre-all-1 (R)** kernel in jupyter.
+![Loaded Modules](../images/module-manager/correct-kernel.png)
+
+Similarly, to use python packages from **tre-python** module, you will load **tre-python (python)** kernel
+
 # Frequently Asked Questions
 ### Where do my modules come from?
 They live in /genesandhealth/library-red/modules. Your TRE admins maintain these.
