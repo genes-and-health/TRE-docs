@@ -141,6 +141,7 @@ Removes all active modules and their command wrappers.
 
 ## Selecting the Correct Kernel in Jupyter Notebook
 Each module will expose its own kernels for jupyter. For example, r-tre-all-1 will have the following kernels listed in jupyter notebook's kernel selection list.
+
     - r-tre-all-1 (R)
     - r-tre-all-1 (python)
     - r-tre-all-1 (bash)
