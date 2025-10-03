@@ -41,7 +41,9 @@ This sends an automated email to the Genes & Health team. If you have not receiv
 
     See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux) guide for more details (external unverified link) 
 
-!!! Warning "'Trying to request more than 1 file to download.' error"
+### The 'Trying to request more than 1 file to download.' error
+
+!!! bug
     
     ![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
     
