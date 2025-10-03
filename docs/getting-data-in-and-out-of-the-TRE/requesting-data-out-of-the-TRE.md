@@ -41,6 +41,12 @@ This sends an automated email to the Genes & Health team. If you have not receiv
 
     See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux) guide for more details (external unverified link) 
 
+!!! Warning "'Trying to request more than 1 file to download.' error"
+    
+    ![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
+    
+    If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`) will cause the error, but `/genesandhealth/red/Joe_Blogs/my_requested_file.tar` will not.  The current work-around is to rename your file and/or copy it into a path with no spaces.
+
 ### Existing data {#existing-data}
 
 There are a number of files in `library-green` that are available for download. These do not need a request to be made.
