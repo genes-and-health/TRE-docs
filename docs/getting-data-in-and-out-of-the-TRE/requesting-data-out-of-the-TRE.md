@@ -43,12 +43,16 @@ This sends an automated email to the Genes & Health team. If you have not receiv
 
 ### The 'Trying to request more than 1 file to download.' error
 
-!!! bug
-    
-    ![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
-    
-    If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`) will cause the error, but `/genesandhealth/red/Joe_Blogs/my_requested_file.tar` will not.  The current work-around is to rename your file and/or copy it into a path with no spaces.
+![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
 
+If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`) will cause the error, but `/genesandhealth/red/Joe_Blogs/my_requested_file.tar` will not.
+
+!!! note
+    If you get this error, rename your file and/or copy it into a path with no spaces.  Alternatively, `tar` your files/paths with spaces to a single (space-free named) file.
+
+    !!! tip
+        Enter a linux/unix file system frame of mind and, if possible, avoid spaces in paths and files: `/this_will/make/things-a-lot/simpler_v0.1.txt`.   
+    
 ### Existing data {#existing-data}
 
 There are a number of files in `library-green` that are available for download. These do not need a request to be made.
