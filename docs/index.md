@@ -11,7 +11,7 @@ If you are **new** to the Genes & Health TRE, we recommend reading the following
 
 Please click the ">" chevrons on the left-hand side navigation panel to view and access section content. 
 
-We **welcome** user-driven updates to the docs.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and [contact us](mailto:genesandhealth@qmul.ac.uk) to be added to our github documentation repository.
+G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
 
 This is our new v3 documentation, live from 18 Sept 2025. We hope you like it.
 
