@@ -1,5 +1,7 @@
 # G&H TRE-docs
 
+[![DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252)
+
 This is GitHub home for the latest version of the TRE documentation (equivalent to TRE-docs-v3.0) which supercedes the docusaurus and Google docs versions of the documentation.
 
 The documentation website uses [GitHub.io](https://github.io) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).  It went live on 2025-09-18.
