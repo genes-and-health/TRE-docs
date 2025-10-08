@@ -3,7 +3,7 @@
 ## Steps to get access 
 
 * All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/TRE_User_Code_of_Conduct_5.0.pdf).  
-* All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127) training before they're granted access to Genes and Health data.
+* All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127) information governance training before they're granted access to Genes and Health data.
 
 ACADEMIC USERS: with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034).  
 !!! note "Wellcome Sanger Institute employees"  
@@ -16,6 +16,8 @@ After completing the NHS Data Security Awareness Level 1 training course, users 
 These steps are important for our  [NHS Digital Data Security and Protection Toolkit](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/data-security-and-protection-toolkit), and [ISO 27001](https://www.iso.org/standard/27001) accreditation.  
 !!! warning "Caution"  
 	Users who have not completed the Data Security Awareness training or attested to the Code of Conduct are subject to having their account deactivated.
+
+The redcap system will send automated yearly reminders to renew information governance training.
 
 ## Setting up a profile
 
