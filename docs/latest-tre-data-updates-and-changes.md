@@ -2,6 +2,9 @@
 
 (newest shown first)
 
+## 2025-OCT-08 by MA  
+> Added a new module named **tre-python3.13** that contains python3.13, updated polars version to 1.33 and latest versions of previous python packages in TRE.
+
 ## 2025-SEP-23 by MA  
 > Upgraded the VM base OS from debian 11 to debian 12.
 
