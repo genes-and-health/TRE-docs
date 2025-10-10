@@ -1,7 +1,9 @@
-![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg)
+<!-- GitHub does not understand the {:target="_blank"} tag, but Material for MkDocs does! --> 
+<!-- ![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg) -->
+[![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg)](https://www.genesandhealth.org/){:target="_blank"}
 
 # TRE Documentation
-[![DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252)
+[![Zenondo DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252){:target="_blank"}
 
 If you are **new** to the Genes & Health TRE, we recommend reading the following TRE doc sections:
 
@@ -14,6 +16,7 @@ Please click the ">" chevrons on the left-hand side navigation panel to view and
 G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
 
 This is our new v3 documentation, live from 18 Sept 2025. We hope you like it.
+
 
 If you are after the Genes & Health website, it can be found at [www.genesandhealth.org](https://www.genesandhealth.org/){:target="_blank"}.
 
