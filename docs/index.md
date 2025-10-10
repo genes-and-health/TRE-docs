@@ -15,6 +15,8 @@ G&H TRE users are encouraged to contribute to the documentation and participate 
 
 This is our new v3 documentation, live from 18 Sept 2025. We hope you like it.
 
+If you are after the Genes & Health website, it can be found at [www.genesandhealth.org](https://www.genesandhealth.org/){:target="_blank"}.
+
 <!--
 <div class="grid cards">
   
