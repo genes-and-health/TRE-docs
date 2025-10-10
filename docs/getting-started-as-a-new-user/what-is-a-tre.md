@@ -10,7 +10,7 @@ The essential qualities of a TRE are:
 - The TRE doesn’t allow users to export data without inspection from the project’s Data Controller or a delegate.  
 - The TRE doesn’t allow users to import code or data without inspection from the project’s Data Controller or a delegate.
 
-Researchers must enter the secure environment of a TRE to work on the data inside, and cannot export summary results without inspection, to ensure no sensitive personal data is being exported **--the researchers come to the data, the data do not go to the researchers**.
+Researchers must enter the secure environment of a TRE to work on the data inside, and cannot export summary results without inspection, to ensure no sensitive personal data is being exported **—the researchers come to the data, the data do not go to the researchers**.
 
 ## How secure is the Genes & Health TRE?
 
