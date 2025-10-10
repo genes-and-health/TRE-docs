@@ -28,7 +28,7 @@ All these options are described below with the latter two detailed in the "Alter
 
 The only `gcloud` group of relevance to G&H TRE users is the `storage` group.  `gcloud`**`storage`** handles the creation and management of Google Cloud Storage buckets and objects (files).
 
-`gcloud`**`storage`** documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage).
+`gcloud`**`storage`** documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage){:target="_blank"}.
 
 !!! danger "What if I’m using `gutils`?"
     !!! tip "TL:DR"
@@ -38,19 +38,21 @@ The only `gcloud` group of relevance to G&H TRE users is the `storage` group.  `
     
     * Google states: "Important: `gsutil` is not the recommended CLI for Cloud Storage. Use `gcloud storage` commands in the Google Cloud CLI instead."
     * The `gsutil` tool does not support working with newer Google Cloud Storage’s features such as soft-delete.  This means that `gsutil` removes all versions of a file, whereas `gcloud storage` only removes the latest version.
-    * Bucket versioning switched on in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
+    * Bucket versioning is active in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
     
         
 ### Fundamental `gcloud storage` operations
 
 !!! info "Reminder"
-    You need to identify GCS buckets using their Uniform Resource Locator (URL), for example, the URL for the `red` bucket on sandbox-1 is: `gs://qmul-production-sandbox-1-red/`.  URLs for G&H TRE buckets are given in the ["What's in the bucket?"](./understanding-tre-folders-and-buckets.md#whats-in-the-bucket) section.
+    You need to identify GCS buckets using their Uniform Resource Locator (URL), for example, the URL for the `red` bucket on sandbox-1 is: `gs://qmul-production-sandbox-1-red/`.
+    
+    URLs for G&H TRE buckets are given in the ["What's in the bucket?"](./understanding-tre-folders-and-buckets.md#whats-in-the-bucket) section.
 
 !!! warning "Warning"
     `gcloud storage` replicates common linux file and directory handling commands.
     
     * These commands are powerful, you could easily accidentally delete entire directories or rewrite files.
-    * Read the [`gcloud storage` documentation](https://cloud.google.com/sdk/gcloud/reference/storage).
+    * Read the [`gcloud storage` documentation](https://cloud.google.com/sdk/gcloud/reference/storage){:target="_blank"}.
     * Consider backing up data before uploading or downloading it to/from a google bucket.
     * Consider copying over moving (at least one copy of your files should remain).
     * The `gcloud storage` copy (`cp`) and move (`mv`) operations are **non-atomic**.  This means it is not an all or nothing (completes or doesn’t complete) command; rather, it performs a copy from source to destination followed by, for move operations, deleting the each source object.  If the command does not complete, you may end up with some files copied/moved/renamed and others not.
@@ -243,7 +245,7 @@ Currently, there is no other GCS space available as read/write. There are on-goi
 
 Mounting is a process by which a computer's (or in our case, a virtual machine’s) operating system makes files and directories on a storage device (such as hard drive, CD-ROM, network shared drive or cloud storage) available for users to access via the computer's file system.
 
-When you mount a GCS bucket directory onto virtual machine, you are essentially creating a mirror of the GCS bucket. However, you can handle this locally created mirror (i.e. the mounted directory) as a “normal” linux directory.  
+When you mount a GCS bucket directory onto a virtual machine, you are essentially creating a mirror of the GCS bucket. However, you can handle this locally created mirror (i.e. the mounted directory) as a “normal” linux directory.  
 
 !!! warning "Be careful..."  
     * Any change you make to the locally mounted directory will be replicated (mirrored) in the GCS bucket.
