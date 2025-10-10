@@ -2,22 +2,25 @@
 
 ## Steps to get access 
 
-* All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/TRE_User_Code_of_Conduct_5.0.pdf).  
-* All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127) information governance training before they're granted access to Genes and Health data.
+* All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/TRE_User_Code_of_Conduct_5.0.pdf){:target="_blank"}.  
+* All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127){:target="_blank"} information governance training before they're granted access to Genes and Health data.
 
-ACADEMIC USERS: with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034).  
+### Academic users:
+Users with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034).  
+
 !!! note "Wellcome Sanger Institute employees"  
-	If you're a [Wellcome Sanger Institute](https://www.sanger.ac.uk/) employee, please use ODS Code **8J947** and select **Genome Research Limited** from the list of organisations when you register for the course.  
+	If you are a [Wellcome Sanger Institute](https://www.sanger.ac.uk/){:target="_blank"} employee, please use ODS Code **8J947** and select **Genome Research Limited** from the list of organisations when you register for the course.  
 
-COMPANY (non-academic) users can register (£30 by credit card) for the training course at [eIntegrity Healthcare e-learning](https://www.eintegrity.org/healthcare-course/data-security-awareness-from-smc/). For some companies (e.g. Consortium1) we can provide a pre-paid link if the user emails genesandhealth@qmul.ac.uk to ask.
+### Company (non-academic) users:
+Company (non-academic) users can register (£30 by credit card) for the training course at [eIntegrity Healthcare e-learning](https://www.eintegrity.org/healthcare-course/data-security-awareness-from-smc/). For some companies (e.g. Consortium1) we can provide a pre-paid link if the user emails genesandhealth@qmul.ac.uk to ask.
 
 After completing the NHS Data Security Awareness Level 1 training course, users upload their certificate to Genes & Health new user registration system in redcap. Please contact Genes and Health at genesandhealth@qmul.ac.uk for instructions on how to access the new user registration system.  Usually you will have been sent a redcap link directly.
 
-These steps are important for our  [NHS Digital Data Security and Protection Toolkit](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/data-security-and-protection-toolkit), and [ISO 27001](https://www.iso.org/standard/27001) accreditation.  
+These steps are important for our  [NHS Digital Data Security and Protection Toolkit](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/data-security-and-protection-toolkit){:target="_blank"}, and [ISO 27001](https://www.iso.org/standard/27001){:target="_blank"} accreditation.  
 !!! warning "Caution"  
 	Users who have not completed the Data Security Awareness training or attested to the Code of Conduct are subject to having their account deactivated.
 
-The redcap system will send automated yearly reminders to renew information governance training.
+The REDCap system will send automated yearly reminders to renew information governance training.
 
 ## Setting up a profile
 
