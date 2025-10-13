@@ -90,5 +90,5 @@ label.md-nav__title  {
 /* remove margin-block-start (extra top whitespace) on <p> wrapping only an <img> */
 
 p:has(> img:only-child), p:has(> a > img:only-child) {
-  margin-block-start: 0;
+  margin: 0;
 }
