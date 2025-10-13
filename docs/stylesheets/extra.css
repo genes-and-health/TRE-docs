@@ -89,7 +89,7 @@ label.md-nav__title  {
 
 /* remove padding and margin on <p> wrapping only an <img> */
 
-p:has(> img:only-child), p a:has(> img:only-child) {
+p:has(> img:only-child), p:has(> a > img:only-child) {
   margin: 0;
   padding: 0;
 }
