@@ -7,7 +7,7 @@ You might be wondering "How do I get my results of my analytical code out into t
 Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs etc are all usually fine. 
 
 !!! info "TRE data export policy"
-    For more information, please read the [TRE data export policy document](./TRE-data-export-policy-v2_5.pdf)
+    For more information, please read the [TRE data export policy document](./TRE-data-export-policy-v2_5.pdf){target="_blank"}
 
 ### Requesting data {#requesting-data}
 
