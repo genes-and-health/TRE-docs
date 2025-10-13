@@ -6,7 +6,7 @@ There are two identifiers in the G&H TRE which allow data linkage (e.g. genomic 
 2. **OrageneID**: these 14-digit strings serves as an identifier for saliva tube DNA IDs.
 
 !!! warning
-    Multiple samples may be collected from the same individual, resulting in a many-to-one relationship between Oragene ID and PseudoNHS number.
+    Multiple samples may be collected from the same individual, resulting in a one-to-many relationship between that PseudoNHS number and OrageneIDs.
 
 ## GSA and Exome data identifiers (assay IDs)
 
