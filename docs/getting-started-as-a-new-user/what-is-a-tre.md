@@ -1,6 +1,6 @@
 # What is a TRE ?
 
-A TRE is a Trusted Research Environment.  Many large genetics and health data studies such as Finngen, UK Biobank, Genomics England are using TREs. NHS England and Health Data Research UK are strongly supporting this model. 
+A TRE is a **Trusted Research Environment**.  Many large genetics and health data studies such as Finngen, UK Biobank, Genomics England are using TREs. [NHS England](https://digital.nhs.uk/services/trusted-research-environment-service-for-england){target="_blank"} and [Health Data Research UK](https://www.hdruk.ac.uk/access-to-health-data/trusted-research-environments/){target="_blank"} are strongly supporting this model. 
 
 ## What defines a TRE?
 
