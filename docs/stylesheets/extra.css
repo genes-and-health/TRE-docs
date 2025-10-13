@@ -86,3 +86,10 @@ label.md-nav__title  {
 .md-header__source {
   display:none;
 }
+
+/* remove padding and margin on <p> wrapping only an <img> */
+
+p:has(> img:only-child) {
+  margin: 0;
+  padding: 0;
+}
