@@ -5,13 +5,15 @@
 # TRE Documentation
 [![Zenondo DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252){:target="_blank"}
 
-If you are **new** to the Genes & Health TRE, we recommend reading the following TRE doc sections:
+If you are new to the Genes & Health TRE, we recommend reading the following TRE doc sections:
 
 1. [Getting started as a new user](getting-started-as-a-new-user/what-is-a-tre.md)
 2. [Using the TRE](using-the-tre/understanding-tre-folders-and-buckets.md)
 3. [Getting data in and out of the TRE](getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md)
 
 Please click the ">" chevrons on the left-hand side navigation panel to view and access section content. 
+
+If you are looking for help with a specific issues, please use the Search toolbar in the top right corner of doccumentation page.
 
 G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
 
