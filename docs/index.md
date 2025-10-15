@@ -13,7 +13,7 @@ If you are new to the Genes & Health TRE, we recommend reading the following TRE
 
 Please click the ">" chevrons on the left-hand side navigation panel to view and access section content. 
 
-If you are looking for help with a specific issues, please use the Search toolbar in the top right corner of doccumentation page.
+If you are looking for help with a specific issue, please use the Search toolbar in the top right corner of doccumentation page.
 
 G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
 
