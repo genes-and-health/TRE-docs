@@ -1,6 +1,8 @@
 # Latest TRE data updates and changes {#latest-tre-data-updates-and-changes}
 
 (newest shown first)
+## 2025-OCT-022 by MA  
+> Removed unused .html files from desktop.
 
 ## 2025-OCT-08 by MA  
 > Added a new module named **tre-python3.13** that contains python3.13, updated polars version to 1.33 and latest versions of previous python packages in TRE.
