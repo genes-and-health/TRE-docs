@@ -1,7 +1,10 @@
 # Latest TRE data updates and changes {#latest-tre-data-updates-and-changes}
 
 (newest shown first)
-## 2025-OCT-022 by MA  
+## 2025-OCT-23 by MA  
+> Volume mounts that show up on desktop while using modules are now hidden.
+
+## 2025-OCT-22 by MA  
 > Removed unused .html files from desktop.
 
 ## 2025-OCT-08 by MA  
