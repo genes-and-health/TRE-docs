@@ -30,15 +30,15 @@ The only `gcloud` group of relevance to G&H TRE users is the `storage` group.  `
 
 `gcloud`**`storage`** documentation can be found in the [`gcloud storage` reference website](https://cloud.google.com/sdk/gcloud/reference/storage){:target="_blank"}.
 
-!!! danger "What if I’m using `gutils`?"
+!!! danger "What if I’m using `gsutil`?"
     !!! tip "TL:DR"
-        **Don't use `gutils`**
+        **Don't use `gsutil`**
         
-    Some of you may have been using `gutils` to manage Cloud Storage buckets and objects.  The `gutils` commands are now **deprecated**.
+    Some of you may have been using `gsutil` to manage Cloud Storage buckets and objects.  The `gsutil` commands are now **deprecated** by Google.
     
     * Google states: "Important: `gsutil` is not the recommended CLI for Cloud Storage. Use `gcloud storage` commands in the Google Cloud CLI instead."
     * The `gsutil` tool does not support working with newer Google Cloud Storage’s features such as soft-delete.  This means that `gsutil` removes all versions of a file, whereas `gcloud storage` only removes the latest version.
-    * Bucket versioning is active in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gutils`, we may not be able to recover the file(s).
+    * Bucket versioning is active in sandboxes as part of the backup strategy (so we can recover an old version of a file for users).  If you delete with `gsutil`, we may not be able to recover the file(s).
     
         
 ### Fundamental `gcloud storage` operations
