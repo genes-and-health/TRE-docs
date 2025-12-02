@@ -30,7 +30,9 @@ Once you have launched the application, the interface will look like this:
 
 ![Module Manager GUI](../images/module-manager/module-manager-gui.png)
 
-**Search Modules (Top):** Use the search bar to filter modules by name. You can start typing keywords in the search bar to find available packages.
+**Search Modules (Top Left):** Use the search bar to filter modules by name. You can start typing keywords in the search bar to find available modules.
+
+**Search Modules by Package Names (Top Right):** Use the search bar to find modules by package names. You can start typing package name in the search bar to find modules that contain those packages.
 
 **Available Modules (Left Panel):** Displays a list of all the available modules.
 
