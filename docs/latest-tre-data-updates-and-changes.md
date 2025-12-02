@@ -3,7 +3,7 @@
 (newest shown first)
 
 ## 2025-Dec-1 by MA  
-> Added **Thunar Defaules** that enable IconView, ListView, Reload and Launch Terminal butons in file browser's toolbar by default.
+> Added **Thunar Defaults** that enable IconView, ListView, Reload and Launch Terminal buttons in file browser's toolbar by default.
 
 ## 2025-Nov-14 by MA  
 > Added **Search Packages** search bar in module-manager, user's can now search for modules by pakcage names.
