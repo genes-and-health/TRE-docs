@@ -6,7 +6,7 @@
 > Added **Thunar Defaults** that enable IconView, ListView, Reload and Launch Terminal buttons in file browser's toolbar by default.
 
 ## 2025-Nov-14 by MA  
-> Added **Search Packages** search bar in module-manager, users can now search for modules by package names.
+> Added **Search Packages** search bar in module-manager, users can now search for modules by package name.
 
 ## 2025-OCT-23 by MA  
 > Volume mounts that show up on desktop while using modules are now hidden.
