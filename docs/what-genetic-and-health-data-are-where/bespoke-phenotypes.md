@@ -16,6 +16,8 @@ Users are advised to load and merge the above .arrow files using python or R.  T
 
 For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers. 
 
+[!output](../images/what-genetic-and-health-data-are-where/bespoke_binary_trait_cohort_compiler output.png)
+
 Binary traits are those that have two possible outcomes, such as disease status (e.g. diabetes, hypertension). A person either has the disease or they do not.
 
 The Genes & Health (G&H) `BI_PY` pipeline extracts and processes binary trait data from G&H phenotype data.  Relevant codes may be SNOMED-CT, ICD-10 or OPCS codes.  `BI_PY` "runs" a list of such per-binary-phenotype codes against any code associated with a G&H volunteer.  If the volunteer has one or more such codes, they are associated with the relevant binary phenotype --allowing case-control type analyses against volunteers not associated with the binary phenotype.
