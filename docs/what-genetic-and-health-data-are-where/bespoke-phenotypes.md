@@ -16,7 +16,7 @@ Users are advised to load and merge the above .arrow files using python or R.  T
 
 For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers. 
 
-![bespoke_binary_trait_cohort_compiler output]("../images/what-genetic-and-health-data-are-where/bespoke_binary_trait_cohort_compiler_output.png")
+![bespoke_binary_trait_cohort_compiler output](../images/what-genetic-and-health-data-are-where/bespoke_binary_trait_cohort_compiler_output.png)
 
 Binary traits are those that have two possible outcomes, such as disease status (e.g. diabetes, hypertension). A person either has the disease or they do not.
 
