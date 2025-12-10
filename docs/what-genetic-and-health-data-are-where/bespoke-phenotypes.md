@@ -10,18 +10,11 @@ G&H volunteers matched to specific codes can be found within .arrow files in `/l
 * opcs_only.arrow (all OPCS4 codes assigned to G&H volunteers)
 * snomed_only.arrow (all SNOMED CT codes assigned to G&H volunteers)
 
-!!! tip "Learning more about `BI_PY` and `QUANT_PY`"
-    Although `BI_PY` and `QUANT_PY` are briefly described below, users wanting further details on these are encouraged to visit the public GitHub pages for each pipeline:
-    
-    * [BI_PY — a python pipeline for binary trait attribution in Genes & Health](https://github.com/genes-and-health/BI_PY/){target="_blank"}
-    * [QUANT_PY — a python pipeline for quantitative data extraction in Genes & Health](https://github.com/genes-and-health/QUANT_PY/){target="_blank"}
+## Creating a bespoke binary phenotype volunteer list
 
-!!! info "A note regarding the use of `tre-tools`"
-    The [`tre-tools`](https://github.com/genes-and-health/tre-tools){target="_blank"} were used until the creation of version 10 of the Genes & Health curated phenotype resources.  Although v10 does use some [`tre-tools`](https://github.com/genes-and-health/tre-tools){target="_blank"}, changes in the structure and impementation of the phenotype pipielines mean that [`tre-tools`](https://github.com/genes-and-health/tre-tools){target="_blank"} usage is now limited.  The [`tre-tools`](https://github.com/genes-and-health/tre-tools){target="_blank"} package is no longer being maintained or updated and is likely to be deprecated in subsequent curated phenotype releases.
-    <p>
-    We are very grateful to [Caroline Morton](https://www.carolinemorton.co.uk/about/){target="_blank"}, [Saeed Bidi](https://uk.linkedin.com/in/saeed-bidi){target="_blank"} and current and former members of the G&H Data Team for their help in developing the TRE pipeline infrastructure. 
+Users are advised to load and merge the above .arrow files using python or R.  The resulting list can then be used to match against a user-defined list of codes.
 
-## BI_PY: Binary traits
+For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers. 
 
 Binary traits are those that have two possible outcomes, such as disease status (e.g. diabetes, hypertension). A person either has the disease or they do not.
 
