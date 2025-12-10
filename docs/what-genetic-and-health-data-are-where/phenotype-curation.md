@@ -1,4 +1,4 @@
-# Bespoke binary phenotypes
+# Phenotype Curation
 
 The philosophy of the Genes & Health project is to provide researchers with the tools and data to generate their own phenotypes as well as providing a curated set of phenotypes.  For the latter, the Genes & Health Data Team provides two "pre-computed" phenotypic datasets identified by the name of the python-scripted pipeline used to generate them: `BI_PY` (binary traits) and `QUANT_PY` (quantitative traits).
 
