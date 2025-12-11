@@ -19,7 +19,7 @@ For illustration, [bespoke_binary_trait_cohort_compiler.ipynb (click to download
 !!! tip
     The arrow files are large; combining all .arrow files creates a table with **over 70 million rows**.  This will crash a 'Basic' virtual machine (VM).  However, it will run fine on an 'Overkill memory' VM (see [Choosing your required virtual machine (VM) configuration](/docs/getting-started-as-a-new-user/choosing-your-virtual-machine.md)).
     !!! warning
-    Running the 'Overkill memory' VM is expensive.  Please only use it for as long as needed to generate your bespoke codelist and remember to shut-down the VM when you've finished. 
+        Running the 'Overkill memory' VM is expensive.  Please only use it for as long as needed to generate your bespoke codelist and remember to shutdown the VM when you've finished. 
     
 # bespoke_binary_trait_cohort_compiler.ipynb
 
