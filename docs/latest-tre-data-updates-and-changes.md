@@ -2,6 +2,9 @@
 
 (newest shown first)
 
+## 2025-Dec-11 by SR  
+> New ["Bespoke phenotyes"](/docs/what-genetic-and-health-data-are-where/bespoke-phenotypes.md) sub-section added to ["What genetic and health data are where?"](/docs/what-genetic-and-health-data-are-where/)
+
 ## 2025-Dec-1 by MA  
 > Added **Thunar Defaults** that enable IconView, ListView, Reload and Launch Terminal buttons in file browser's toolbar by default.
 
