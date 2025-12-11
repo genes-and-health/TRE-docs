@@ -14,10 +14,144 @@ G&H volunteers matched to specific codes can be found within .arrow files in `/l
 
 Users are advised to load and merge the above .arrow files using python or R.  The resulting list can then be used to match against a user-defined list of codes.
 
-For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers. 
+For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers.
 
 !!! warning
-    The notebook is not currently available.  It should be by the end of the week (SR 2025-12-10)
+    The arrow files are large; combining all .arrow files creates a table with **over 70 million rows**.  This will crash a 'Basic' virtual machine.  It will however run fine on a 
+
+# bespoke_binary_trait_cohort_compiler.ipynb
+
+Created 2025-12-10
+
+Get a count of individuals which have a ICD10/SNOMED/OPCS code
+
+AND/OR
+
+Get a list of individuals which have a ICD10/SNOMED/OPCS code
+
+## Import packages
+
+
+```python
+import polars as pl
+from cloudpathlib import AnyPath
+```
+
+## Collect .arrow volunteer : code list for SNOMED, ICD-10, OPCS
+
+
+```python
+# Unfortunately, dtype of pl.col("code") is Int64 in SNOMED is but String in ICD and OPCS
+# so can't do a globbed Path direct to scan ipc
+# instead create file list and iterate through this with casting
+mega_code_files = list(
+    AnyPath(
+        "/genesandhealth/library-red/genesandhealth/phenotypes_curated",
+        "version2010_2025_04",
+        "BI_PY",
+        "megadata",
+    ).glob("*[ds]_only.arrow")  # the [ds] ensures we don't upload the SNOMED->ICD converted codes
+)
+```
+
+
+```python
+## lf_ is LazyFrame, polars will only gather data when asked to `.collect()`
+lf_codes = []
+for file in mega_code_files:
+    lf = (
+        pl.scan_ipc(file)
+        .with_columns(
+            pl.col("code").cast(pl.String),
+            pl.lit(str(file)).str.extract(r"\/(\w+)_only", 1).str.to_uppercase().alias("codeset"),
+        )
+    )
+    lf_codes.append(lf)
+
+lf_mega_codes = pl.concat(lf_codes)
+```
+
+
+```python
+df_mega_codes = lf_mega_codes.collect()
+```
+
+
+```python
+## Clean-up
+del(lf, lf_codes, lf_mega_codes)
+```
+
+## Get count of volunteers for a list of codes (count individuals per code)
+
+Please note that OCPS and ICD-10 codes can be identical, you may need to tweak the code to account for this
+
+Beware that ICD-10/OPCS codes can vary in number of character, ie. this script does not understand that `X27.1` is a sub-set of `X27`
+
+
+```python
+(
+    df_mega_codes
+    .filter(
+        pl.col("code").is_in(
+            [
+                ### Your list of codes here
+                ### beware of codes which exist both in ICD10 and OPCS
+                ### this issue has not yet been sorted
+                "38341003", # SNOMED: Hypertensive disorder, systemic arterial (disorder)
+                "I10", # ICD-10: Essential (primary) hypertension
+                "U33.2", # OPCS: Application ambulatory blood pressure monitor
+            ]
+        ),
+        # pl.col("codeset").ne("OPCS")  # optional line, excludes OPCS codes to avoid clashing with ICD10 codes
+    )
+    .group_by(
+        pl.col("code")
+    )
+    .agg(
+        pl.col("nhs_number").n_unique().alias("num_idvs_with_code"),
+    )
+    .sort(by="num_idvs_with_code", descending=True)
+)
+```
+
+## Get cohort of volunteers for a list of codes
+
+Please note that OCPS and ICD-10 codes can be identical, you may need to tweak the code to account for this
+
+Beware that ICD-10/OPCS codes can vary in number of character, ie. this script does not understand that `X27.1` is a sub-set of `X27`
+
+
+```python
+(
+    df_mega_codes
+    .filter(
+        pl.col("code").is_in(
+            [
+                ### Your list of codes here
+                ### beware of codes which exist both in ICD10 and OPCS
+                ### this issue has not yet been sorted
+                "38341003", # SNOMED: Hypertensive disorder, systemic arterial (disorder)
+                "I10", # ICD-10: Essential (primary) hypertension
+                "U33.2", # OPCS: Application ambulatory blood pressure monitor
+            ]
+        ),
+        # pl.col("codeset").ne("OPCS")  # optional line, excludes OPCS codes to avoid clashing with ICD10 codes
+    )
+    .group_by(
+        pl.col("nhs_number")
+    )
+    .agg(
+        pl.col("nhs_number").n_unique().alias("num_idvs_with_code"),
+    )
+    .explode("nhs_number")
+    .unique()
+    .sort(by="nhs_number", "code")
+)
+```
+
+
+
 
 ![bespoke_binary_trait_cohort_compiler output](../images/what-genetic-and-health-data-are-where/bespoke_binary_trait_cohort_compiler_output.png)
 
