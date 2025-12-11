@@ -14,11 +14,13 @@ G&H volunteers matched to specific codes can be found within .arrow files in `/l
 
 Users are advised to load and merge the above .arrow files using python or R.  The resulting list can then be used to match against a user-defined list of codes.
 
-For illustration [bespoke_binary_trait_cohort_compiler.ipynb](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a count of pseudo_nhs_numbers associated by a list of codes, ii) a table of code : pseudo_nhs_numbers.
+For illustration [bespoke_binary_trait_cohort_compiler.ipynb (click to download)](bespoke_binary_trait_cohort_compiler.ipynb){target="_blank"} is a Jupyter Python notebook which can create i) a volunteer : code "megatable", ii) a count of pseudo_nhs_numbers associated by a list of codes, iii) a table of code : pseudo_nhs_numbers for a bespoke list of codes.
 
-!!! warning
-    The arrow files are large; combining all .arrow files creates a table with **over 70 million rows**.  This will crash a 'Basic' virtual machine.  It will however run fine on a 
-
+!!! tip
+    The arrow files are large; combining all .arrow files creates a table with **over 70 million rows**.  This will crash a 'Basic' virtual machine (VM).  However, it will run fine on an 'Overkill memory' VM (see [Choosing your required virtual machine (VM) configuration](/docs/getting-started-as-a-new-user/choosing-your-virtual-machine.md)).
+    !!! warning
+    Running the 'Overkill memory' VM is expensive.  Please only use it for as long as needed to generate your bespoke codelist and remember to shut-down the VM when you've finished. 
+    
 # bespoke_binary_trait_cohort_compiler.ipynb
 
 Created 2025-12-10
