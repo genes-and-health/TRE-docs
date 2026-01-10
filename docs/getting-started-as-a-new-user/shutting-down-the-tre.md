@@ -1,6 +1,6 @@
 # Shutting down the TRE
 
-Your virtual machine will keep running for 24 hours if you are doing nothing. You can close you TRE browser window, turn your laptop off, and then you will be straight back into the exact same machine when you connect again (within 24h). If you have jobs running, the machine will keep going while these run (however long) plus another 48h.  
+Your virtual machine will keep running for 24 hours if you are doing nothing. You can close your TRE browser window, turn your laptop off, and then you will be straight back into the exact same machine when you connect again (within 24h). If you have jobs running, the machine will keep going while these run (however long) plus another 48h.  
 !!! warning
     Keeping machines running in the background costs money. So please actively shutdown (if you do not need the extra 48h) using the "Off" button on the bottom of the side menu or the `Shut down` option in the `Applications` menu.
 
