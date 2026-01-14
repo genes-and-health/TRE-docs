@@ -119,8 +119,6 @@ The `red` bucket is a read-write bucket for TRE users to store scripts and data 
 
 This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during priority access periods (e.g. exome sequencing). Specifically, read access is only for sandboxes 1, 3, 4, 5, 6, 7, 9, 10, 13.
 
-Same storage type as `/genesandhealth/library-red`, see above.
-
 ### The TRE's `(-)green` buckets
 
 #### The `green` bucket \[read-only for users\]
