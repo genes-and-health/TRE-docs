@@ -51,7 +51,7 @@ from cloudpathlib import AnyPath
 mega_code_files = list(
     AnyPath(
         "/genesandhealth/library-red/genesandhealth/phenotypes_curated",
-        "version2010_2025_04",
+        "version010_2025_04",
         "BI_PY",
         "megadata",
     ).glob("*[ds]_only.arrow")  # the [ds] ensures we don't upload the SNOMED->ICD converted codes
