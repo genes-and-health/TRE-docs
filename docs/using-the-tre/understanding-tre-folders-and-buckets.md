@@ -88,7 +88,7 @@ This works as a standard Unix/Linux directory and is **not** a google GCS bucket
 !!! info "Identifying `library-red`"
     * **Specificity:** common to all sandboxes
     * **VM directory:** `/genesandhealth/library-red/`
-    * **URL:** `gs://qmul-sandbox-production-library-red/`
+    * **URL:** `gs://qmul-production-library-red/`
 
 This is a **read-only** folder that is common to all TRE users. `library-red` stores curated and raw data necessary for your analyses; it includes several subfolders, each designated for specific data types and purposes.  For technical reasons, the data subfolders are actually in `/genesandhealth/library-red/genesandhealth/`.  Folder names are (relatively) self-explanatory and all of them should contain a `README` type file explaining their content.  If you find a folder without a `README` file, please contact the Genes and Health team for more information on its intended use.
 
