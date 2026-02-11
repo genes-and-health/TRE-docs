@@ -67,21 +67,21 @@ Alternatively, you can use the web-interface for your Sandbox specific `green-do
 | Sandbox | Link to green-downloads bucket |
 | :---- | :---- |
 | Sandbox 1 \- QMUL \+WSI Core Team Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-1\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-1_greendownloads) |
-| Sandbox 2 \- External Academic Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-2\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 3 \- GSK Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-3\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 4 \- BMS Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-4\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 5 \- MSD Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-5\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
+| Sandbox 2 \- External Academic Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-2\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-2_greenuploads) |
+| Sandbox 3 \- GSK Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-3\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-3_greenuploads) |
+| Sandbox 4 \- BMS Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-4\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-4_greenuploads) |
+| Sandbox 5 \- MSD Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-5\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-5_greenuploads) |
 | Sandbox 6 \- Takeda Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 7 \- Pfizer Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-7\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 8 \- S00050\_FFAIR-PRS Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-8\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 9 \- Maze Therapeutics Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-9\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 10 \- Novo Nordisk Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-10\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox  11 \- University of Exter | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-11\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 13 \- AstraZeneca | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-13\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 14 \- External Academic, Consortium access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-14\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 15 \- 5 Prime Sciences | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-15\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 16 \- Sandbox 16 | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-16\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
-| Sandbox 17 \- Academic, NHS Digital access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-17\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-6_greenuploads) |
+| Sandbox 7 \- Pfizer Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-7\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-7_greenuploads) |
+| Sandbox 8 \- S00050\_FFAIR-PRS Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-8\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-8_greenuploads) |
+| Sandbox 9 \- Maze Therapeutics Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-9\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-9_greenuploads) |
+| Sandbox 10 \- Novo Nordisk Desktop | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-10\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-10_greenuploads) |
+| Sandbox  11 \- University of Exter | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-11\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-11_greenuploads) |
+| Sandbox 13 \- AstraZeneca | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-13\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-13_greenuploads) |
+| Sandbox 14 \- External Academic, Consortium access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-14\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-14_greenuploads) |
+| Sandbox 15 \- 5 Prime Sciences | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-15\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-15_greenuploads) |
+| Sandbox 16 \- Sandbox 16 | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-16\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-16_greenuploads) |
+| Sandbox 17 \- Academic, NHS Digital access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-17\_greendownloads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-17_greenuploads) |
 
 From your external system, ideally Linux server rather than laptop if you are downloading lots of data (e.g. our GWAS).
 
