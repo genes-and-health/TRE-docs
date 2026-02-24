@@ -115,7 +115,7 @@ The `red` bucket is a read-write bucket for TRE users to store scripts and data 
 !!! info "Identifying `consortiumpriorityperiod-library-red`"
     * **Specificity:** restricted sandboxes
     * **VM directory:** `/genesandhealth/consortiumpriorityperiod-library-red/`
-    * **URL:** `gs://qmul-sandbox-production-library-consortiumpriorityperiod-red` 
+    * **URL:** `gs://qmul-production-library-consortiumpriorityperiod-red` 
 
 This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during priority access periods (e.g. exome sequencing). Specifically, read access is only for sandboxes 1, 3, 4, 5, 6, 7, 9, 10, 13.
 
