@@ -63,6 +63,7 @@ The _fundamental_ storage resources in the TRE are:
 
 * the `library-red` and `red` buckets containing respectively the G&H -omics data and your sandbox's data
 * your `home` directory
+* for a restricted set of users (who's hosting organisation has signed a sublicence with NHS England), the `nhsdigital-sublicence-red` folder
 
 These exist alongside a number of other data resources as illustrated below.  Key data resources are then individually described.
 
@@ -118,6 +119,15 @@ The `red` bucket is a read-write bucket for TRE users to store scripts and data 
     * **URL:** `gs://qmul-production-library-consortiumpriorityperiod-red` 
 
 This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during priority access periods (e.g. exome sequencing). Specifically, read access is only for sandboxes 1, 3, 4, 5, 6, 7, 9, 10, 13.
+
+#### The `nhsdigital-sublicence-red` bucket
+
+!!! info "Identifying `nhsdigital-sublicence-red`"
+    * **Specificity:** restricted sandboxes
+    * **VM directory:** `/genesandhealth/nhsdigital-sublicence-red/`
+    * **URL:** `gs://qmul-production-library-nhsdigital-sublicence-red` 
+
+This bucket is only available to hosting organisations (e.g. QMUL) which have signed their own sublicencing agreement with NHS England.  This bucket contains raw data from "NHS Digital", for example: HES data, IAPT data, National Diabetes Audit data.  Although access to the bucket is restricted, data processed from this bucket and no longer directly attributable to NHS England are made available to TRE users (e.g. Binary traits produced by the `BI_PY` pipeline include trait information _derived_ from "NHS Digital").
 
 ### The TRE's `(-)green` buckets
 
