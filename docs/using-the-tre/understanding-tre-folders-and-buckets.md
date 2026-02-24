@@ -49,21 +49,23 @@ When you log into your sandbox, your VM will have a number of buckets available 
 
 ### Identifying G&H GCS buckets
 
-G&H buckets can be identified into two way within the TRE --depending on the file operation you may need to use one or the other method of identifying the bucket.
+G&H buckets can be identified into two way within the TRE:
 
-!!! info "How to identify G&H GCS buckets"
     1. As a path on the virtual machine, for example `/genesandhealth/red/`.
     2. As a GCS bucket identified by a Uniform Resource Locator (URL), for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
 
-The bucket's URL will depend on the sandbox you use.  
+Depending on the file operation you may need to use one or the other method of identifying the bucket.
+
+!!! note
+    A bucket's URL may depend on the sandbox you use.  
 
 ## What's in the bucket?
 
 The _fundamental_ storage resources in the TRE are:
 
-* the `library-red` and `red` buckets containing respectively the G&H -omics data and your sandbox's data
 * your `home` directory
-* for a restricted set of users (who's hosting organisation has signed a sublicence with NHS England), the `nhsdigital-sublicence-red` folder
+* the `library-red` and `red` buckets containing respectively the G&H -omics data and **your** sandbox's data
+* the `nhsdigital-sublicence-red` folder (for a restricted set of users whose hosting organisation has signed a sublicence with NHS England)
 
 These exist alongside a number of other data resources as illustrated below.  Key data resources are then individually described.
 
@@ -72,15 +74,15 @@ These exist alongside a number of other data resources as illustrated below.  Ke
 ### Your `home` directory
 
 !!! info "Identifying `home`"
-    * **Specificity:** sandbox specific
+    * **Specificity:** sandbox and user specific
     * **VM directory:** `/home/ivm`
     * **URL:** Not applicable
 
-Available at `/home/ivm` in your sandbox, this is your personal folder. This folder can be used to store any files you wish to keep in your working directories. `/home/ivm` is a semi-fast (HDD) storage and as such is faster than other parts of the sandbox. It might be worth running some jobs here, especially if you are loading large amounts of data.
+Available at `/home/ivm` in your sandbox, this is your personal folder. This folder can be used to store any files you wish to keep in your working directories. `/home/ivm` is a semi-fast (HDD) storage and as such is faster than other parts of the sandbox. It might be worth transfering some data here from slower storage on the VM (e.g. the `/red/` bucket) especially if you scripts are processing large datasets.
 
 This folder should not be treated as a permanent/long-term storage so anything you want to keep should be moved to the `red` folder. However, snapshots of the disk/folder are taken on daily basis and are retained for a period of 7-days. In-case you accidently delete some useful data from the `/home/ivm` folder, you can reach out to the TRE Admins to check if it is possible to recover the disk to a previous snapshot date within last 7 days.
 
-This works as a standard Unix/Linux directory and is **not** a google GCS bucket. 
+This works as a standard Unix/Linux directory and is **not** a google GCS bucket (hence to absence of a URL for your `home` directory).  Your `home` directory can only be accessed by yourself or system administrators.
 
 ### The TRE's `(-)red` buckets 
 
