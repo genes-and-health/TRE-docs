@@ -1,15 +1,12 @@
-## Getting your results out {#getting-your-results-out}
+## What is allowed out (TRE data export policy)? {#what-is-allowed-out?}
 
-You might be wondering "How do I get my results of my analytical code out into the world so they can be used in publications or other studies?"
-
-### What is allowed out? {#what-is-allowed-out?}
-
-Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs etc are all usually fine. 
+Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommenda=ons in the Informa=on Commissioners Office
+document.
 
 !!! info "TRE data export policy"
     For more information, please read the [TRE data export policy document](./TRE-data-export-policy-v2_5.pdf){target="_blank"}
 
-### Requesting data {#requesting-data}
+## Requesting data {#requesting-data}
 
 You can make a request to download your results by right-clicking the file and selecting "request file download" for any file in:
 
@@ -39,13 +36,17 @@ This sends an automated email to the Genes & Health team. If you have not receiv
     
     This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  Please only use the compress option is your archive is large.
 
-    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux) guide for more details (external unverified link) 
+    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux){target="_blank"} guide for more details (external unverified link) 
 
 ### The 'Trying to request more than 1 file to download.' error
 
 ![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
 
-If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`) will cause the error, but `/genesandhealth/red/Joe_Blogs/my_requested_file.tar` will not.
+If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so, for example:
+* `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or
+* `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`)
+
+will cause the error, but `/genesandhealth/red/Joe_Blogs/my_requested_file.tar` will not.
 
 !!! note
     If you get this error, rename your file and/or copy it into a path with no spaces.  Alternatively, `tar` your files/paths with spaces to a single (space-free named) file.
