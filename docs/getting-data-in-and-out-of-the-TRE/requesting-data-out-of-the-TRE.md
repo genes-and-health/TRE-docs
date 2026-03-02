@@ -1,6 +1,8 @@
 ## What is allowed out (TRE data export policy)? {#what-is-allowed-out?}
 
-Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommenda=ons in the Informa=on Commissioners Office
+Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data.
+
+Summary statistics, graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommenda=ons in the Informa=on Commissioners Office
 document.
 
 !!! info "TRE data export policy"
