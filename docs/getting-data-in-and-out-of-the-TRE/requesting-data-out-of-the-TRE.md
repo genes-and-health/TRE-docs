@@ -43,6 +43,7 @@ This sends an automated email to the Genes & Health team. If you have not receiv
 ![The 'Trying to request more than 1 file' error message](../images/getting-data-in-and-out-of-the-TRE/more_than_1_file_error.png)
 
 If you get the 'Trying to request more than 1 file to download.' error, there is probably a space somewhere in your file path or filename.  This throws the systems so, for example:
+
 * `/genesandhealth/red/Joe Blogs/my_requested_file.tar` (space in `Joe Bloggs` element of the path) or
 * `/genesandhealth/red/Joe_Blogs/my requested file.tar` (spaces in `my requested file.tar`)
 
