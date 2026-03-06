@@ -1,8 +1,21 @@
 # Public data
 
 ## Available data
+as of 6 March 2026
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**44k high depth Twist exomes, Nature Genetics 2026 paper**
+Preprint
+Sites only vcf
+Single variant and burden test ExWAS analyses (regenie)
+REMETA compute-ref-ld files for meta-analysis using single variant results
+
+**55k high depth Twist exomes**
+Full data and analyses are currently only available to Consortium1 and academic-only approved projects
+Sites only vcf available
+
+**GWAS data - common variants - GSA chip with TOPMed-r3 imputation
+Regenie results for quantitative and binary traits
+
 
 ## Data location
 
