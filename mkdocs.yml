@@ -76,9 +76,14 @@ nav:
   - What genetic and health data are where?:
       - TRE identifiers: what-genetic-and-health-data-are-where/tre-identifiers.md
       - How are data linked?: what-genetic-and-health-data-are-where/how-are-data-linked.md
-      - Sources of "raw" health data: what-genetic-and-health-data-are-where/sources-of-raw-health-data.md
-      - Phenotype curation: what-genetic-and-health-data-are-where/phenotype-curation.md
-      - Bespoke phenotypes: what-genetic-and-health-data-are-where/bespoke-phenotypes.md
+      - Phenotype (health) data: what-genetic-and-health-data-are-where/phenotype-data.md
+          - Sources of "raw" health data: what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data.md
+          - Phenotype curation: what-genetic-and-health-data-are-where/phenotype-data/phenotype-curation.md
+          - Bespoke phenotypes: what-genetic-and-health-data-are-where/phenotype-data/bespoke-phenotypes.md
+      - Genomic data: what-genetic-and-health-data-are-where/phenotype-data.md
+          - Illumina Global Screening Array (GSA) data [51k GSA]: what-genetic-and-health-data-are-where/genetic-data/gsa-data.md
+          - High-depth exome sequencing [55k exome]: what-genetic-and-health-data-are-where/genetic-data/exome-data.md
+          - Public downloadable datasets and analyses: what-genetic-and-health-data-are-where/genetic-data/public-data.md
   - Getting data in and out of the TRE: 
       - How to get your data in: getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md
       - Requesting data out of the TRE: getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md
