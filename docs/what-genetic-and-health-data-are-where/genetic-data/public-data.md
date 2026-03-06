@@ -10,7 +10,7 @@ Single variant and burden test ExWAS analyses (regenie)
 REMETA compute-ref-ld files for meta-analysis using single variant results  
 
 **55k high depth Twist exomes**  
-Sites only vcf 
+Sites only vcf  
 ( Full data and analyses are currently only available to Consortium1 and academic-only approved projects )  
 
 
