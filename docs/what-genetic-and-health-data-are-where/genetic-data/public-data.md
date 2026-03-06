@@ -10,8 +10,9 @@ Single variant and burden test ExWAS analyses (regenie)
 REMETA compute-ref-ld files for meta-analysis using single variant results  
 
 **55k high depth Twist exomes**  
-Full data and analyses are currently only available to Consortium1 and academic-only approved projects  
-Sites only vcf available  
+Sites only vcf 
+( Full data and analyses are currently only available to Consortium1 and academic-only approved projects )  
+
 
 **GWAS data - common variants - 51k GSA chip with TOPMed-r3 imputation**  
 GWAS results (regenie) for quantitative and binary traits  
