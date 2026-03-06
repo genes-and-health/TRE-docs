@@ -13,7 +13,7 @@ REMETA compute-ref-ld files for meta-analysis using single variant results \
 Full data and analyses are currently only available to Consortium1 and academic-only approved projects \
 Sites only vcf available \
 
-**GWAS data - common variants - GSA chip with TOPMed-r3 imputation
+**GWAS data - common variants - 51k GSA chip with TOPMed-r3 imputation**
 Regenie results for quantitative and binary traits \
 
 
