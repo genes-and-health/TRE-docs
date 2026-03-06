@@ -15,7 +15,7 @@ gs://genesandhealth_publicdatasets/results_44k_ExWAS/
 Preprint  
 Sites only vcf  
 Single variant and burden test ExWAS analyses (regenie)  
-REMETA compute-ref-ld files for meta-analysis using single variant results  
+REMETA compute-ref-ld files for cross-cohort meta-analysis using single variant results  
 
 **55k high depth Twist exomes**  
 gs://genesandhealth_publicdatasets/results_55k_ExWAS/
