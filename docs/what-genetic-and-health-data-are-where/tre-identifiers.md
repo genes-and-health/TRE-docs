@@ -2,8 +2,8 @@
 
 There are two identifiers in the G&H TRE which allow data linkage (e.g. genomic data to binary traits):
 
-1. **PseudoNHS number:** these 64-character alpha-numeric strings serves as a unique identifier for individuals and are used for health data and phenotype identification.
-2. **OrageneID**: these 14-digit strings serves as an identifier for saliva tube DNA IDs.
+1. **PseudoNHS number:** these 64-character alpha-numeric strings serve as unique identifiers for individuals and are used for health data and phenotype identification.
+2. **OrageneID**: these 14-digit strings serve as identifiers for saliva samples (and by extension the extracted DNA information).
 
 !!! warning
     Multiple samples may be collected from the same individual, resulting in a one-to-many relationship between that PseudoNHS number and OrageneIDs.
