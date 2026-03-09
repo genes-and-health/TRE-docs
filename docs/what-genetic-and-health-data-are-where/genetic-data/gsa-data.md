@@ -26,7 +26,7 @@ regenie --step 2 --pfile
 gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/chrALLincX.dose.merged_INFO0.3_MAF0.00001_F_MISSING0.2_mac10_51176samples_topmedr3  
 ```
 
-A release of ~70k individuals is expected summer 2026.
+A release of ~80k individuals is expected summer 2026.
 
 
 ## Regenie GWAS results
