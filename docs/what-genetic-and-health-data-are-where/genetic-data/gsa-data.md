@@ -1,6 +1,6 @@
 # Illumina Global Screening Array (GSA) data
 
-## GSA specifications
+## GSA specifications and data
 
 Samples were run on the Illumina GSAv3EAMD chip, and imputed to TOPMed-r3. Full technical details are provided in the readme files with the datasets.
 
