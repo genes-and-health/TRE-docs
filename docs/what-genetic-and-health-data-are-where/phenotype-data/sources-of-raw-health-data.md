@@ -1,6 +1,6 @@
 # Sources of "raw" health data
 
-This page provides an overview of the "raw" health data available to Genes and Health TRE users. All files described below (with the exception of NHS Digital data) are located in `library-red`, please see the "[Understanding TRE folders and buckets](../using-the-tre/understanding-tre-folders-and-buckets.md)" section describing the TRE file system for further information.
+This page provides an overview of the "raw" health data available to Genes and Health TRE users. All files described below (with the exception of NHS Digital data) are located in `library-red`, please see the "[Understanding TRE folders and buckets](../../using-the-tre/understanding-tre-folders-and-buckets.md)" section describing the TRE file system for further information.
 
 !!! info
     File paths described below assume you are starting from **`/genesandhealth/library-red/genesandhealth/phenotypes_rawdata/`**.
