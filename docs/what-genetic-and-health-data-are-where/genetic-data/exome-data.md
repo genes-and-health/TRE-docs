@@ -41,22 +41,8 @@ see also below for public datasets
 
 ## Public available datasets
 
-downloadable here using gcloud CLI:  
-(individual level datafiles e.g. .loco.gz have been removed)  
-```bash
-gs://genesandhealth_publicdatasets/  
-```
-
-44k exomes (Feb 2023 callset):  
-gs://genesandhealth_publicdatasets/results_44k_ExWAS/  
-sites only vcf
-regenie single variant ExWAS and burden test ExWAS results
-remeta files for cross cohort meta-analysis
-
-55k exomes (May 2024 callset):  
-gs://genesandhealth_publicdatasets/results_55k_ExWAS/  
-sites only vcf
-(regenie results for 55k exomes are not yet released)
+sites only vcfs and ExWAS results:
+see page public-data.md
 
 
 
