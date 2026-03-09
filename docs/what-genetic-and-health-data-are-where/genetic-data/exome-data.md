@@ -42,7 +42,7 @@ see also below for public datasets
 ## Public available datasets
 
 sites only vcfs and ExWAS results:
-see page public-data.md
+see page [public-data.md](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/public-data/)
 
 
 
