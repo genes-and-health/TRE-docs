@@ -140,7 +140,7 @@ Please note that OCPS and ICD-10 codes can be identical, you may need to tweak t
     .sort(by="num_idvs_with_code", descending=True)
 )
 ```
-![bespoke_binary_trait_cohort_compiler output](../images/what-genetic-and-health-data-are-where/bespoke_traits_per_code.png)
+![bespoke_binary_trait_cohort_compiler output](../../images/what-genetic-and-health-data-are-where/bespoke_traits_per_code.png)
 
 ## Get cohort of volunteers for a list of codes
 
@@ -183,5 +183,5 @@ Beware that ICD-10/OPCS codes can vary in number of character, ie. this script d
 )
 ```
 
-![bespoke_binary_trait_cohort_compiler output](../images/what-genetic-and-health-data-are-where/bespoke_traits_per_ind.png)
+![bespoke_binary_trait_cohort_compiler output](../../images/what-genetic-and-health-data-are-where/bespoke_traits_per_ind.png)
 
