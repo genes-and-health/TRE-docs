@@ -21,11 +21,11 @@ this dataset is now deprecated, but is provided as it was used in the Hye In Kim
 see also below for public downloadable datasets
 
 For regenie step 1 use:  
-(for use with --bfile ; reminder to copy files to your /home/ivm first, too slow to run from standard storage) 
+(for use with --bfile ; reminder to copy files to your /home/ivm first, too slow to run from standard storage)  
 gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/release_2024-OCT-08/all_transcripts/chr1..22X_hard_filters.tidy.55273individuals.finalConsortium1_55k.alltranscriptsvep_indep-pairwise_1000_100_0.9.prune.in_extracted*  
 
 For regenie step 2 use:
-(for use with --pfile ; reminder to copy files to your /home/ivm first, too slow to run from standard storage) 
+(for use with --pfile ; reminder to copy files to your /home/ivm first, too slow to run from standard storage)  
 gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/release_2024-OCT-08/all_transcripts/chr1..22X_hard_filters.tidy.55273individuals.finalConsortium1_55k.alltranscriptsvep*
 
 
