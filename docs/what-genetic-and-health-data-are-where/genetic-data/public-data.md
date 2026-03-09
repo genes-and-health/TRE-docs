@@ -12,6 +12,7 @@ as of 6 March 2026
 
 ### 44k high depth Twist exomes, Nature Genetics 2026 paper
 `gs://genesandhealth_publicdatasets/results_44k_ExWAS/`  
+
 * Preprint  
 * Sites only vcf  
 * Single variant and burden test ExWAS analyses (regenie)  
@@ -19,9 +20,11 @@ as of 6 March 2026
 
 ### 55k high depth Twist exomes
 `gs://genesandhealth_publicdatasets/results_55k_ExWAS/`  
+
 * Sites only vcf  (full data and analyses are currently only available to Consortium1 and academic-only approved projects)  
 
 ### GWAS data - common variants - 51k GSA chip with TOPMed-r3 imputation
 `gs://genesandhealth_publicdatasets/results_GWAS_public/`  
+
 * GWAS results (regenie) for quantitative and binary traits  
 
