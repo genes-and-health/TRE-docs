@@ -18,11 +18,11 @@ regenie --step 1 --bfile gs://qmul-production-library-red/genesandhealth/GSAv3EA
 ```
 Files with HDS dosage are provided (not recommended for general use, too large and slow):  
 ```bash
-regenie --step 2 --pgen gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/chrALL.dose.merged_INFO0.7_MAF0.00001_F_MISSING0.1_mac20_autosomal_snps_withHDSdosage_51176samples_topmedr3  
+regenie --step 2 --pfile gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/chrALL.dose.merged_INFO0.7_MAF0.00001_F_MISSING0.1_mac20_autosomal_snps_withHDSdosage_51176samples_topmedr3  
 ```
 For general regenie use, these files are recommended:  
 ```bash
-regenie --step 2 --pgen 
+regenie --step 2 --pfile 
 gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/chrALLincX.dose.merged_INFO0.3_MAF0.00001_F_MISSING0.2_mac10_51176samples_topmedr3  
 ```
 
