@@ -12,6 +12,8 @@ Data are available in vcf format, and in regenie ready-formats alongside PC and 
     The following data are only available within TRE.
     
 ### 44k data
+
+#### callset:
 ```
 gs://qmul-production-library-exomes-library-red/callsets/2023_02_44kCallset/
 ```
@@ -20,7 +22,7 @@ This dataset is now deprecated, but is provided as it was used in the Hye In Kim
 
 ### 55k data
 
-#### crams
+#### crams:
 ```
 gs://qmul-production-library-exomes-library-red/crams/
 ```
@@ -54,14 +56,14 @@ gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/rele
 !!! warning
     The following data are only available within TRE.
 
-### 55k
+### 55k data
 
-#### crams
+#### crams:
 ```
 gs://qmul-production-library-consortiumpriorityperiod-red/crams/  
 ```
 
-#### Callset:
+#### callset:
 ```
 gs://qmul-production-library-consortiumpriorityperiod-red/Callsets/2024_05_55kCallset/  
 ```
@@ -74,7 +76,7 @@ gs://qmul-production-library-consortiumpriorityperiod-red/LOF_curation_GarvanIns
 !!! info
     The following data are available within TRE _or_ downloadable.
 
-### 55k sites only vcf:  
+### 55k site-only vcf:  
 ```
 gs://qmul-production-library-consortiumpriorityperiod-green/Callsets/2024_05_55kCallset/release_2024-OCT-08/all_transcripts/  
 ```
@@ -92,7 +94,7 @@ gs://qmul-production-library-consortiumpriorityperiod-green/LOF_curation_GarvanI
 
 ## Public available datasets
 
-sites only vcfs and ExWAS results: see page [Public data](./public-data.md)
+site-only vcfs and ExWAS results: see page [Public data](./public-data.md)
 
 
 
