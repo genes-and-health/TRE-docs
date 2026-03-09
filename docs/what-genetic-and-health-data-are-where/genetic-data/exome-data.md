@@ -8,8 +8,8 @@ Data are available in vcf format, and in regenie ready-formats alongside PC and 
 
 ## Access for academic-only approved projects  
 
-!!! info
-    These data are only available within TRE.
+!!! warning
+    The following data are only available within TRE.
     
 ### 44k data
 ```
@@ -51,8 +51,8 @@ gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/rele
 
 ## Access for Consortium1 partners  
 
-!!! info
-    These following data are only available within TRE.
+!!! warning
+    The following data are only available within TRE.
 
 ### 55k
 
