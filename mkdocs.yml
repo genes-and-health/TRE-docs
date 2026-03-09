@@ -80,9 +80,9 @@ nav:
           - Sources of "raw" health data: what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data.md
           - Phenotype curation: what-genetic-and-health-data-are-where/phenotype-data/phenotype-curation.md
           - Bespoke phenotypes: what-genetic-and-health-data-are-where/phenotype-data/bespoke-phenotypes.md
-      - Genomic data:
-          - Illumina Global Screening Array (GSA) data [51k GSA]: what-genetic-and-health-data-are-where/genetic-data/gsa-data.md
-          - High-depth exome sequencing [55k exome]: what-genetic-and-health-data-are-where/genetic-data/exome-data.md
+      - Genetic data:
+          - Illumina Global Screening Array (GSA) data: what-genetic-and-health-data-are-where/genetic-data/gsa-data.md
+          - High-depth exome sequencing: what-genetic-and-health-data-are-where/genetic-data/exome-data.md
           - Public downloadable datasets and analyses: what-genetic-and-health-data-are-where/genetic-data/public-data.md
   - Getting data in and out of the TRE: 
       - How to get your data in: getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md
