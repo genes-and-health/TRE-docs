@@ -2,6 +2,9 @@
 
 (newest shown first)
 
+## 2026-Mar-09 by DvH & SR  
+> Available phenotype (health) and genomic data now individually described with a new section for the latter: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/).
+
 ## 2025-Dec-11 by SR  
 > New ["Bespoke phenotyes"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/bespoke-phenotypes/) sub-section added to "What genetic and health data are where?" section of the TRE documentation.
 
