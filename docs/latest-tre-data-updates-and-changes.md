@@ -3,10 +3,10 @@
 (newest shown first)
 
 ## 2026-Mar-09 by DvH & SR  
-> Available phenotype (health) and genomic data now individually described with a new section for the latter: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/).
+> Available phenotype (health) and genetic data are now described within new subsections: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/gsa-data/).
 
 ## 2025-Dec-11 by SR  
-> New ["Bespoke phenotyes"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/bespoke-phenotypes/) sub-section added to "What genetic and health data are where?" section of the TRE documentation.
+> New ["Bespoke phenotyes"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/bespoke-phenotypes/) sub-section added to "What genetic and health data are where?" section of the TRE documentation.
 
 ## 2025-Dec-1 by MA  
 > Added **Thunar Defaults** that enable IconView, ListView, Reload and Launch Terminal buttons in file browser's toolbar by default.
