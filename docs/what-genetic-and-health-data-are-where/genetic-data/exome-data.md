@@ -1,20 +1,22 @@
 # High-depth exome sequencing
 
+## High-depth exome sequencing specifications and data  
 
-## 
-## High-depth exome sequencing specifications and data
+Samples were run on Twist (Clinical Research Alliance) exomes and 150bp PE Novaseq 6000 sequencing (at Broad Clinical Labs). Full technical details are provided in the readme files with the datasets.  
 
-Samples were run on Twist (Clinical Research Alliance) exomes and 150bp PE Novaseq 6000 sequencing (at Broad Clinical Labs). Full technical details are provided in the readme files with the datasets.
-
-Data is available in vcf format, and in regenie ready formats alongside PC and covariate files. A variety of other files are also provided.
+Data is available in vcf format, and in regenie ready formats alongside PC and covariate files. A variety of other files are also provided.  
 
 
 ## Access for academic-only approved projects  
 
-Available within TRE only,
+Available within TRE only,  
+44k data: gs://qmul-production-library-exomes-library-red/callsets/2023_02_44kCallset/  
+this dataset is now deprecated, but is provided as it was used in the Hye In Kim et al Nature Genetics 2026 paper
+
 55k crams: gs://qmul-production-library-exomes-library-red/crams/  
-gs://qmul-production-library-exomes-library-red/callsets/2023_02_44kCallset/
-gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/
+55k data: gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/  
+gs://qmul-production-library-exomes-library-red/callsets/2023_02_44kCallset/  
+
 (regenie results for 55k exomes are not yet released)
 
 see also below for public datasets
