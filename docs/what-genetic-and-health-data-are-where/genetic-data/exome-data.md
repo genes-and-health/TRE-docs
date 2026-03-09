@@ -9,12 +9,15 @@ Data is available in vcf format, and in regenie ready formats alongside PC and c
 
 ## Access for academic-only approved projects  
 
-Available within TRE only,  
+_Available within TRE only:_  
 44k data: gs://qmul-production-library-exomes-library-red/callsets/2023_02_44kCallset/  
 this dataset is now deprecated, but is provided as it was used in the Hye In Kim et al Nature Genetics 2026 paper
 
-55k crams: gs://qmul-production-library-exomes-library-red/crams/  
-55k data: gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/  
+55k crams:  
+gs://qmul-production-library-exomes-library-red/crams/  
+
+55k data:  
+gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/  
 
 (regenie results for 55k exomes are not yet released)
 
@@ -29,9 +32,30 @@ For regenie step 2 use:
 gs://qmul-production-library-exomes-library-red/callsets/2024_05_55kCallset/release_2024-OCT-08/all_transcripts/chr1..22X_hard_filters.tidy.55273individuals.finalConsortium1_55k.alltranscriptsvep*
 
 
-## Access for Consortium1 partners
+## Access for Consortium1 partners  
 
-_in progress_
+_Available within TRE only:_  
+55k crams:  
+gs://qmul-production-library-consortiumpriorityperiod-red/crams/  
+
+55k data:  
+gs://qmul-production-library-consortiumpriorityperiod-red/Callsets/2024_05_55kCallset/  
+
+Manual annotations of LoF variants (including individual level data):  
+gs://qmul-production-library-consortiumpriorityperiod-red/LOF_curation_GarvanInstitute/  
+
+
+_within TRE or downloadable:_
+55k sites only vcf:  
+gs://qmul-production-library-consortiumpriorityperiod-green/Callsets/2024_05_55kCallset/release_2024-OCT-08/all_transcripts/  
+
+55k ExWAS Results & remeta files:
+gs://qmul-production-library-consortiumpriorityperiod-green/Callsets/2024_05_55kCallset/release_2025-JUN-16_ExWAS/  
+gs://qmul-production-library-consortiumpriorityperiod-green/Callsets/2024_05_55kCallset/  
+
+Manual annotations of LoF variants:  
+gs://qmul-production-library-consortiumpriorityperiod-green/LOF_curation_GarvanInstitute/  
+
 
 see also below for public datasets
 
