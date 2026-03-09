@@ -26,8 +26,8 @@ A release of ~70k individuals is expected summer 2026.
 
 ## Regenie GWAS results
 
-gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/3digitICD10/
-gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/customphenotypes/
+gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/3digitICD10/  
+gs://qmul-production-library-red/genesandhealth/GSAv3EAMD/Jan2024_51k_TOPMED-r3_Imputation_b38/customphenotypes/  
 
 downloadable:  
 gs://genesandhealth_publicdatasets/results_GWAS_public/  
