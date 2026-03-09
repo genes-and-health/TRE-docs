@@ -2,7 +2,7 @@
 
 ## High-depth exome sequencing specifications and data  
 
-Samples were run on Twist (Clinical Research Alliance) exomes and 150bp PE Novaseq 6000 sequencing (at Broad Clinical Labs). Full technical details are provided in the readme files with the datasets.  
+Samples were run on Twist (Clinical Research Alliance) exomes and 150bp PE Novaseq 6000 sequencing (at Broad Clinical Labs). Reads were mapped to hg38 using BWA-MEM. Sequencing delivered crams with >85% bases at >20X target coverage. Full technical details are provided in the readme files with the datasets.  
 
 Data are available in vcf format, and in regenie ready-formats alongside PC and covariate files. A variety of other files are also provided.  
 
