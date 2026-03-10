@@ -51,8 +51,8 @@ When you log into your sandbox, your VM will have a number of buckets available 
 
 G&H buckets can be identified into two way within the TRE:
 
-    1. As a path on the virtual machine, for example `/genesandhealth/red/`.
-    2. As a GCS bucket identified by a Uniform Resource Locator (URL), for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
+1. As a **linux path on the virtual machine**, for example `/genesandhealth/red/`.
+2. As a **GCS bucket** identified by a **Uniform Resource Locator (URL)**, for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
 
 Depending on the file operation you may need to use one or the other method of identifying the bucket.
 
