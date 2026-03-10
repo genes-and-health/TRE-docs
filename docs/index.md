@@ -1,9 +1,9 @@
-<!-- GitHub does not understand the {:target="_blank"} tag, but Material for MkDocs does! --> 
+<!-- GitHub does not understand the {target="_blank"} tag, but Material for MkDocs does! --> 
 <!-- ![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg) -->
-[![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg)](https://www.genesandhealth.org/){:target="_blank"}
+[![Genes and Health logo](images/branding/genes-and-health-logo-blue-green.svg)](https://www.genesandhealth.org/){target="_blank"}
 
 # TRE Documentation
-[![Zenondo DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252){:target="_blank"}
+[![Zenondo DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252){target="_blank"}
 
 If you are new to the Genes & Health TRE, we recommend reading the following TRE doc sections:
 
