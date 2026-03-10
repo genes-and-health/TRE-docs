@@ -2,7 +2,7 @@
 
 (newest shown first)
 
-## 2026-Mar-09 by DvH & SR  
+## 2026-Mar-09 by DVH & SR  
 > Available phenotype (health) and genetic data are now described within new subsections: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/gsa-data/).
 
 ## 2025-Dec-11 by SR  
