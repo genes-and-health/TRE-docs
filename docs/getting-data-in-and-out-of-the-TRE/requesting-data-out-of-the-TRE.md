@@ -12,10 +12,10 @@ There is no problem with text files being very large.
 !!! tip "To speed review of your request"
     Please make it easier for the reviewer:
     
-        - single datafile types (e.g. just `pdf`, not both `pdf` and `png`)
-        - one huge datafile is easier than lots of datafiles
-        - all files in one flat folder structure not lots of subfolders
-        - **Please `.zip` or `.tar.gz` files before requesting data out.**
+        * single datafile types (e.g. just `pdf`, not both `pdf` and `png`)
+        * one huge datafile is easier than lots of datafiles
+        * all files in one flat folder structure not lots of subfolders
+        * **Please `.zip` or `.tar.gz` files before requesting data out.**
     
     !!! warning
         In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
