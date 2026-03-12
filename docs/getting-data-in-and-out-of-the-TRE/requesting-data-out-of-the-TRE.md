@@ -20,9 +20,8 @@ To speed review of your request, please make it easier for the reviewer:
 * one huge datafile is easier than lots of datafiles
 * all files in one flat folder structure not lots of subfolders
 * **Please `.zip` or `.tar.gz` files before requesting data out**
-.
 
-!!! tip "Creating a `.zip` or `.tar.gz` file
+!!! tip "Creating a `.zip` or `.tar.gz` file"
     If you are trying to download multiple files, please do not make loads of per-file download requests.  Rather, create a tar archive containing the requested files.  If the files are large, you may wish to compress the tar file.
 
     For example, if you wanted to compress a folder into a .tar.gz file:
