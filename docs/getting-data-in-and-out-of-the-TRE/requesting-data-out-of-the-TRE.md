@@ -9,16 +9,15 @@ To facilitate and expedite the processing of export requests, keep files **simpl
 
 There is no problem with text files being very large. 
 
-!!! tip "To speed review of your request"
-    Please make it easier for the reviewer:
+To speed review of your request, please make it easier for the reviewer:
 
 * single datafile types (e.g. just `pdf`, not both `pdf` and `png`)
 * one huge datafile is easier than lots of datafiles
 * all files in one flat folder structure not lots of subfolders
 * **Please `.zip` or `.tar.gz` files before requesting data out.**
-    
-    !!! warning
-        In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
+
+!!! warning
+    In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
 
 Summary statistics (e.g. by gene, variant or disease), graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommendations in the Information Commissioners Office
 document.
