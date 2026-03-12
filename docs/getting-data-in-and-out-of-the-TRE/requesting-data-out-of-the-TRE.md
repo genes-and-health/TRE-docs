@@ -2,12 +2,17 @@
 
 **Individual level data are not allowed out of the TRE.** Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data.
 
-To facilitate and expedite the processing of export requests, keep files **simple**, e.g. text only (can be `.txt`, `.csv`, `.tsv`, etc.) or figures (e.g. `.pdf`, `.png`, `.jpg`). Powerpoint, Excel, Word formats are also OK. 
+Please keep files **simple**, e.g. text only (can be `.txt`, `.csv`, `.tsv`, etc.) or figures (e.g. `.pdf`, `.png`, `.jpg`). Powerpoint, Excel, Word formats are also OK. 
 
 !!! failure "Binary files"
-    We cannot review binary files, nor R, parquet, feather, arrow etc. - **these will be rejected**. 
+    We cannot review binary files, nor R, parquet, feather, arrow etc. - **these will be rejected**.
+    
+    !!! warning
+        In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
 
 There is no problem with text files being very large. 
+
+### Facilitating download approvals
 
 To speed review of your request, please make it easier for the reviewer:
 
@@ -16,8 +21,20 @@ To speed review of your request, please make it easier for the reviewer:
 * all files in one flat folder structure not lots of subfolders
 * **Please `.zip` or `.tar.gz` files before requesting data out.**
 
-!!! warning
-    In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
+!!! tip "Creating a `.zip` or `.tar.gz` file
+    If you are trying to download multiple files, please do not make loads of per-file download requests.  Rather, create a tar archive containing the requested files.  If the files are large, you may wish to compress the tar file.
+
+    For example, if you wanted to compress a folder into a .tar.gz file:
+
+    ```
+    tar -czvf backup.tar.gz /home/ivm/directory-of-files-to-export
+    ```
+    
+    This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  Please only use the compress option is your archive is large.
+
+    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux){target="_blank"} guide for more details (external unverified link) 
+
+### Summary statistics
 
 Summary statistics (e.g. by gene, variant or disease), graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommendations in the Information Commissioners Office
 document.
@@ -43,19 +60,6 @@ This sends an automated email to the Genes & Health team. If you have not receiv
 
 !!! info
     Please note that you can make one data out request per week.
-
-!!! tip
-    If you are trying to download multiple files, please do not make loads of per-file download requests.  Rather, create a tar archive containing the requested files.  If the files are large, you may wish to compress the tar file.
-
-    For example, if you wanted to compress a folder into a .tar.gz file:
-
-    ```
-    tar -czvf backup.tar.gz /home/ivm/directory-of-files-to-export
-    ```
-    
-    This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  Please only use the compress option is your archive is large.
-
-    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux){target="_blank"} guide for more details (external unverified link) 
 
 ### The 'Trying to request more than 1 file to download.' error
 
