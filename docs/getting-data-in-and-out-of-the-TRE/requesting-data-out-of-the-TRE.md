@@ -12,7 +12,7 @@ Please keep files **simple**, e.g. text only (can be `.txt`, `.csv`, `.tsv`, etc
 
 There is no problem with text files being very large. 
 
-!!! info "TRE data export policy"
+!!! info "TRE data export policy for small numbers/counts of individuals"
     For more information, please read the [**TRE data export policy document**](./TRE-data-export-policy-v2_5.pdf){target="_blank"}
 
 ### Facilitating download approvals
