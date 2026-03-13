@@ -12,6 +12,9 @@ Please keep files **simple**, e.g. text only (can be `.txt`, `.csv`, `.tsv`, etc
 
 There is no problem with text files being very large. 
 
+!!! info "TRE data export policy"
+    For more information, please read the [**TRE data export policy document**](./TRE-data-export-policy-v2_5.pdf){target="_blank"}
+
 ### Facilitating download approvals
 
 To speed review of your request, please make it easier for the reviewer:
@@ -38,9 +41,6 @@ To speed review of your request, please make it easier for the reviewer:
 
 Summary statistics (e.g. by gene, variant or disease), graphs, etc. are all usually fine.  For small numbers of individuals, we will apply inference control (as advised by the Information Commissioners Office).  Specifically, counts between 1 – 5 have the individual number replaced by the text “1to5”.  We will also follow other recommendations in the Information Commissioners Office
 document.
-
-!!! info "TRE data export policy"
-    For more information, please read the [TRE data export policy document](./TRE-data-export-policy-v2_5.pdf){target="_blank"}
 
 ## Requesting data {#requesting-data}
 
