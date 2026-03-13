@@ -122,7 +122,7 @@ Login with your [username@genesandhealth.qmul.ac.uk](mailto:username@genesandhea
 From a multicore Linux server, and especially if you are trying to transfer lots of data/files
 
 ```
-gcloud storage buckets list gs://qmul-sandbox-production-library-green/
+gcloud storage ls gs://qmul-production-sandbox-2_greendownloads/  
 ```
 
 To transfer file use:
