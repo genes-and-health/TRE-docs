@@ -25,7 +25,7 @@ To speed review of your request, please make it easier for the review system:
 * **Please `.zip` or `.tar.gz` files before requesting data out**
 
 !!! tip "Creating a `.zip` or `.tar.gz` file"
-    If you are trying to download multiple files, please do not make loads of per-file download requests.  Rather, create a tar archive containing the requested files.  If the files are large, you may wish to compress the tar file.
+    If you are trying to download multiple files, please do not make loads of per-file download requests.  Rather, create a tar archive containing the requested files.  If the files are large (total >10Mb), please compress the tar file.
 
     For example, if you wanted to compress a folder into a .tar.gz file:
 
@@ -33,9 +33,9 @@ To speed review of your request, please make it easier for the review system:
     tar -czvf backup.tar.gz /home/ivm/directory-of-files-to-export
     ```
     
-    This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  Please only use the compress option is your archive is large.
+    This says: “Create (c option) a gzip-compressed (z option) archive of my `directory-of-files-to-export` folder, show me what’s happening (v option), and name it (f option) `backup.tar.gz`.”  
 
-    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux){target="_blank"} guide for more details (external unverified link) 
+    See the [How to Tar a File in Linux: Commands, Examples & Best Practices](https://www.strongdm.com/blog/how-to-tar-a-file-in-linux){target="_blank"} guide for more details (external unverified link)  
 
 ### Summary statistics
 
