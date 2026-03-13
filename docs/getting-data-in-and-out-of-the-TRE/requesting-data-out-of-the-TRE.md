@@ -17,7 +17,7 @@ There is no problem with text files being very large.
 
 ### Facilitating download approvals
 
-To speed review of your request, please make it easier for the reviewer:
+To speed review of your request, please make it easier for the review system:
 
 * single datafile types (e.g. just `pdf`, not both `pdf` and `png`)
 * one huge datafile is easier than lots of datafiles
