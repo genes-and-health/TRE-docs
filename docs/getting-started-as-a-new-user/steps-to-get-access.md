@@ -2,7 +2,7 @@
 
 ## Steps to get access 
 
-* All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/TRE_User_Code_of_Conduct_5.0.pdf){:target="_blank"}.  
+* All users must read and accept the [Genes & Health Code of Conduct](../images/getting-started-as-a-new-user/GNH_TRE_Code_of_Conduct_v5_1.pdf){:target="_blank"}.  
 * All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127){:target="_blank"} information governance training before they're granted access to Genes and Health data.
 
 ### Academic users
