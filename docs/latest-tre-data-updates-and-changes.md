@@ -3,7 +3,7 @@
 (newest shown first)
 
 ## 2026-Mar-20 by SR  
-> Latest TRE Code of Conduct (v5.1) uploaded and link to it updated.
+> Latest [Genes & Health TRE Code of Conduct (v5.1)](./images/getting-started-as-a-new-user/GNH_TRE_User_Code_of_Conduct_v5_1.pdf){:target="_blank"} uploaded; link to Code of Conduct updated.
 
 ## 2026-Mar-09 by DVH & SR  
 > Available phenotype (health) and genetic data are now described within new subsections: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/gsa-data/).
