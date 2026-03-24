@@ -14,7 +14,7 @@ Researchers must enter the secure environment of a TRE to work on the data insid
 
 ## How secure is the Genes & Health TRE?
 
-In our case, many NHS Providers will not supply clinical data (including sensitive personal data) for G&H participants unless G&H can house the data in an ISO27001-certified TRE.  ISO 27001 is an internationally recognized standard that specifies the requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
+NHS providers will not supply clinical data (including sensitive personal data) for G&H participants unless G&H can house the data in an ISO27001-certified TRE.  ISO 27001 is an internationally recognized standard that specifies the requirements for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
 
 The Genes & Health TRE is ISO/IEC 27001:2022 certified and NHS Data Security and Protection Toolkit registered (version 7; 30/06/2025)
 
@@ -24,9 +24,9 @@ The Genes & Health TRE is ISO/IEC 27001:2022 certified and NHS Data Security and
 
 ## Is a TRE the same as a Secure Data Environment?
 
-Probably! Many think of Trusted Research Environments and Secure Data Environments (SDEs) as synonymous, some don't (although the differences are subtle).  NHS England's secure data and research analysis platform was rebranded from "NHS Digital’s Trusted Research Environment (TRE) service for England" to the NHS Secure Data Environment (SDE) (itself a part of an interoperable NHS Research Secure Data Environment network). 
+Probably. Many think of Trusted Research Environments and Secure Data Environments (SDEs) as synonymous, some don't (although the differences, if any, are subtle).  NHS England's secure data and research analysis platform was rebranded from "NHS Digital’s Trusted Research Environment (TRE) service for England" to the "NHS Secure Data Environment (SDE)" (itself a part of an interoperable NHS Research Secure Data Environment network). 
 
-At present, the Genes & Health  secure data and research analysis platform remains identified as a TRE.
+At present, the Genes & Health secure data and research analysis platform remains identified as a TRE.
 
 !!! tip
     It's probably not worth worrying about such things anyway.
