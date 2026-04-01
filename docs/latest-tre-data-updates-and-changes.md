@@ -2,6 +2,11 @@
 
 (newest shown first)
 
+## 2026-Apr-01 by MA
+> Tranisitioned from lifesciences API (deprecated) to Google Batch, the cromwell/pipelines now use Batch for processing WDL jobs.
+> Updated G&H logo colors on main frontend header for better visibility.
+> Updated G&H frontend gui to look more modern: e.g. rounded corners, better aesthetics, dark-mode switch.
+
 ## 2026-Mar-20 by SR  
 > Latest [Genes & Health TRE Code of Conduct (v5.1)](./images/getting-started-as-a-new-user/GNH_TRE_User_Code_of_Conduct_v5_1.pdf){:target="_blank"} uploaded; link to Code of Conduct updated.
 
