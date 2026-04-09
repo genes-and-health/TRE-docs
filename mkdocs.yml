@@ -62,7 +62,7 @@ nav:
   - Getting started as a new user:
       - What is a TRE?: getting-started-as-a-new-user/what-is-a-tre.md
       - Getting access and setting up a profile: getting-started-as-a-new-user/steps-to-get-access.md
-      - Sandboxes and what each sandbox can access: sandboxes-and-what-each-sandbox-can-access.md
+      - Sandboxes and what each sandbox can access: getting-started-as-a-new-user/sandboxes-and-what-each-sandbox-can-access.md
       - Starting the TRE: getting-started-as-a-new-user/starting-the-tre.md
       - Shutting down the TRE: getting-started-as-a-new-user/shutting-down-the-tre.md
       - Choosing your required virtual machine configuration: getting-started-as-a-new-user/choosing-your-virtual-machine.md
