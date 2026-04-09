@@ -2,8 +2,10 @@
 
 You will likely only have access to one sandbox for your project/institution/company and this is likely to be shared with some other users. However, some users will have access to multiple sandboxes. These can be viewed and switched between in the top right menu.
 
+![Access to multiple sandboxes in the TRE](../images/getting-started-as-a-new-user/multiple-sandboxes.png)
+
 !!! warning "WDL pipeline use"
-    Access to Workflow Description Language (WDL) high-performance compute (HPC) pipelines has been switched off on all sandboxes due to lack of use / interest (and to prevent accidental misuse and consequent exhorbitant costs).
+    Access to Workflow Description Language (WDL) high-performance compute (HPC) pipelines has been switched off on all sandboxes due to lack of use / interest (and to prevent accidental misuse and consequent exhorbitant costs).<p>
     Access can be re-established on demand by contacting the G&H helpdesk at the Sanger (hgi@sanger.ac.uk) however, we will enable pipelines for sandboxes only if you provide your own Google Cloud Billing Account. In this case, you are responsible for any excess or inadvertent spend.
 
 | Sandbox number | Sandbox name | Industry Consortium1 buckets access | NHS England data bucket access | WDL Pipelines access | GCP Billing Account code and name |
