@@ -2,6 +2,9 @@
 
 (newest shown first)
 
+## 2026-Apr-04 by MA, SR & DVH
+> Access to HPC WDL pipielines has been switched off for all sandboxes due to lack of use / interest (and to prevent accidental misuse and consequent exhorbitant costs); access can be re-established on demand by contacting the G&H helpdesk at the Sanger (hgi@sanger.ac.uk). 
+
 ## 2026-Apr-01 by MA
 > Tranisitioned from lifesciences API (deprecated) to Google Batch, the cromwell/pipelines now use Batch for processing WDL jobs.
 > Updated G&H logo colors on main frontend header for better visibility.
