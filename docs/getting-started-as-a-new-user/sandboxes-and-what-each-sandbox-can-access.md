@@ -21,7 +21,7 @@ You will likely only have access to one sandbox for your project/institution/com
 | 9 | Maze Therapeutics | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
 | 10 | Novo Nordisk | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
 | 11 | University of Exeter | no | yes | no | begins 01241… “G+H Billing Account”  |
-| 12 | _Was Genomics PLC_ | no | no | no | _project has finished, deleted_ |
+| _12_ | _Was 'Genomics PLC'_ | _no_ | _no_ | _no_ | _project has finished, deleted_ |
 | 13 | AstraZeneca | yes | no | yes | begins 01650… “Billing for astrazeneca.net”  |
 | 14 | External Academic, Consortium Access | yes | no | no | begins 01936… “QMUL \- Genes & Health \- CTS” |
 | 15 | 5 Prime Sciences | no | no | no | begins 01483… “Brent’s Billing Account”  |
