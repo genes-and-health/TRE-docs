@@ -2,27 +2,27 @@
 
 (newest shown first)
 
-## 2026-Apr-09 by MA, SR & DVH
+## 2026-APR-09 by MA, SR & DVH
 > Access to HPC WDL pipielines has been switched off for all sandboxes due to lack of use / interest (and to prevent accidental misuse and consequent exhorbitant costs); access can be re-established on demand by contacting the G&H helpdesk at the Sanger (hgi@sanger.ac.uk). 
 
-## 2026-Apr-01 by MA
+## 2026-APR-01 by MA
 > Tranisitioned from lifesciences API (deprecated) to Google Batch, the cromwell/pipelines now use Batch for processing WDL jobs.
 > Updated G&H logo colors on main frontend header for better visibility.
 > Updated G&H frontend gui to look more modern: e.g. rounded corners, better aesthetics, dark-mode switch.
 
-## 2026-Mar-20 by SR  
+## 2026-MAR-20 by SR  
 > Latest [Genes & Health TRE Code of Conduct (v5.1)](./images/getting-started-as-a-new-user/GNH_TRE_User_Code_of_Conduct_v5_1.pdf){:target="_blank"} uploaded; link to Code of Conduct updated.
 
-## 2026-Mar-09 by DVH & SR  
+## 2026-MAR-09 by DVH & SR  
 > Available phenotype (health) and genetic data are now described within new subsections: ["Phenotype data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/sources-of-raw-health-data/) and ["Genetic data"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/genetic-data/gsa-data/).
 
-## 2025-Dec-11 by SR  
+## 2025-DEC-11 by SR  
 > New ["Bespoke phenotyes"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/bespoke-phenotypes/) sub-section added to "What genetic and health data are where?" section of the TRE documentation.
 
-## 2025-Dec-1 by MA  
+## 2025-DEC-01 by MA  
 > Added **Thunar Defaults** that enable IconView, ListView, Reload and Launch Terminal buttons in file browser's toolbar by default.
 
-## 2025-Nov-14 by MA  
+## 2025-NOV-14 by MA  
 > Added **Search Packages** search bar in module-manager, users can now search for modules by package name.
 
 ## 2025-OCT-23 by MA  
