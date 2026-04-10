@@ -10,7 +10,7 @@ You will likely only have access to one sandbox for your project/institution/com
 
 | Sandbox number | Sandbox name | Industry Consortium1 buckets access | NHS England data bucket access | WDL Pipelines access | GCP Billing Account code and name |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| 1 | QMUL \+ WSI Core Team | yes | yes | yes | begins 01E01… “Sanger Main Billing Account” |
+| 1 | QMUL \+ WSI Core Team | yes | yes | no | begins 01E01… “Sanger Main Billing Account” |
 | 2 | External Academics | no | no | no  | begins 01936… “QMUL \- Genes & Health \- CTS” |
 | 3 | GSK | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
 | 4 | BMS | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
@@ -21,9 +21,9 @@ You will likely only have access to one sandbox for your project/institution/com
 | 9 | Maze Therapeutics | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
 | 10 | Novo Nordisk | yes | no | no | begins 01E01… “Sanger Main Billing Account” |
 | 11 | University of Exeter | no | yes | no | begins 01241… “G+H Billing Account”  |
-| _12_ | _Was 'Genomics PLC'_ | _no_ | _no_ | _no_ | _project has finished, deleted_ |
-| 13 | AstraZeneca | yes | no | yes | begins 01650… “Billing for astrazeneca.net”  |
+| _12_ | _Genomics PLC_ | _no_ | _no_ | _no_ | _project has finished, deleted_ |
+| 13 | AstraZeneca | yes | no | no | begins 01650… “Billing for astrazeneca.net”  |
 | 14 | External Academic, Consortium Access | yes | no | no | begins 01936… “QMUL \- Genes & Health \- CTS” |
 | 15 | 5 Prime Sciences | no | no | no | begins 01483… “Brent’s Billing Account”  |
-| 16 | S00073 Levine Glastonbury | no | No  | no | 0167D “UCL\_Adam\_Levine” |
+| 16 | S00073 Levine Glastonbury | no | no  | no | 0167D “UCL\_Adam\_Levine” |
 | 17 | Academic, NHS Digital access | no | yes | no | begins 01936… “QMUL \- Genes & Health \- CTS” |
