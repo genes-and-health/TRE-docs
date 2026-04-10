@@ -4,6 +4,6 @@ Users and Administrators can get help in a number of ways:
 
 1. Genes & Health Industry Consortium users \- use the Microsoft Teams chat.
 2. Genes & Health Internal users \- use the Microsoft Teams chat or email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk).
-3. Software issues \- raise a ticket by emailing [hgi@sanger.ac.uk](mailto:hgi@sanger.ac.uk) with your request.
-4. Documentation \- if you have a question about the documentation, or would like to suggest an improvement, please email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk).
-5. Better still, improve the documentation yourself after reading the ["How to update this documentation"](./how-tos/how-to-update-this-documentation.md) section!
+3. Genes & Health External (and non-industry consortium) users \- email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk).
+4. Software / access / storage issues \- raise a ticket by emailing [hgi@sanger.ac.uk](mailto:hgi@sanger.ac.uk) with your request.
+5. Documentation \- if you have a question about the documentation, or would like to suggest an improvement, please email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk). Better still, improve the documentation yourself after reading the ["How to update this documentation"](./how-tos/how-to-update-this-documentation.md) section!
