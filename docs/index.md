@@ -5,7 +5,7 @@
 # TRE Documentation
 [![Zenondo DOI](https://zenodo.org/badge/1058829966.svg)](https://doi.org/10.5281/zenodo.17160252){target="_blank"}
 
-If you are new to the Genes & Health TRE, we recommend reading the following TRE doc sections:
+If you are new to the Genes & Health TRE, we recommend reading the following TRE documentation sections:
 
 1. [Getting started as a new user](getting-started-as-a-new-user/what-is-a-tre.md)
 2. [Using the TRE](using-the-tre/understanding-tre-folders-and-buckets.md)
@@ -17,11 +17,9 @@ If you are looking for help with a specific issue, please use the :octicons-sear
 
 G&H TRE users are encouraged to contribute to the documentation and participate in its upkeep and improvement.  If you would like to contribute, please read the [How to update this documentation](how-tos/how-to-update-this-documentation.md) section and email [genesandhealth@qmul.ac.uk](mailto:genesandhealth@qmul.ac.uk) with your GitHub handle to be added to the list of contributors.
 
-This is our new v3 documentation, live from 18 Sept 2025. We hope you like it.
+The Genes & Health study website can be found at [www.genesandhealth.org](https://www.genesandhealth.org/){target="_blank"}.
 
-
-If you are after the Genes & Health website, it can be found at [www.genesandhealth.org](https://www.genesandhealth.org/){target="_blank"}.
-
+_This is version 3 of the Genes & Health documentation, live from 18 Sept 2025, and supercedes any previous versions._
 <!--
 <div class="grid cards">
   
