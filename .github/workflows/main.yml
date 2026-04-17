@@ -1,4 +1,5 @@
 name: ci 
+
 on:
   push:
     branches:
@@ -6,11 +7,13 @@ on:
       - main
 permissions:
   contents: write
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         # with:
         #   ref: gh-pages
       - name: Configure Git Credentials
@@ -21,7 +24,7 @@ jobs:
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v5
+      - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache 
