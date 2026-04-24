@@ -2,13 +2,15 @@
 
 **Individual level data are not allowed out of the TRE.** Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data.
 
+Users making deliberate (or several inadvertent) attempts to export individual level data will have TRE access permanently terminated.
+
 Please keep files **simple**, e.g. text only (can be `.txt`, `.csv`, `.tsv`, etc.) or figures (e.g. `.pdf`, `.png`, `.jpg`). Powerpoint, Excel, Word formats are also OK. 
 
 !!! failure "Binary files"
-    We cannot review binary files, nor R, parquet, feather, arrow etc. - **these will be rejected**.
+    We cannot review binary files, nor rds, parquet, feather, arrow etc. - **these will be rejected**.
     
     !!! warning
-        In code files there can sometimes be unreadable data (e.g. hexadec image in .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
+        In code files there can sometimes be unreadable data e.g. hexadec image in .ipynb notebooks or unexpected individual level data (again especially .ipynb notebooks). These will result in download request rejection. Please check your code files are text only.
 
 There is no problem with text files being very large. 
 
