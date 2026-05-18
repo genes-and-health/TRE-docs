@@ -30,24 +30,20 @@ For refreshes before 2023_01 data are further split by Clinical Commissioning Gr
 #### Data files
 Each folder contains the following files, all containing raw, individual level data, with one row per observation.
 
+!!! warning
+     The notion that `ord` files contains repeat ("ordinary") presctiptions and that `stmt` files contains acute (short term medications and treatments) is **incorrect**. The former contain any script issue to a pharmacy (i.e. prescribed by the GP) and the latter merely records that a medication was added to an individual's record (but not the issue of such a medication which is shown in `.ord` files).  You are likely to only need the `.ord` files.
+
 * **medications\_ord** for normal repeat prescriptions  
-    
 * **medications\_stmt** for short term medications and treatments  
-    
 * **observations** for diagnoses, blood test results, clinical measurements, other tests and referrals  
-    
 * **procedure\_req** for health and medication reviews, screening and vaccination records
 
 All files contain:
 
 * A pseudoNHSnumber for linkage across all health data, and to the Genes and Health OrageneID number.  
-    
 * SNOMED concept ID for describing diagnoses, procedures, and prescriptions (useful for generating binary traits)  
-    
 * value results (for test results e.g. creatinine, height etc where applicable and useful for generating quantitative traits)  
-    
 * value units (where applicable) describing the unit of measurement (e.g. meters or cm for height)  
-    
 * Clinical effective date (usually when the SNOMED code was entered into the patient record)
 
 ### Bradford
