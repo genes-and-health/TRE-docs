@@ -31,10 +31,10 @@ For refreshes before 2023_01 data are further split by Clinical Commissioning Gr
 Each folder contains the following files, all containing raw, individual level data, with one row per observation.
 
 !!! warning
-     The notion that `ord` files contains repeat ("ordinary") presctiptions and that `stmt` files contains acute (short term medications and treatments) is **incorrect**. The former contain any script issue to a pharmacy (i.e. prescribed by the GP) and the latter merely records that a medication was added to an individual's record (but not the issue of such a medication which is shown in `.ord` files).  You are likely to only need the `.ord` files.
+     The notion that `ord` files contains repeat ("ordinary") presctiptions and that `stmt` files contains acute (short term medications and treatments) is **incorrect**.<p>The former contain any script issue to a pharmacy (i.e. prescribed by the GP) and the latter merely records that a medication was added to an individual's record (but not the issue of such a medication which is shown in `.ord` files).  You are likely to only need the `.ord` files.
 
-* **medications\_ord** for normal repeat prescriptions  
-* **medications\_stmt** for short term medications and treatments  
+* **medications\_ord** medication request issued by prescriber to pharmacy  
+* **medications\_stmt** medication added to patient's EHR
 * **observations** for diagnoses, blood test results, clinical measurements, other tests and referrals  
 * **procedure\_req** for health and medication reviews, screening and vaccination records
 
