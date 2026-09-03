@@ -43,7 +43,6 @@ You can upload data to your Sandbox specific green-uploads bucket, which you can
 | Sandbox  11 \- University of Exter | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-11\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-11_greenuploads) |
 | Sandbox 13 \- AstraZeneca | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-13\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-13_greenuploads) |
 | Sandbox 14 \- External Academic, Consortium access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-14\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-14_greenuploads) |
-| Sandbox 15 \- 5 Prime Sciences | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-15\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-15_greenuploads) |
 | Sandbox 16 \- Sandbox 16 | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-16\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-16_greenuploads) |
 | Sandbox 17 \- Academic, NHS Digital access | [https://console.cloud.google.com/storage/browser/qmul-production-sandbox-17\_greenuploads](https://console.cloud.google.com/storage/browser/qmul-production-sandbox-17_greenuploads) |
 
