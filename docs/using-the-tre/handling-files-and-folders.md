@@ -5,7 +5,7 @@ There are four main scenarios to consider when using files and folders in the G&
 1. Moving files or folders from a GCS bucket to your `home` directory
 2. Moving files or folder from your `home` directory to the `red` GCS bucket
 3. Creating/renaming/moving/deleting files and folders in the `red` GCS bucket
-4. Creating/renaming/moving/deleting files and folders your `home` directory
+4. Creating/renaming/moving/deleting files and folders within your `home` directory
 
 All operations mentioned in items 1, 2 and 3 above can be completed using `gcloud storage` commands.  All operations in item 4 can be performed using standard unix/linux shell commands (e.g. `cp`, `mv`, `rm`, `mkdir`) or the File Manager GUI.
 
