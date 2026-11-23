@@ -133,14 +133,16 @@ This bucket is only available to hosting organisations (e.g. QMUL) which have si
 
 ### The TRE's `(-)green` buckets
 
+!!! warning
+    We removed sandbox specific `green` buckets in Nov 2026. These are no longer available. If you encounter a `/genesandhealth/green` directory in you sandbox, *please do not use it* and assume it and its content may be deleted at any time.
+
 #### The `green_upload and green_download` buckets
 
-We removed sandbox specific `green` buckets in Nov 2026. These are no longer available.
+
 
 Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.
 
 Users can download from `/genesandhealth/green_downloads` from the internet/external systems. Data is placed in here for large files for approved data out requests. Files are deleted after 30 days.
-
 
 
 
