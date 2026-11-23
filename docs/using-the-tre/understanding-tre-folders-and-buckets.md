@@ -144,18 +144,7 @@ This mirrors much of the public datasets Genes&Health bucket which is not itself
     
 Access as for `consortiumpriorityperiod-library-red` but with external download enabled. Used for results. **Not for individual level data**.
 
-### Other folders
-
-<!--
-I don't think this directory exists anymore (if it ever did)
-#### `shared`
-
-You can 'publish' a file to `/genesandhealth/shared` by right clicking on it, and selected 'Share with all users'
-
-`/genesandhealth/shared` is available to all other users within the TRE.
--->
-
-### Public datasets bucket
+## Public datasets bucket
 
 We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.  Access to the public datasets is described in the [Public data](../what-genetic-and-health-data-are-where/genetic-data/public-data.md) section of this documentation.
 
@@ -166,6 +155,8 @@ We also maintain a bucket for public datasets. This is not visible from within t
 
 Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`.
 
+<!--
+currently deprecated
 #### `pipelines`
 
 This is the output of the high performance compute WDL Pipelines, that the ivm/pipeline writes to. Users of the sandbox have read only access.
@@ -173,6 +164,7 @@ This is the output of the high performance compute WDL Pipelines, that the ivm/p
 Specific to each sandbox.
 
 This is slower storage of large capacity (\>8 PiB @ Feb 2022\)
+-->
 
 ## Backups
 
