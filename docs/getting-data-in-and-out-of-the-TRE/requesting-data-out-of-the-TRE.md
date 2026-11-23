@@ -60,7 +60,7 @@ or
 /genesandhealth/pipeline
 ```
 
-!["Request file download" option on right-click](../images/getting-data-in-and-out-of-the-TRE/Request_file_download.png)
+!["Request file download" option on right-click](../images/getting-data-in-and-out-of-the-TRE/Request_file_download.png){ width="50%" }
 
 This sends an automated email to the Genes & Health team. If you have not received a response within 72h please feel free to chase us up. The team will copy the data to `green_downloads` (for users of your sandbox only. For small files, your data may be directly emailed (to the email address used to make the request).
 
