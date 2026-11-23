@@ -1,65 +1,8 @@
 # Understanding TRE folders and buckets
 
-To undertand how Genes & Health data are stored and how to use the data resources, we need to understand **Google Cloud Storage (GCS) buckets**.  GCS buckets are used for all data storage in the TRE with the exception of user data in the `home` directory.
+To understand how Genes&Health data are stored and how to use these data resources, as well as where user data are stored, you need to understand **Google Cloud Storage (GCS) buckets**.  GCS buckets are used for all data storage in the TRE with the exception of user data in their `home` directory. The Google Cloud Storage (GCS) buckets are explained in the [Understanding Google Cloud Storage buckets](./understanding-google-cloud-storage-buckets.md) section of this documentation.
 
-!!! note "`home` directory"
-    The `home` directory is associated with the Gene & Health virtual machines rather than GCS --so it is (and behaves as) a standard unix directory.  Files and directories in `home` are created, manipulated and deleted as in Unix/Linux.
-    !!! info "`home` directory location"
-        **Your** `home` directory is a sub-directory of `/home/`: **`/home/ivm/`** --you have read/write access to **`/home/ivm/`** but read-only access to `/home/`
-    !!! success "`home` directory persistence"
-        The `home` directory is **persistent**. When you close a virtual machine, the `home` directory will not be deleted and will present the same way next time you spin a new virtual machine --regardless of the configuration of the new VM.
-        <p>
-        Although the `home` directory is persistent, its use is recommended only for development purposes; we advise ensuring critical code and data are regularly copied to the `red` folder.
-
-## Understanding Google Cloud Storage (GCS) buckets
-
-Genes & Health TRE data are stored in Google Cloud Storage (GCS) buckets (on a server located in London, UK). Buckets are the basic data container for GCS and everything stored in GCS must be contained in a bucket.
-
-Each of the G&H TRE top level storage domains are separate GCS buckets, for example, `library-red`, `red` and `exomes-library-red`. Files in a G&H TRE bucket are just that. The bucket contains a collection of files (or "objects" in GCS-speak).
-
-### GCS buckets and directories
-
-The concept of a physical directory does not rightly exist in GCS. Rather, directories are “simulated” by GCS from the files name. This can be illustrated as follows:  
-
-![the GCS bucket structure](../images/using-the-tre/bucket-structure.png)
-
-In the image above, the filenames are `A/Obj1.txt`, `A/Obj2.txt`, `B/Obj3.txt`, `B/D/Obj3.txt` and `B/D/Obj4.txt` and the files simply exists a files in the bucket with those filenames. Bucket folders `A/`, `B/` its sub-folder `D/` are simulated. This means that if you were to delete `A/Obj1.txt` and `A/Obj2.txt`, the simulated folder `A/` would disappear (there would no longer be any files justifying its existence). However, if you were to delete file `B/Obj3.txt`, both simulated folder `B/` its sub-folder `D/` would remains as they would be accounted for by filenames `B/D/Obj3.txt` and `B/D/Obj4.txt`.
-
-If you were to delete all the .txt files in the bucket, all of the directories would disappear but the bucket would remain in existance.
-
-## G&H's `root` directory (`/`)
-
-The G&H data buckets reside in the `genesandhealth` folder of the VM's root directory (`/`).  The `home` directory also resides within the VM's root directory.  
-
-!!! warning
-    Other directories under the VM's root directory are system, software and VM related folders and not of use to TRE users.
-
-![the TRE root directrory](../images/using-the-tre/the-tre-root-directory-with-highlights.png)
-
-## G&H data buckets
-
-G&H data buckets can be found in the `/genesandhealth` directory.  Depending on your sandbox, you will see different buckets (essentially behaving as directories) in your `/genesandhealth` directory
-
-!!! info "Bucket nomenclature"
-    G&H buckets are named `red` and `green` or suffixed with `-red` or `-green` to indicate the type of data stored in them: `red` is for potentially sensitive data that **should not be shared outside your sandbox**; `green` is for data that can be shared with the outside world. 
-    
-When you log into your sandbox, your VM will have a number of buckets available for you.  Here are some of the buckets (top level "directories") in the G&H sandbox-1 TRE:
-
-![the sandbox-1 genesandhealth directory](../images/using-the-tre/the-genesandhealth-directory.png)
-
-### Identifying G&H GCS buckets
-
-G&H buckets can be identified into two way within the TRE:
-
-1. As a **linux path on the virtual machine**, for example `/genesandhealth/red/`.
-2. As a **GCS bucket** identified by a **Uniform Resource Locator (URL)**, for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
-
-Depending on the file operation you may need to use one or the other method of identifying the bucket.
-
-!!! note
-    A bucket's URL may depend on the sandbox you use.  
-
-## What's in the bucket?
+## What's in the bucket? Where is my `home` directory?
 
 The _fundamental_ storage resources in the TRE are:
 
@@ -70,6 +13,31 @@ The _fundamental_ storage resources in the TRE are:
 These exist alongside a number of other data resources as illustrated below.  Key data resources are then individually described.
 
 ![a diagram showing TRE buckets and their relationships](../images/using-the-tre/sandbox-diagram.png){ width = 80% }
+
+!!! note "`home` directory"
+    The `home` directory is associated with the Gene & Health virtual machines rather than GCS --so it is (and behaves as) a standard unix directory.  Files and directories in `home` are created, manipulated and deleted as in Unix/Linux.
+    !!! info "`home` directory location"
+        **Your** `home` directory is a sub-directory of `/home/`: **`/home/ivm/`** --you have read/write access to **`/home/ivm/`** but read-only access to `/home/`. The `home` directory is **persistent**. When you close a virtual machine, the `home` directory will not be deleted and will present the same way next time you spin a new virtual machine --regardless of the configuration of the new VM.
+        <p>
+        Although the `home` directory is persistent, its use is recommended only for development purposes; we advise ensuring critical code and data are regularly copied to the `red` folder.
+        
+## Identifying G&H GCS buckets
+
+G&H buckets can be identified into two way within the TRE:
+
+1. As a **linux path on the virtual machine**, for example `/genesandhealth/red/`.
+2. As a **GCS bucket** identified by a **Uniform Resource Locator (URL)**, for example `gs://qmul-production-sandbox-1-red/` (which identifies the `red` bucket on sanddox-1).
+
+Depending on the file operation you may need to use one or the other method of identifying the bucket.
+
+!!! note
+    A bucket's URL may depend on the sandbox you use.
+
+## Red vs Green
+
+The `red` directory or directories suffixed with `-red` (e.g. `library-red`) contain patient-level data. **Their content should never be shared externally.** Folders with `green` within the folder name contain data which may be visible from or exportable to TRE-external users.  As such, `green` folder should **never contain patient level data**.  Your `home` directory should be thought of as a `red` directory.      
+
+## The TRE's `(-)red` buckets (including the non-GCS `home` directory) 
 
 ### Your `home` directory
 
@@ -82,11 +50,9 @@ Available at `/home/ivm` in your sandbox, this is your personal folder. This fol
 
 This folder should not be treated as a permanent/long-term storage so anything you want to keep should be moved to the `red` folder. However, snapshots of the disk/folder are taken on daily basis and are retained for a period of 7-days. In-case you accidently delete some useful data from the `/home/ivm` folder, you can reach out to the TRE Admins to check if it is possible to recover the disk to a previous snapshot date within last 7 days.
 
-This works as a standard Unix/Linux directory and is **not** a google GCS bucket (hence to absence of a URL for your `home` directory).  Your `home` directory can only be accessed by yourself or system administrators.
+This works as a standard Unix/Linux directory and is **not** a google GCS bucket (hence the absence of a URL for your `home` directory).  Your `home` directory can only be accessed by yourself or system administrators.
 
-### The TRE's `(-)red` buckets 
-
-#### The `library-red` bucket \[read-only for users\]
+### The `library-red` bucket \[read-only for users\]
 
 !!! info "Identifying `library-red`"
     * **Specificity:** common to all sandboxes
@@ -95,7 +61,7 @@ This works as a standard Unix/Linux directory and is **not** a google GCS bucket
 
 This is a **read-only** folder that is common to all TRE users. `library-red` stores curated and raw data necessary for your analyses; it includes several subfolders, each designated for specific data types and purposes.  For technical reasons, the data subfolders are actually in `/genesandhealth/library-red/genesandhealth/`.  Folder names are (relatively) self-explanatory and all of them should contain a `README` type file explaining their content.  If you find a folder without a `README` file, please contact the Genes and Health team for more information on its intended use.
 
-#### The `red` bucket
+### The `red` bucket
 
 !!! info "Identifying `red`"
     * **Specificity:** sandbox specific
@@ -113,16 +79,16 @@ The `red` bucket is a read-write bucket for TRE users to store scripts and data 
     
     **Exercise caution when moving or deleting files in the `red` bucket.**
 
-#### The `consortiumpriorityperiod-library-red` bucket
+### The `consortiumpriorityperiod-library-red` bucket
 
 !!! info "Identifying `consortiumpriorityperiod-library-red`"
     * **Specificity:** restricted sandboxes
     * **VM directory:** `/genesandhealth/consortiumpriorityperiod-library-red/`
     * **URL:** `gs://qmul-production-library-consortiumpriorityperiod-red` 
 
-This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during priority access periods (e.g. exome sequencing). Specifically, read access is only for sandboxes 1, 3, 4, 5, 6, 7, 9, 10, 13.
+This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during priority access periods. Specifically, read access is only for sandboxes 1, 3, 4, 5, 6, 7, 9, 10, 13.
 
-#### The `nhsdigital-sublicence-red` bucket
+### The `nhsdigital-sublicence-red` bucket
 
 !!! info "Identifying `nhsdigital-sublicence-red`"
     * **Specificity:** restricted sandboxes
@@ -131,28 +97,34 @@ This bucket is only available to the core Genes & Health team, and to companies 
 
 This bucket is only available to hosting organisations (e.g. QMUL) which have signed their own sublicencing agreement with NHS England.  This bucket contains raw data from "NHS Digital", for example: HES data, IAPT data, National Diabetes Audit data.  Although access to the bucket is restricted, data processed from this bucket and no longer directly attributable to NHS England are made available to TRE users (e.g. Binary traits produced by the `BI_PY` pipeline include trait information _derived_ from "NHS Digital").
 
-### The TRE's `(-)green` buckets
+## The TRE's `green` buckets
 
 !!! warning
-    We removed sandbox specific `green` buckets in Nov 2026. These are no longer available. If you encounter a `/genesandhealth/green` directory in you sandbox, *please do not use it* and assume it and its content may be deleted at any time.
+    We removed sandbox specific `green` buckets in Nov 2026. These are no longer available. If you encounter a `/genesandhealth/green` directory in you sandbox, **please do not use it** and assume it and its content may be deleted at any time.
 
-#### The `green_upload and green_download` buckets
+### The `green_upload` bucket
+
+Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](../getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
 
 !!! info "Identifying `green_upload`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
-    * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greenuploads`
+    * **URL:** `gs://qmul-production-sandbox-XX_greenuploads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
     
-Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](/docs/getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
+Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will use the web-based Google Cloud console to upload your file in preparation for transfer to the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greenuploads`.
+    
+### The `green_download` bucket
+
+Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](../getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
 
 !!! info "Identifying `green_download`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
-    * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`
+    * **URL:** `gs://qmul-production-sandbox-XX_greendownloads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
 
-Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](/docs/getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
+Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file in preparation for from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`.
 
-#### The `consortiumpriorityperiod-library-green` bucket
+### The `consortiumpriorityperiod-library-green` bucket
 
 !!! info "Identifying `consortiumpriorityperiod-library-green`"
     * **Specificity:** restricted sandboxes
@@ -172,7 +144,7 @@ You can 'publish' a file to `/genesandhealth/shared` by right clicking on it, an
 `/genesandhealth/shared` is available to all other users within the TRE.
 -->
 
-#### Public datasets bucket
+### Public datasets bucket
 
 We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.
 
