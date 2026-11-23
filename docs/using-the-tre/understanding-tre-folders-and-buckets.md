@@ -100,7 +100,7 @@ This is a **read-only** folder that is common to all TRE users. `library-red` st
 !!! info "Identifying `red`"
     * **Specificity:** sandbox specific
     * **VM directory:** `/genesandhealth/red/`
-    * **URL:** `gs://qmul-production-sandbox-XX-red/` (replace `XX` with your sandbox number) 
+    * **URL:** `gs://qmul-production-sandbox-XX-red/` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
 
 The `red` bucket is a read-write bucket for TRE users to store scripts and data safely (with versioning back-up) and to permit the sharing of these between project collaborators. It is the only GCS bucket **directly** accessible to non-admin TRE users.  You are advised to create your own subfolder in `red`; user folders are typically created as FirstnameLastname (so `/genesandhealth/red/JoeBloggs/`) although some iconoclasts have broken this convention.
 
@@ -172,6 +172,17 @@ You can 'publish' a file to `/genesandhealth/shared` by right clicking on it, an
 `/genesandhealth/shared` is available to all other users within the TRE.
 -->
 
+#### Public datasets bucket
+
+We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.
+
+!!! info "Identifying `genesandhealth_publicdatasets`"
+    * **Specificity:** public
+    * **VM directory:** Not applicable
+    * **URL:** `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`
+
+Access to the public datasets is described in the [Public data](what-genetic-and-health-data-are-where/genetic-data/public-data.md) section of this documentation.
+
 #### `pipelines`
 
 This is the output of the high performance compute WDL Pipelines, that the ivm/pipeline writes to. Users of the sandbox have read only access.
@@ -179,14 +190,6 @@ This is the output of the high performance compute WDL Pipelines, that the ivm/p
 Specific to each sandbox.
 
 This is slower storage of large capacity (\>8 PiB @ Feb 2022\)
-
-#### Public datasets bucket
-
-We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.
-
-```
-gs://genesandhealth\_publicdatasets/
-```
 
 ## Backups
 
