@@ -15,7 +15,7 @@ To undertand how Genes & Health data are stored and how to use the data resource
 
 Genes & Health TRE data are stored in Google Cloud Storage (GCS) buckets (on a server located in London, UK). Buckets are the basic data container for GCS and everything stored in GCS must be contained in a bucket.
 
-Each of the G&H TRE top level storage domains are separate GCS buckets, for example, `library-red`, `red`, `green` and `exomes-library-red`. Files in a G&H TRE bucket are just that. The bucket contains a collection of files (or "objects" in GCS-speak).
+Each of the G&H TRE top level storage domains are separate GCS buckets, for example, `library-red`, `red` and `exomes-library-red`. Files in a G&H TRE bucket are just that. The bucket contains a collection of files (or "objects" in GCS-speak).
 
 ### GCS buckets and directories
 
@@ -133,19 +133,16 @@ This bucket is only available to hosting organisations (e.g. QMUL) which have si
 
 ### The TRE's `(-)green` buckets
 
-#### The `green` bucket \[read-only for users\]
+#### The `green_upload and green_download` buckets
 
-!!! info "Identifying `green`"
-    * **Specificity:** sandbox specific
-    * **VM directory:** `/genesandhealth/green/`
-    * **URL:** `gs://fg-qmul-production-sandbox-XX\_green/` (replace `XX` with your sandbox number) 
+We removed sandbox specific `green` buckets in Nov 2026. These are no longer available.
 
-`green` can be read by other users in the sandbox. Users cannot write to `green`.  Users can download from `/genesandhealth/green` from the internet/external systems.
+Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.
 
-The admin team will review data-out requests, and either place the data in `green` (for specific users to download, short term) or `library-green` (long term availability for all users to download).
+Users can download from `/genesandhealth/green_downloads` from the internet/external systems. Data is placed in here for large files for approved data out requests. Files are deleted after 30 days.
 
-!!! warning "Data in `green`"
-    Data in each sandbox's `green` will be deleted approximately 1 week after creation. `green` is not intended for long term storage, only data transfer/download.
+
+
 
 #### The `consortiumpriorityperiod-library-green` bucket
 
