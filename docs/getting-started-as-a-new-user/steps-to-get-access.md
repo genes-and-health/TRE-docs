@@ -6,7 +6,7 @@
 * All users must complete the [NHS Data Security Awareness Level 1](http://portal.e-lfh.org.uk/Component/Details/544127){:target="_blank"} information governance training before they're granted access to Genes and Health data.
 
 ### Academic users
-Users with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034).  
+Users with an academic email address (.ac.uk) or an NHS email address (@nhs.net) can register for the Data Security Awareness training at [e-learning for Healthcare](https://portal.e-lfh.org.uk/Component/Details/544034){target="_blank"}.  
 
 !!! note "Wellcome Sanger Institute employees"  
 	If you are a [Wellcome Sanger Institute](https://www.sanger.ac.uk/){:target="_blank"} employee, please use ODS Code **8J947** and select **Genome Research Limited** from the list of organisations when you register for the course.  
