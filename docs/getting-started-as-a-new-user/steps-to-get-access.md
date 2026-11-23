@@ -16,7 +16,7 @@ Company (non-academic) users can register (£30 by credit card) for the training
 
 After completing the NHS Data Security Awareness Level 1 training course, users upload their certificate to Genes & Health new user registration system in redcap. Please contact Genes and Health at genesandhealth@qmul.ac.uk for instructions on how to access the new user registration system.  Usually you will have been sent a redcap link directly.
 
-These steps are important for our  [NHS Digital Data Security and Protection Toolkit](https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/data-security-and-protection-toolkit){:target="_blank"}, and [ISO 27001](https://www.iso.org/standard/27001){:target="_blank"} accreditation.  
+These steps are important for our  [NHS Digital Data Security and Protection Toolkit](https://digital.nhs.uk/cyber-and-data-security/cyber-security-services/data-security-and-protection-toolkit){:target="_blank"}, and [ISO 27001](https://www.iso.org/standard/27001){:target="_blank"} accreditation.  
 !!! warning "Caution"  
 	Users who have not completed the Data Security Awareness training or attested to the Code of Conduct are subject to having their account deactivated.
 
