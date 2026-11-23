@@ -138,13 +138,19 @@ This bucket is only available to hosting organisations (e.g. QMUL) which have si
 
 #### The `green_upload and green_download` buckets
 
+!!! info "Identifying `green_upload`"
+    * **Specificity:** sandbox specific
+    * **VM directory:** Not applicable
+    * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greenuploads`
+    
+Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
 
+!!! info "Identifying `green_download`"
+    * **Specificity:** sandbox specific
+    * **VM directory:** Not applicable
+    * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`
 
-Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.
-
-Users can download from `/genesandhealth/green_downloads` from the internet/external systems. Data is placed in here for large files for approved data out requests. Files are deleted after 30 days.
-
-
+Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
 
 #### The `consortiumpriorityperiod-library-green` bucket
 
@@ -157,11 +163,14 @@ Access as for `consortiumpriorityperiod-library-red` but with external download 
 
 ### Other folders
 
+<!--
+I don't think this directory exists anymore (if it ever did)
 #### `shared`
 
 You can 'publish' a file to `/genesandhealth/shared` by right clicking on it, and selected 'Share with all users'
 
 `/genesandhealth/shared` is available to all other users within the TRE.
+-->
 
 #### `pipelines`
 
@@ -185,23 +194,23 @@ Data in selected folders is protected from accidental deletion or alteration by 
 
 ### Shared folders
 
-/genesandhealth/library-red , 1 version, 30 days
+`/genesandhealth/library-red` , 1 version, 30 days
 
-/genesandhealth/consortiumpriorityperiod-library-red, 1 version, 30 days
+`/genesandhealth/consortiumpriorityperiod-library-red`, 1 version, 30 days
 
-/genesandhealth/nhsdigital-sublicence-red, 1 version, 30 days
+`/genesandhealth/nhsdigital-sublicence-red`, 1 version, 30 days
 
 ### Sandbox-specific folders
 
-/genesandhealth/red, 2 versions, 30 days
+`/genesandhealth/red`, 2 versions, 30 days
 
-/genesandhealth/pipeline, 1 version, 7 days
+`/genesandhealth/pipeline`, 1 version, 7 days
 
 We will keep either a) the prior version of the data prior to a change (or deletion) by a user for 30 days , or b) two prior versions of the data prior to a change (or deletion) by a user for 30 days.
 
 This allows the prior version to be restored, in the event of accidental erasure or deletion.
 
-To say this another way: imagine you accidentally alter or delete a file in the `/genesandhealth/library-red` folder. Then the version of the file prior to its removal can be restored, for up to 30 days after the change. In the sandbox-specific /genesandhealth/red folder, two prior versions of the file will be kept, each for 30 days after the change leading to its creation.
+To say this another way: imagine you accidentally alter or delete a file in the `/genesandhealth/library-red` folder. Then the version of the file prior to its removal can be restored, for up to 30 days after the change. In the sandbox-specific `/genesandhealth/red` folder, two prior versions of the file will be kept, each for 30 days after the change leading to its creation.
 
 Restoring a prior version of an accidentally removed or modified file requires utilities only available to administrators: if you need this, contact us by writing to <hgi@sanger.ac.uk>, including the word "Urgent" in the subject header.
 
