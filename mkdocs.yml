@@ -68,6 +68,7 @@ nav:
       - Choosing your required virtual machine configuration: getting-started-as-a-new-user/choosing-your-virtual-machine.md
       - How to increase your disk size: getting-started-as-a-new-user/how-to-increase-your-disk-size.md
   - Using the TRE:
+      - Understanding Google Cloud Storage (GCS) buckets: using-the-tre/understanding-google-cloud-storage-buckets.md
       - Understanding TRE folders and buckets: using-the-tre/understanding-tre-folders-and-buckets.md
       - Handling files and folders: using-the-tre/handling-files-and-folders.md
       - Software, modules, requesting installs: using-the-tre/software,-modules,-requesting-installs.md
