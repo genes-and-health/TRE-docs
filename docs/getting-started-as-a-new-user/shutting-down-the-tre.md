@@ -4,7 +4,7 @@ Your virtual machine will keep running for 24 hours if you are doing nothing. Yo
 !!! warning
     Keeping machines running in the background costs money. So please actively shutdown (if you do not need the extra 48h) using the "Off" button on the bottom of the side menu or the `Shut down` option in the `Applications` menu.
 
-## The 'Off' button in the TRE tools side tab
+## The 'Off' (⏻) button in the TRE tools side tab
 
 !!! tip
     You may need to click on the ">" chevron tab on the left of the TRE window to see this.
