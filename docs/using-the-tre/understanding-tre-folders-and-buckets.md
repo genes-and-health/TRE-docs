@@ -12,7 +12,7 @@ The _fundamental_ storage resources in the TRE are:
 
 These exist alongside a number of other data resources as illustrated below.  Key data resources are then individually described.
 
-![a diagram showing TRE buckets and their relationships](../images/using-the-tre/sandbox-diagram.png){ width = 80% }
+![a diagram showing TRE buckets and their relationships](../images/using-the-tre/sandbox-diagram-no-shared.png){ width = 80% }
 
 !!! note "`home` directory"
     The `home` directory is associated with the Gene & Health virtual machines rather than GCS --so it is (and behaves as) a standard unix directory.  Files and directories in `home` are created, manipulated and deleted as in Unix/Linux.
