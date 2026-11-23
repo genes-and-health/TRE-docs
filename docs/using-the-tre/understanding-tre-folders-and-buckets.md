@@ -143,14 +143,14 @@ This bucket is only available to hosting organisations (e.g. QMUL) which have si
     * **VM directory:** Not applicable
     * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greenuploads`
     
-Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
+Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](/docs/getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
 
 !!! info "Identifying `green_download`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
     * **URL:** `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`
 
-Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
+Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](/docs/getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
 
 #### The `consortiumpriorityperiod-library-green` bucket
 
