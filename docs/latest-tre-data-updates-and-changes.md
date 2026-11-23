@@ -4,7 +4,7 @@
 
 ## 2026-NOV-23 by SR, DVH and TRE ADMIN
 
-> Sandbox `green` folders now deprecated and in the process of being deleted. Significant updates to the ["Using the TRE"](https://genes-and-health.github.io/TRE-docs/what-genetic-and-health-data-are-where/phenotype-data/bespoke-phenotypes/) section.
+> Sandbox `green` folders now deprecated and in the process of being deleted. Significant updates to the [Using the TRE](https://genes-and-health.github.io/TRE-docs/using-the-tre/understanding-google-cloud-storage-buckets/) section.
 
 ## 2026-APR-09 by MA, SR & DVH
 > Access to HPC WDL pipielines has been switched off for all sandboxes due to lack of use / interest (and to prevent accidental misuse and consequent exhorbitant costs); access can be re-established on demand by contacting the G&H helpdesk at the Sanger (hgi@sanger.ac.uk). 
