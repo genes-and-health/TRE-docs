@@ -26,6 +26,6 @@ If you want to go a specific sandbox, you can use the following URL table:
 | Sandbox 13 \- AstraZeneca | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-13/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-13/vm) |
 | Sandbox 14 \- External Academic, Consortium access | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-14/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-14/vm) |
 | Sandbox 15 \- 5 Prime Sciences | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-15/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-15/vm) |
-| Sandbox 16 \- Sandbox 16 | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-16/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-16/vm) |
+| Sandbox 16 \- S00073 Levine Glastonbury | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-16/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-16/vm) |
 | Sandbox 17 \- Academic, NHS Digital access | [https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-17/vm](https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-17/vm) |
 
