@@ -35,7 +35,9 @@ Depending on the file operation you may need to use one or the other method of i
 
 ## Red vs Green
 
-The `red` directory or directories suffixed with `-red` (e.g. `library-red`) contain patient-level data. **Their content should never be shared externally.** Folders with `green` within the folder name contain data which may be visible from or exportable to TRE-external users.  As such, `green` folder should **never contain patient level data**.  Your `home` directory should be thought of as a `red` directory.      
+The `red` directory or directories suffixed with `-red` (e.g. `library-red`) contain patient-level data. **Their content should never be shared externally.** Your `home` directory should be thought of as a `red` directory.
+
+Folders with `green` within the folder name contain data which may be visible from or exportable to TRE-external users.  As such, `green` folder should **never contain patient level data**.    
 
 ## The TRE's `(-)red` buckets (including the non-GCS `home` directory) 
 
@@ -56,7 +58,7 @@ This works as a standard Unix/Linux directory and is **not** a google GCS bucket
 
 !!! info "Identifying `library-red`"
     * **Specificity:** common to all sandboxes
-    * **VM directory:** `/genesandhealth/library-red/`
+    * **VM directory:** `/genesandhealth/library-red/` (data in `/genesandhealth/library-red/genesandhealth/`)
     * **URL:** `gs://qmul-production-library-red/`
 
 This is a **read-only** folder that is common to all TRE users. `library-red` stores curated and raw data necessary for your analyses; it includes several subfolders, each designated for specific data types and purposes.  For technical reasons, the data subfolders are actually in `/genesandhealth/library-red/genesandhealth/`.  Folder names are (relatively) self-explanatory and all of them should contain a `README` type file explaining their content.  If you find a folder without a `README` file, please contact the Genes and Health team for more information on its intended use.
@@ -115,14 +117,23 @@ Although the URL is specified for this GCS bucket, you are unlikely to use this 
     
 ### The `green_download` bucket
 
-Users can download data from `greendownloads` (or `library-green`) using linux command line `gcloud storage`.  The process is explained in the [Requesting data out of the TRE](../getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
+Users can download data out of the TRE from `greendownloads` using linux command line `gcloud storage` or a Google Cloud web-based console.  The process is explained in the [Requesting data out of the TRE](../getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
 
 !!! info "Identifying `green_download`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
     * **URL:** `gs://qmul-production-sandbox-XX_greendownloads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
 
-Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file in preparation for from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`.
+Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`.
+
+### The `library-green` bucket
+
+!!! info "Identifying `library-green`"
+    * **Specificity:** common to all sandboxes
+    * **VM directory:** `/genesandhealth/library-green/`
+    * **URL:** `gs://qmul-production-library-green`
+
+This mirrors much of the public datasets Genes&Health bucket which is not itself visible from within the TRE. The public datasets bucket is described below.
 
 ### The `consortiumpriorityperiod-library-green` bucket
 
@@ -146,14 +157,14 @@ You can 'publish' a file to `/genesandhealth/shared` by right clicking on it, an
 
 ### Public datasets bucket
 
-We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.
+We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `/genesandhealth/library-green/` within the TRE.  Access to the public datasets is described in the [Public data](../what-genetic-and-health-data-are-where/genetic-data/public-data.md) section of this documentation.
 
 !!! info "Identifying `genesandhealth_publicdatasets`"
     * **Specificity:** public
     * **VM directory:** Not applicable
-    * **URL:** `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`
+    * **URL:** gs://genesandhealth_publicdatasets/
 
-Access to the public datasets is described in the [Public data](what-genetic-and-health-data-are-where/genetic-data/public-data.md) section of this documentation.
+Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`.
 
 #### `pipelines`
 
