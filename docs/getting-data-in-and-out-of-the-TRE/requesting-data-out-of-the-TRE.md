@@ -1,6 +1,9 @@
 ## What is allowed out (TRE data export policy)? {#what-is-allowed-out?}
 
-**Individual level data are not allowed out of the TRE.** Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data.
+**Individual level data are not allowed out of the TRE.** Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. 
+
+!!! notice "Genes&Health export policy"
+    Please make sure that you have read and understood the Genes&Health [data export policy](TRE-data-export-policy-v2_5.pdf) before you make a data export request.
 
 !!! danger "Individual level exports"
     Users making deliberate (or several inadvertent) attempts to export individual level data will have TRE access **permanently terminated**.
