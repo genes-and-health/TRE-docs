@@ -35,9 +35,9 @@ Depending on the file operation you may need to use one or the other method of i
 
 ## Red vs Green
 
-The `red` directory or directories suffixed with `-red` (e.g. `library-red`) contain patient-level data. **Their content should never be shared externally.** Your `home` directory should be thought of as a `red` directory.
+The `red` directory or directories suffixed with -red (e.g. `library-red`) contain patient-level data. **Their content should never be shared externally.** Your `home` directory should be thought of as a red directory.
 
-Folders with `green` within the folder name contain data which may be visible from or exportable to TRE-external users.  As such, `green` folder should **never contain patient level data**.    
+Folders with green within the folder name contain data which may be visible by, or exportable to, TRE-external users.  As such, green folders should **never contain patient level data**.    
 
 ## The TRE's `(-)red` buckets (including the non-GCS `home` directory) 
 
@@ -61,7 +61,7 @@ This works as a standard Unix/Linux directory and is **not** a google GCS bucket
     * **VM directory:** `/genesandhealth/library-red/` (data in `/genesandhealth/library-red/genesandhealth/`)
     * **URL:** `gs://qmul-production-library-red/`
 
-This is a **read-only** folder that is common to all TRE users. `library-red` stores curated and raw data necessary for your analyses; it includes several subfolders, each designated for specific data types and purposes.  For technical reasons, the data subfolders are actually in `/genesandhealth/library-red/genesandhealth/`.  Folder names are (relatively) self-explanatory and all of them should contain a `README` type file explaining their content.  If you find a folder without a `README` file, please contact the Genes and Health team for more information on its intended use.
+This is a **read-only** folder that is common to all TRE users. `library-red` stores curated and raw data necessary for your analyses; it includes several subfolders, each designated for specific data types and purposes.  For technical reasons, the data subfolders are actually in `/genesandhealth/library-red/genesandhealth/`.  Folder names are (relatively) self-explanatory and all of them should contain a `README` type file explaining their content.  If you find a folder without a `README` file, please contact the Genes&Health team for more information on its intended use.
 
 ### The `red` bucket
 
@@ -124,7 +124,7 @@ Users can download data out of the TRE from `greendownloads` using linux command
     * **VM directory:** Not applicable
     * **URL:** `gs://qmul-production-sandbox-XX_greendownloads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
 
-Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`.
+Although the URL is specified for this GCS bucket, you will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greendownloads`.
 
 ### The `library-green` bucket
 
@@ -153,7 +153,7 @@ We also maintain a bucket for public datasets. This is not visible from within t
     * **VM directory:** Not applicable
     * **URL:** gs://genesandhealth_publicdatasets/
 
-Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`.
+Although the URL is specified for this GCS bucket, you will probably use the web-based Google Cloud console to download your file from the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/genesandhealth_publicdatasets`.
 
 <!--
 currently deprecated
