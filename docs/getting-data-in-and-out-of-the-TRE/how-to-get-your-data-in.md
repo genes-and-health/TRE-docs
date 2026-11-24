@@ -1,32 +1,14 @@
-Sometimes it is necessary to get data or code into the TRE. As the TRE is shut off from the internet this presents a challenge. This guide explains how to do this.
+# Getting data into the TRE
 
-## Copying text in {#copying-text-in}
+Sometimes it is necessary to get data, text or code into the TRE. As the TRE is shut off from the internet this presents a challenge. 
 
-A small amount of text can be pasted in from external systems using the Clipboard tool. This does not allow copy/paste out. This might, for example, be useful should you need to copy in a difficult to write function.
+There are two ways to get data, text or code into the Genes&Health TRE. For large amounts of data, you can upload data to your Sandbox's `red` directory via the Sandbox's specific `green_uploads` bucket. For small amounts of text (e.g. code snippet generated externally or short codelist), you can use the TRE's clipboard tool.
 
-First select the horizontal chevron on the left-hand-side of the TRE:
-
-![TRE tools chevron](../images/getting-data-in-and-out-of-the-TRE/gnh_tre_tools_chevron.png)
-
-This will reveal the TRE tools:
-
-![TRE tools](../images/getting-data-in-and-out-of-the-TRE/tre-tools.png)
-
-Click on the "Clipboard" button:
-
-![Clipboard tool](../images/getting-data-in-and-out-of-the-TRE/clipboard-tool.png)
-
-Paste your **external** text/code/data (up to 10kB) into the text box using <kbd>Ctrl</kbd>-<kbd>V</kbd> (or Mac equivalent):
-
-![Clipboard tool with text](../images/getting-data-in-and-out-of-the-TRE/clipboard-tool-with-text.png)
-
-Go to a TRE terminal/text editor/application and paste in the external text using <kbd>Ctrl</kbd>-<kbd>V</kbd> (or Mac equivalent):
-
-![pasted text](../images/getting-data-in-and-out-of-the-TRE/text-pasted-in-text-editor.png)
+These methods are described below.
 
 ## Uploading user data into the TRE {#getting-user-data-into-the-tre}
 
-You can upload data to your Sandbox specific green-uploads bucket, which you can find using the table below:
+You can upload data to your Sandbox specific `green_uploads` bucket, which you can find using the table below:
 
 | Sandbox | Link to green-uploads bucket |
 | :---- | :---- |
@@ -54,3 +36,28 @@ Once uploaded, please email [hgi@sanger.ac.uk](mailto:hgi@sanger.ac.uk) with the
 !!! tip
     Please be aware at present, all users in your sandbox can see all data that is being stored in the green library. For this reason, it is important that you do not upload any data that you do not want other users to see.
 
+## Copying text in {#copying-text-in}
+
+You can paste small amounts of text (up to 10 kB) into the TRE from your own computer using the Clipboard tool. This works in one direction only: you can't copy text out of the TRE.
+
+This is useful for things that are tedious to retype, such as a long function or a configuration snippet.
+
+1. Select the chevron on the left-hand side of the TRE window:
+
+   ![TRE tools chevron](../images/getting-data-in-and-out-of-the-TRE/gnh_tre_tools_chevron.png)
+
+   This opens the TRE tools:
+
+   ![TRE tools](../images/getting-data-in-and-out-of-the-TRE/tre-tools.png)
+
+2. Select **Clipboard**:
+
+   ![Clipboard tool](../images/getting-data-in-and-out-of-the-TRE/clipboard-tool.png)
+
+3. Paste the text from your own computer into the text box with <kbd>Ctrl</kbd>-<kbd>V</kbd> (<kbd>Cmd</kbd>-<kbd>V</kbd> on a Mac):
+
+   ![Clipboard tool with text](../images/getting-data-in-and-out-of-the-TRE/clipboard-tool-with-text.png)
+
+4. Click into a terminal, text editor or other application inside the TRE, then paste with <kbd>Ctrl</kbd>-<kbd>V</kbd>:
+
+   ![Pasted text](../images/getting-data-in-and-out-of-the-TRE/text-pasted-in-text-editor.png)
