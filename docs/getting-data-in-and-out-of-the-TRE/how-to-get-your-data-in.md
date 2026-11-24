@@ -2,13 +2,13 @@
 
 Sometimes it is necessary to get data, text or code into the TRE. As the TRE is shut off from the internet this presents a challenge. 
 
-There are two ways to get data, text or code into the Genes&Health TRE. For large amounts of data, you can upload data to your Sandbox's `red` directory via the Sandbox's specific `green_uploads` bucket. For small amounts of text (e.g. code snippet generated externally or short codelist), you can use the TRE's clipboard tool.
+There are two ways to get data, text or code into the Genes&Health TRE. For large amounts of data, you can upload data to your Sandbox's `red` directory via the Sandbox's specific `greenuploads` bucket. For small amounts of text (e.g. code snippet generated externally or short codelist), you can use the TRE's clipboard tool.
 
 These methods are described below.
 
 ## Uploading user data into the TRE {#getting-user-data-into-the-tre}
 
-You can upload data to your Sandbox specific `green_uploads` bucket, which you can find using the table below:
+You can upload data to your Sandbox specific `greenuploads` bucket, which you can find using the table below:
 
 | Sandbox | Link to green-uploads bucket |
 | :---- | :---- |
