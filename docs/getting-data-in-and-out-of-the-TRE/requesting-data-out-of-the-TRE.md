@@ -94,9 +94,9 @@ There are a number of files in `library-green` that are available for download. 
 
 ## Accessing TRE data from external systems/internet {#accessing-tre-data-from-external-systems/internet}
 
-Users can download data from `greendownloads` or `library-green` using linux command line [gcloud storage](https://cloud.google.com/storage/docs).
+Users can download data from `greendownloads` using linux command line [gcloud storage](https://cloud.google.com/storage/docs).
 
-Alternatively, you can use the web-interface for your Sandbox specific `green-downloads` bucket, you can find the link for your sandbox using the table below:
+Alternatively, you can use the web-interface for your Sandbox specific `greendownloads` bucket, you can find the link for your sandbox using the table below:
 
 | Sandbox | Link to green-downloads bucket |
 | :---- | :---- |
