@@ -104,22 +104,22 @@ This bucket is only available to hosting organisations (e.g. QMUL) which have si
 !!! warning
     We removed sandbox specific `green` buckets in Nov 2026. These are no longer available. If you encounter a `/genesandhealth/green` directory in you sandbox, **please do not use it** and assume it and its content may be deleted at any time.
 
-### The `green_upload` bucket
+### The `greenuploads` bucket
 
-Users can upload to sandbox-specific green_uploads, then email hgi@sanger.ac.uk to review and move to their red bucket for use.  The process is explained in the [How to get your data in](../getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
+Users can upload data to their sandbox-specific `greenuploads` bucket, then email hgi@sanger.ac.uk to review the request and move data to their `red` bucket for use.  The process is explained in the [How to get your data in](../getting-data-in-and-out-of-the-TRE/how-to-get-your-data-in.md) section of this documentation.
 
-!!! info "Identifying `green_upload`"
+!!! info "Identifying `greenuploads`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
     * **URL:** `gs://qmul-production-sandbox-XX_greenuploads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
     
 Although the URL is specified for this GCS bucket, you are unlikely to use this but rather will use the web-based Google Cloud console to upload your file in preparation for transfer to the Genes&Health TRE: `https://console.cloud.google.com/storage/browser/qmul-production-sandbox-\[your_sandbox_number\]_greenuploads`.
     
-### The `green_download` bucket
+### The `greendownloads` bucket
 
 Users can download data out of the TRE from `greendownloads` using linux command line `gcloud storage` or a Google Cloud web-based console.  The process is explained in the [Requesting data out of the TRE](../getting-data-in-and-out-of-the-TRE/requesting-data-out-of-the-TRE.md) section of this documentation.
 
-!!! info "Identifying `green_download`"
+!!! info "Identifying `greendownloads`"
     * **Specificity:** sandbox specific
     * **VM directory:** Not applicable
     * **URL:** `gs://qmul-production-sandbox-XX_greendownloads` (replace `XX` with your sandbox number, e.g. '1' (not '01') or '17') 
